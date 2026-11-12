@@ -253,6 +253,21 @@ export function renderPrologue(app) {
             ])
           ]),
           el("aside", { className: "prologue__aside" }, [
+            el("figure", { className: "archive-plate" }, [
+              el("img", {
+                attrs: {
+                  src: "./assets/illustrations/maison-exterieur.svg",
+                  alt: "Illustration originale : une maison rurale au milieu des arbres, dans une lumière douce.",
+                  width: "640",
+                  height: "400",
+                  loading: "lazy"
+                }
+              }),
+              el("figcaption", { className: "archive-plate__caption" }, [
+                el("span", { className: "archive-plate__label", text: "Légende" }),
+                el("span", { text: app.content.narratives.home.visualCaption })
+              ])
+            ]),
             el("p", { className: "eyebrow eyebrow--plain", text: "Repères" }),
             el("h2", { text: "Le parcours en bref" }),
             el(

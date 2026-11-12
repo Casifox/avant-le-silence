@@ -27,6 +27,13 @@ summary:focus-visible {
   outline-offset: 0;
 }
 
+/* Le titre reçoit le focus par programme après une navigation :
+   il n'est pas interactif, le contour de focus n'est pas nécessaire. */
+h1[tabindex="-1"]:focus,
+h1[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
 /* --- Taille du texte --- */
 
 html[data-text-size="large"] {
@@ -39,12 +46,12 @@ html[data-text-size="xlarge"] {
 
 html[data-text-size="large"] .prose,
 html[data-text-size="xlarge"] .prose {
-  max-width: 60ch;
+  max-width: 62ch;
 }
 
 html[data-text-size="large"] .btn,
 html[data-text-size="xlarge"] .btn {
-  font-size: 0.92rem;
+  font-size: 0.78rem;
 }
 
 /* --- Contraste élevé --- */
@@ -78,13 +85,13 @@ html[data-contrast="high"] body {
 }
 
 html[data-contrast="high"] .home-visual::after {
-  background: linear-gradient(90deg, transparent 68%, rgba(255, 253, 248, 0.2));
+  border-color: rgba(0, 0, 0, 0.55);
 }
 
 html[data-contrast="high"] .home-visual__caption {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.72);
-  padding: 0.3rem 0.45rem;
+  color: #000;
+  background: #fff;
+  border-color: #000;
 }
 
 html[data-contrast="high"] .site-footer,
@@ -103,6 +110,11 @@ html[data-contrast="high"] .illustration__caption {
   color: #222;
 }
 
+html[data-contrast="high"] .scene-panel,
+html[data-contrast="high"] .prologue__aside {
+  border-color: rgba(0, 0, 0, 0.55);
+}
+
 html[data-contrast="high"] .scene-panel__inner,
 html[data-contrast="high"] .chapter-card,
 html[data-contrast="high"] .notebook-card,
@@ -110,7 +122,10 @@ html[data-contrast="high"] .source-card,
 html[data-contrast="high"] .settings-section,
 html[data-contrast="high"] .doc-frame,
 html[data-contrast="high"] .activity,
-html[data-contrast="high"] .synthesis {
+html[data-contrast="high"] .synthesis,
+html[data-contrast="high"] .warning-panel,
+html[data-contrast="high"] .archive-plate,
+html[data-contrast="high"] .home-panel {
   background-image: none;
 }
 
@@ -125,7 +140,6 @@ html[data-reduced-motion="true"] *::after {
   scroll-behavior: auto !important;
 }
 
-html[data-reduced-motion="true"] .home-visual__image,
 html[data-reduced-motion="true"] .illustration__image {
   animation: none;
 }
@@ -144,6 +158,14 @@ html[data-reduced-motion="true"] .modal-backdrop {
   animation: none;
 }
 
+html[data-reduced-motion="true"] .chapter-card__cover img {
+  transition: none;
+}
+
+html[data-reduced-motion="true"] .chapter-card--open:hover .chapter-card__cover img {
+  transform: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -154,7 +176,6 @@ html[data-reduced-motion="true"] .modal-backdrop {
     scroll-behavior: auto !important;
   }
 
-  .home-visual__image,
   .illustration__image {
     animation: none;
   }
@@ -162,6 +183,14 @@ html[data-reduced-motion="true"] .modal-backdrop {
   .hotspot::after {
     animation: none;
     opacity: 0;
+  }
+
+  .chapter-card__cover img {
+    transition: none;
+  }
+
+  .chapter-card--open:hover .chapter-card__cover img {
+    transform: none;
   }
 }
 
@@ -177,7 +206,9 @@ html[data-reduced-motion="true"] .modal-backdrop {
   .doc-frame,
   .modal,
   .illustration,
-  .activity {
+  .activity,
+  .archive-plate,
+  .warning-panel {
     border: 1px solid ButtonText;
   }
 
@@ -218,7 +249,7 @@ html[data-reduced-motion="true"] .modal-backdrop {
 
 .visually-emphasized {
   padding: 0.1em 0.2em;
-  background: rgba(240, 227, 200, 0.75);
+  background: rgba(239, 224, 192, 0.75);
   border-radius: 2px;
 }
 
@@ -242,7 +273,8 @@ main:focus-visible {
   .btn,
   .toast-root,
   .modal-root,
-  .home-actions {
+  .home-actions,
+  .home-visual {
     display: none !important;
   }
 
@@ -258,5 +290,17 @@ main:focus-visible {
   a {
     color: #000;
     text-decoration: underline;
+  }
+
+  .home-screen {
+    display: block;
+  }
+
+  .prologue__aside {
+    position: static;
+    border-left: 0;
+    border-top: 1px solid #000;
+    padding-left: 0;
+    padding-top: 1rem;
   }
 }

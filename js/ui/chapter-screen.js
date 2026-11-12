@@ -75,7 +75,10 @@ function chapterCard(app, chapter) {
 
   return el(
     "article",
-    { className: `chapter-card ${locked ? "chapter-card--locked" : "chapter-card--open"}` },
+    {
+      className: `chapter-card ${locked ? "chapter-card--locked" : "chapter-card--open"}`,
+      dataset: { catalogue: String(chapter.order || 0).padStart(2, "0") }
+    },
     [cover, body]
   );
 }
@@ -652,7 +655,7 @@ export function renderScene(app, chapter, scene) {
     [
       hud,
       el("main", { id: "main" }, [
-        el("div", { className: "scene-heading" }, [
+        el("div", { className: "scene-heading", dataset: { index: String(sceneIndex + 1).padStart(2, "0") } }, [
           el("p", { className: "scene-heading__kicker", text: `${chapter.kicker || `Chapitre ${chapter.number}`} · Espace ${sceneIndex + 1} sur ${scenes.length}` }),
           el("h1", { text: scene.title })
         ]),

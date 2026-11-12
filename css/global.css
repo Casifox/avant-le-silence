@@ -1,42 +1,43 @@
 /* ============================================================
    AVANT LE SILENCE — styles globaux
-   Palette sobre inspirée du papier, du bois et de la lumière.
+   Catalogue d'exposition : papier chaud, encre dense, filets.
    ============================================================ */
 
 :root {
-  --ivory: #f4efe5;
-  --ivory-deep: #ece4d5;
-  --paper: #ece2d0;
-  --paper-light: #f7f1e6;
-  --paper-deep: #dfd1b9;
-  --brown: #7a5c43;
-  --brown-soft: #9d8064;
-  --brown-pale: #e5d7c3;
-  --ink: #272522;
-  --ink-soft: #4d4943;
-  --ink-faint: #736c62;
-  --sage: #6f806b;
-  --sage-soft: #dfe6da;
-  --sage-deep: #52604f;
-  --slate: #405a6b;
-  --slate-soft: #dbe4e9;
-  --amber: #8a6528;
-  --amber-soft: #f0e3c8;
-  --line: rgba(39, 37, 34, 0.14);
-  --line-strong: rgba(39, 37, 34, 0.3);
-  --line-light: rgba(255, 255, 255, 0.34);
-  --shadow-sm: 0 2px 8px rgba(54, 42, 30, 0.06);
-  --shadow-md: 0 12px 32px rgba(54, 42, 30, 0.1);
-  --shadow-lg: 0 24px 70px rgba(40, 30, 20, 0.16);
-  --radius-sm: 7px;
-  --radius: 14px;
-  --radius-lg: 22px;
+  --ivory: #f2eadb;
+  --ivory-deep: #e7dcc7;
+  --paper: #eee3ce;
+  --paper-light: #f8f2e6;
+  --paper-deep: #d9c9ad;
+  --brown: #6d4b2f;
+  --brown-soft: #8a6747;
+  --brown-pale: #e2d2ba;
+  --ink: #1c1915;
+  --ink-soft: #3c362e;
+  --ink-faint: #61594c;
+  --sage: #5c6f57;
+  --sage-soft: #dde4d4;
+  --sage-deep: #3f513b;
+  --slate: #33505e;
+  --slate-soft: #d9e3e7;
+  --amber: #7b571d;
+  --amber-soft: #efe0c0;
+  --line: rgba(28, 25, 21, 0.16);
+  --line-strong: rgba(28, 25, 21, 0.42);
+  --line-light: rgba(255, 255, 255, 0.4);
+  --shadow-sm: none;
+  --shadow-md: none;
+  --shadow-lg: 0 24px 60px rgba(28, 25, 21, 0.18);
+  --radius-sm: 2px;
+  --radius: 3px;
+  --radius-lg: 4px;
   --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
   --font-sans: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --max-width: 1240px;
-  --reading-width: 68ch;
-  --hud-height: 68px;
-  --transition: 240ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  --reading-width: 66ch;
+  --hud-height: 64px;
+  --transition: 180ms ease;
 }
 
 *,
@@ -56,16 +57,14 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: var(--font-sans);
-  font-size: 1rem;
+  font-size: 1.0625rem;
   line-height: 1.65;
   background-color: var(--ivory);
-  background-image:
-    radial-gradient(circle at 18% 8%, rgba(255, 255, 255, 0.7), transparent 38%),
-    radial-gradient(circle at 82% 92%, rgba(122, 92, 67, 0.06), transparent 45%),
-    url("../assets/backgrounds/paper-texture.svg");
+  background-image: url("../assets/backgrounds/paper-texture.svg");
   background-attachment: fixed;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  font-variant-numeric: tabular-nums;
 }
 
 img,
@@ -119,13 +118,13 @@ li {
 }
 
 ::selection {
-  color: var(--ivory);
-  background: var(--slate);
+  color: var(--paper-light);
+  background: var(--ink);
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
 }
 
 ::-webkit-scrollbar-track {
@@ -135,7 +134,7 @@ li {
 ::-webkit-scrollbar-thumb {
   background: var(--brown-soft);
   border: 3px solid var(--ivory-deep);
-  border-radius: 20px;
+  border-radius: 0;
 }
 
 * {
@@ -174,9 +173,10 @@ li {
   top: 0.75rem;
   left: 0.75rem;
   z-index: 5000;
-  padding: 0.7rem 1rem;
-  color: var(--ivory);
+  padding: 0.65rem 1rem;
+  color: var(--paper-light);
   background: var(--ink);
+  border: 1px solid var(--ink);
   border-radius: var(--radius-sm);
   transform: translateY(-180%);
   transition: transform var(--transition);
@@ -196,41 +196,42 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.85rem;
+  gap: 0.9rem;
   padding: 2rem;
   text-align: center;
-  background:
-    radial-gradient(circle at 50% 45%, rgba(255, 255, 255, 0.75), transparent 44%),
-    var(--ivory);
+  background: var(--ivory);
 }
 
 .boot-mark {
   color: var(--brown);
-  opacity: 0.86;
+  opacity: 0.9;
 }
 
 .boot-title {
   margin: 0;
   font-family: var(--font-serif);
   font-size: clamp(1.35rem, 3vw, 1.9rem);
-  letter-spacing: 0.26em;
-  text-indent: 0.26em;
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
   color: var(--ink);
 }
 
 .boot-text {
   margin: 0;
-  font-size: 0.92rem;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--ink-faint);
 }
 
 .boot-line {
   width: min(220px, 60vw);
   height: 2px;
-  margin-top: 0.75rem;
+  margin-top: 0.85rem;
   overflow: hidden;
   background: var(--brown-pale);
-  border-radius: 99px;
+  border-radius: 0;
 }
 
 .boot-line span {
@@ -238,7 +239,7 @@ li {
   width: 42%;
   height: 100%;
   background: var(--brown);
-  border-radius: inherit;
+  border-radius: 0;
   animation: boot-slide 1.5s ease-in-out infinite;
 }
 
@@ -256,15 +257,15 @@ li {
   padding: 2rem;
   color: var(--ink);
   background: var(--paper-light);
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
+  border-top: 2px solid var(--ink);
   border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
 }
 
 .noscript h1 {
   margin-top: 0;
   font-family: var(--font-serif);
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
 }
 
 /* --- Divers --- */

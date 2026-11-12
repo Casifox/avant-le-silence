@@ -7,6 +7,10 @@ Versionnement sémantique : `MAJOR.MINOR.PATCH`.
 
 ## [Non publié]
 
+### Modifié
+
+- Refonte visuelle « catalogue d'exposition / archive imprimée » (branche `design/refresh-v2`, 2026-11-12) : palette papier/encre plus tranchée, filets de 1 px, boutons rectangulaires à inversion, échelle typographique éditoriale, prologue rééquilibré avec une planche illustrée et ses repères, scènes et chapitres numérotés comme un catalogue. Aucun contenu historique, aucune donnée JSON et aucun gameplay modifiés. Détail et tests : `docs/DESIGN_REFRESH_V2.md`.
+
 ### À faire avant la version 1.0.0
 
 - Relecture historique indépendante.
