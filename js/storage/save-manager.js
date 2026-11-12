@@ -7,6 +7,7 @@
 
 const STORAGE_KEY = "avant-le-silence.save.v1";
 const TEST_KEY = "avant-le-silence.test";
+const BACKUP_PREFIX = STORAGE_KEY + ".backup.";
 
 export class SaveManager {
   constructor() {
@@ -26,12 +27,27 @@ export class SaveManager {
   }
 
   read() {
+    let raw = null;
     try {
-      const raw = this.available
+      raw = this.available
         ? window.localStorage.getItem(STORAGE_KEY)
         : this.memory;
       if (!raw) return null;
       return JSON.parse(raw);
+    } catch (error) {
+      this.lastError = error;
+      this.backupCorrupted(raw);
+      return null;
+    }
+  }
+
+  backupCorrupted(raw) {
+    if (typeof raw !== "string" || !raw || !this.available) return null;
+    const key = BACKUP_PREFIX + Date.now();
+    try {
+      window.localStorage.setItem(key, raw);
+      console.warn("Sauvegarde illisible conservée sous " + key);
+      return key;
     } catch (error) {
       this.lastError = error;
       return null;
