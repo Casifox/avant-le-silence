@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "terms": [
+    {
+      "id": "shoah",
+      "term": "Shoah",
+      "definition": "Terme hébreu désignant l'extermination des Juifs d'Europe par l'Allemagne nazie et ses collaborateurs pendant la Seconde Guerre mondiale.",
+      "sourceIds": ["izieu-ouvrage", "izieu-creation"]
+    },
+    {
+      "id": "rafle",
+      "term": "Rafle",
+      "definition": "Arrestation collective et brutale, souvent planifiée par les autorités, visant un groupe de personnes.",
+      "sourceIds": ["izieu-rafle"]
+    },
+    {
+      "id": "deportation",
+      "term": "Déportation",
+      "definition": "Déplacement forcé de personnes hors de leur lieu de vie, souvent vers des camps, dans des conditions violentes.",
+      "sourceIds": ["izieu-deportation"]
+    },
+    {
+      "id": "gestapo",
+      "term": "Gestapo",
+      "definition": "Police secrète d'État de l'Allemagne nazie. À Lyon, elle est dirigée par Klaus Barbie pendant l'Occupation.",
+      "sourceIds": ["izieu-rafle"]
+    },
+    {
+      "id": "montluc",
+      "term": "Montluc",
+      "definition": "Prison de Lyon utilisée notamment par la Gestapo pendant l'Occupation. Les personnes arrêtées à Izieu y sont emprisonnées les 6 et 7 avril 1944.",
+      "sourceIds": ["izieu-rafle", "izieu-deportation"]
+    },
+    {
+      "id": "drancy",
+      "term": "Drancy",
+      "definition": "Camp d'internement et de transit situé près de Paris, utilisé pour les déportations vers Auschwitz.",
+      "sourceIds": ["izieu-deportation"]
+    },
+    {
+      "id": "auschwitz-birkenau",
+      "term": "Auschwitz-Birkenau",
+      "definition": "Complexe de camps nazis en Pologne occupée, où plus d'un million de personnes furent assassinées, majoritairement des Juifs.",
+      "sourceIds": ["izieu-deportation", "izieu-ouvrage"]
+    },
+    {
+      "id": "reval",
+      "term": "Reval",
+      "definition": "Nom allemand de Tallinn, capitale de l'Estonie. Miron Zlatin, Théo Reis et Arnold Hirsch y sont fusillés au cours de l'été 1944.",
+      "sourceIds": ["izieu-deportation"]
+    },
+    {
+      "id": "convoi",
+      "term": "Convoi",
+      "definition": "Train organisé par les autorités nazies pour déporter des personnes vers les camps. Les convois 71 et 73 sont documentés dans le parcours du groupe d'Izieu.",
+      "sourceIds": ["izieu-deportation"]
+    },
+    {
+      "id": "crimes-contre-humanite",
+      "term": "Crimes contre l'humanité",
+      "definition": "Notion juridique utilisée notamment lors des procès de Nuremberg et du procès de Klaus Barbie à Lyon en 1987.",
+      "sourceIds": ["izieu-memoire", "proces-barbie-1987"]
+    },
+    {
+      "id": "colonie",
+      "term": "Colonie",
+      "definition": "Lieu d'accueil collectif organisé pour des enfants, avec hébergement, repas et activités. À Izieu, la colonie est dirigée par Sabine et Miron Zlatin.",
+      "sourceIds": ["izieu-creation"]
+    },
+    {
+      "id": "archives",
+      "term": "Archives",
+      "definition": "Ensemble de documents conservés pour leur valeur administrative, historique ou patrimoniale. Leur conservation permet la recherche et la transmission.",
+      "sourceIds": ["izieu-archives", "bnf-enfants-izieu"]
+    },
+    {
+      "id": "fac-simile",
+      "term": "Fac-similé",
+      "definition": "Reproduction fidèle d'un document original. Le jeu ne présente aucun fac-similé comme un document authentique.",
+      "sourceIds": ["izieu-documents-images"]
+    },
+    {
+      "id": "mediation",
+      "term": "Médiation",
+      "definition": "Texte ou dispositif conçu pour accompagner la compréhension d'un contenu historique. Un texte de médiation n'est pas un témoignage.",
+      "sourceIds": ["izieu-ouvrage"]
+    },
+    {
+      "id": "temoignage",
+      "term": "Témoignage",
+      "definition": "Récit d'une personne sur ce qu'elle a vécu. Un témoignage doit être cité avec sa date, son contexte et sa source.",
+      "sourceIds": ["proces-barbie-1987", "izieu-memoire"]
+    },
+    {
+      "id": "memorial",
+      "term": "Mémorial",
+      "definition": "Lieu ou dispositif destiné à honorer la mémoire des victimes et à transmettre leur histoire. Le mémorial de la Maison d'Izieu est inauguré le 24 avril 1994.",
+      "sourceIds": ["izieu-memoire", "izieu-creation"]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "people": [
+    {
+      "id": "sabine-zlatin",
+      "name": "Sabine Zlatin",
+      "initials": "SZ",
+      "role": "Fondatrice et directrice de la colonie",
+      "period": "1943–1944 ; après-guerre",
+      "kind": "person",
+      "historical": true,
+      "description": [
+        "Sabine Zlatin est à l'origine de la colonie d'Izieu. Avec Miron Zlatin, elle organise l'accueil des enfants et la vie de la maison à partir de mai 1943.",
+        "Le 6 avril 1944, elle se trouve à Montpellier pour chercher des solutions afin de disperser les enfants. Elle échappe ainsi à la rafle.",
+        "Après la guerre, elle retourne à Izieu et rassemble des lettres, des dessins et des documents. En 1993, elle confie une partie de ses archives à la Bibliothèque nationale de France. Son travail contribue à la conservation et à la transmission de l'histoire de la colonie."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait n'est reproduit dans cette version. Une autorisation serait nécessaire.",
+      "sourceIds": ["izieu-creation", "izieu-rafle", "izieu-memoire", "bnf-enfants-izieu"],
+      "status": "verified"
+    },
+    {
+      "id": "miron-zlatin",
+      "name": "Miron Zlatin",
+      "initials": "MZ",
+      "role": "Directeur de la colonie",
+      "period": "1943–1944",
+      "kind": "person",
+      "historical": true,
+      "description": [
+        "Miron Zlatin dirige la colonie aux côtés de Sabine Zlatin. Il participe à l'organisation de l'accueil et de la vie quotidienne.",
+        "Il est arrêté le 6 avril 1944. Déporté vers l'Estonie, il est fusillé à Reval, aujourd'hui Tallinn, au cours de l'été 1944, avec les adolescents Théo Reis et Arnold Hirsch.",
+        "Les sources ne permettent pas de reconstituer ses pensées ou ses paroles. Le jeu s'en tient aux faits documentés."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait n'est reproduit dans cette version. Une autorisation serait nécessaire.",
+      "sourceIds": ["izieu-creation", "izieu-rafle", "izieu-deportation"],
+      "status": "verified"
+    },
+    {
+      "id": "lea-feldblum",
+      "name": "Léa Feldblum",
+      "initials": "LF",
+      "role": "Monitrice de la colonie",
+      "period": "1943–1944 ; après-guerre",
+      "kind": "person",
+      "historical": true,
+      "description": [
+        "Léa Feldblum est monitrice à la Maison d'Izieu. Elle accompagne les enfants dans la vie de la colonie.",
+        "Elle est arrêtée le 6 avril 1944 et déportée. Elle est la seule personne du groupe à survivre.",
+        "Elle témoigne notamment au procès de Klaus Barbie, à Lyon, en 1987. Son témoignage est une source essentielle. Le jeu ne reproduit aucune de ses paroles sans vérification et autorisation."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait n'est reproduit dans cette version. Une autorisation serait nécessaire.",
+      "sourceIds": ["izieu-rafle", "izieu-deportation", "proces-barbie-1987", "izieu-memoire"],
+      "status": "verified"
+    },
+    {
+      "id": "theo-reis",
+      "name": "Théo Reis",
+      "initials": "TR",
+      "role": "Adolescent arrêté le 6 avril 1944",
+      "period": "1943–1944",
+      "kind": "person",
+      "historical": true,
+      "description": [
+        "Théo Reis est l'un des adolescents présents à la colonie.",
+        "Arrêté le 6 avril 1944, il est déporté vers l'Estonie. Il est fusillé à Reval, aujourd'hui Tallinn, au cours de l'été 1944, avec Miron Zlatin et Arnold Hirsch.",
+        "Le jeu ne lui prête aucune parole ni pensée non documentée."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait n'est reproduit dans cette version. Une autorisation serait nécessaire.",
+      "sourceIds": ["izieu-deportation"],
+      "status": "verified"
+    },
+    {
+      "id": "arnold-hirsch",
+      "name": "Arnold Hirsch",
+      "initials": "AH",
+      "role": "Adolescent arrêté le 6 avril 1944",
+      "period": "1943–1944",
+      "kind": "person",
+      "historical": true,
+      "description": [
+        "Arnold Hirsch est l'un des adolescents présents à la colonie.",
+        "Arrêté le 6 avril 1944, il est déporté vers l'Estonie. Il est fusillé à Reval, aujourd'hui Tallinn, au cours de l'été 1944, avec Miron Zlatin et Théo Reis.",
+        "Le jeu ne lui prête aucune parole ni pensée non documentée."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait n'est reproduit dans cette version. Une autorisation serait nécessaire.",
+      "sourceIds": ["izieu-deportation"],
+      "status": "verified"
+    },
+    {
+      "id": "klaus-barbie",
+      "name": "Klaus Barbie",
+      "initials": "KB",
+      "role": "Chef de la Gestapo de Lyon — ordonne la rafle",
+      "period": "1944 ; procès en 1987",
+      "kind": "perpetrator",
+      "historical": true,
+      "description": [
+        "Klaus Barbie est le responsable de la Gestapo de Lyon.",
+        "Il ordonne l'arrestation des personnes présentes à la Maison d'Izieu le 6 avril 1944.",
+        "Jugé à Lyon en 1987, il est condamné pour crimes contre l'humanité. Cette fiche présente un responsable des persécutions ; elle ne lui donne pas la parole et ne cherche pas à expliquer ses actes."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait n'est reproduit. Le jeu ne cherche pas à donner une présence visuelle au responsable des persécutions.",
+      "notice": "Fiche de responsable des persécutions. Aucune parole ni aucun argument ne lui est prêté.",
+      "sourceIds": ["izieu-rafle", "izieu-memoire", "proces-barbie-1987"],
+      "status": "verified"
+    },
+    {
+      "id": "enfants-arretes",
+      "name": "Les 44 enfants arrêtés",
+      "initials": "44",
+      "role": "Groupe de personnes arrêtées le 6 avril 1944",
+      "period": "1944",
+      "kind": "group",
+      "historical": true,
+      "description": [
+        "Le 6 avril 1944, 44 enfants sont arrêtés à la Maison d'Izieu.",
+        "Ce nombre désigne les enfants arrêtés ce jour-là. Il ne doit pas être confondu avec le nombre total d'enfants accueillis pendant l'existence de la colonie, qui dépasse la centaine.",
+        "42 enfants sont assassinés à Auschwitz-Birkenau. Théo Reis et Arnold Hirsch sont fusillés à Reval. Le jeu ne reproduit pas la liste nominative complète dans cette version ; elle est consultable auprès du Mémorial de la Maison d'Izieu. Derrière chaque nom, il y a une personne."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait de groupe n'est reproduit. Le jeu ne fabrique pas de visages.",
+      "sourceIds": ["izieu-rafle", "izieu-deportation", "izieu-archives"],
+      "status": "verified"
+    },
+    {
+      "id": "adultes-arretes",
+      "name": "Les 7 adultes arrêtés",
+      "initials": "7",
+      "role": "Groupe de personnes arrêtées le 6 avril 1944",
+      "period": "1944",
+      "kind": "group",
+      "historical": true,
+      "description": [
+        "Avec les 44 enfants, 7 adultes sont arrêtés le 6 avril 1944.",
+        "Le groupe comprend Miron Zlatin, Léa Feldblum et cinq autres adultes. Cinq adultes sont assassinés à Auschwitz-Birkenau. Miron Zlatin est fusillé à Reval. Léa Feldblum survit.",
+        "Les fiches individuelles ne sont pas toutes disponibles dans cette version. Le jeu ne complète pas les informations manquantes par des hypothèses."
+      ],
+      "portrait": null,
+      "portraitNote": "Aucun portrait de groupe n'est reproduit. Le jeu ne fabrique pas de visages.",
+      "sourceIds": ["izieu-rafle", "izieu-deportation", "izieu-archives"],
+      "status": "verified"
+    }
+  ]
+}

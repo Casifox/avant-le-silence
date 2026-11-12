@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="maison-title maison-desc">
+  <title id="maison-title">La maison et son environnement</title>
+  <desc id="maison-desc">Illustration originale : une maison rurale au milieu d'arbres et de collines, dans une lumière douce. Reconstitution contemporaine, non photographique.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe6e4"/>
+      <stop offset="0.55" stop-color="#eef0e8"/>
+      <stop offset="1" stop-color="#f4efe5"/>
+    </linearGradient>
+    <linearGradient id="hill-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8d1c3"/>
+      <stop offset="1" stop-color="#b8c4b2"/>
+    </linearGradient>
+    <linearGradient id="hill-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b4c1a9"/>
+      <stop offset="1" stop-color="#9dad93"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9d3bb"/>
+      <stop offset="1" stop-color="#c9c1a4"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7d8bd"/>
+      <stop offset="1" stop-color="#d8c5a6"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#96765a"/>
+      <stop offset="1" stop-color="#7c5d45"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eee4d1"/>
+      <stop offset="1" stop-color="#ddd0b8"/>
+    </linearGradient>
+    <radialGradient id="sun-glow" cx="0.78" cy="0.18" r="0.55">
+      <stop offset="0" stop-color="#fff7e7" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff7e7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f1e1c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1f1e1c" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <circle cx="950" cy="135" r="96" fill="#fff4dd" opacity="0.38"/>
+  <circle cx="950" cy="135" r="48" fill="#f7e8ca" opacity="0.92"/>
+
+  <path d="M0 430c150-58 275-18 420-22 150-4 235-64 390-50 130 12 250-6 390 34v150H0Z" fill="url(#hill-far)"/>
+  <path d="M0 486c130-34 250-14 390-20 160-7 290-44 430-22 120 19 250 6 380 26v74H0Z" fill="url(#hill-near)"/>
+
+  <rect y="510" width="1200" height="240" fill="url(#ground)"/>
+  <path d="M0 585c190-20 340 12 520-2 180-14 350-26 680 12v155H0Z" fill="#cfc7ab"/>
+
+  <!-- Arbre de gauche -->
+  <path d="M148 574c-8-58-9-122-4-192h26c6 74 8 136 2 192Z" fill="#8a6a4f"/>
+  <path d="M154 430c-16-18-34-26-58-24" fill="none" stroke="#8a6a4f" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="148" cy="310" r="86" fill="#84977d"/>
+  <circle cx="88" cy="348" r="58" fill="#93a58a"/>
+  <circle cx="210" cy="348" r="62" fill="#778b71"/>
+  <circle cx="150" cy="254" r="50" fill="#9cae92" opacity="0.8"/>
+
+  <!-- Arbre de droite -->
+  <path d="M1050 590c5-62 5-126 0-196h24c5 72 5 136 0 196Z" fill="#7a5c43"/>
+  <circle cx="1060" cy="350" r="72" fill="#7f9278"/>
+  <circle cx="1006" cy="382" r="48" fill="#8fa187"/>
+  <circle cx="1112" cy="380" r="52" fill="#72866c"/>
+
+  <!-- Maison -->
+  <ellipse cx="618" cy="583" rx="240" ry="26" fill="#8b8268" opacity="0.22"/>
+  <rect x="426" y="326" width="382" height="250" fill="url(#wall)"/>
+  <path d="M426 326h382v250H426Z" fill="none" stroke="#b49c7c" stroke-width="2" opacity="0.4"/>
+  <path d="M386 332 616 172l232 160Z" fill="url(#roof)"/>
+  <path d="M386 332 616 172l232 160" fill="none" stroke="#6f533d" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M616 178v150" stroke="#6f533d" stroke-width="3" opacity="0.5"/>
+  <path d="M394 342h446" stroke="#6f533d" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Cheminée -->
+  <rect x="708" y="214" width="38" height="86" fill="#8e6d52"/>
+  <rect x="701" y="204" width="52" height="16" fill="#6f533d"/>
+  <path d="M726 205c-6-20 4-30 18-38" fill="none" stroke="#c9c1a4" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Fenêtres du haut -->
+  <g>
+    <rect x="456" y="362" width="78" height="90" fill="#6f5b45"/>
+    <rect x="463" y="369" width="64" height="76" fill="#d9e2df"/>
+    <path d="M495 369v76M463 407h64" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="442" y="366" width="14" height="82" fill="#72836d"/>
+    <rect x="534" y="366" width="14" height="82" fill="#72836d"/>
+    <path d="M449 370v74M541 370v74" stroke="#5c6c58" stroke-width="2" opacity="0.55"/>
+  </g>
+  <g>
+    <rect x="560" y="362" width="78" height="90" fill="#6f5b45"/>
+    <rect x="567" y="369" width="64" height="76" fill="#d9e2df"/>
+    <path d="M599 369v76M567 407h64" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="546" y="366" width="14" height="82" fill="#72836d"/>
+    <rect x="638" y="366" width="14" height="82" fill="#72836d"/>
+    <path d="M553 370v74M645 370v74" stroke="#5c6c58" stroke-width="2" opacity="0.55"/>
+  </g>
+  <g>
+    <rect x="684" y="362" width="78" height="90" fill="#6f5b45"/>
+    <rect x="691" y="369" width="64" height="76" fill="#d9e2df"/>
+    <path d="M723 369v76M691 407h64" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="670" y="366" width="14" height="82" fill="#72836d"/>
+    <rect x="762" y="366" width="14" height="82" fill="#72836d"/>
+    <path d="M677 370v74M769 370v74" stroke="#5c6c58" stroke-width="2" opacity="0.55"/>
+  </g>
+
+  <!-- Fenêtres du bas -->
+  <g>
+    <rect x="454" y="476" width="80" height="70" fill="#6f5b45"/>
+    <rect x="461" y="483" width="66" height="56" fill="#d9e2df"/>
+    <path d="M494 483v56M461 511h66" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="440" y="480" width="14" height="62" fill="#72836d"/>
+    <rect x="534" y="480" width="14" height="62" fill="#72836d"/>
+  </g>
+  <g>
+    <rect x="686" y="476" width="80" height="70" fill="#6f5b45"/>
+    <rect x="693" y="483" width="66" height="56" fill="#d9e2df"/>
+    <path d="M726 483v56M693 511h66" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="672" y="480" width="14" height="62" fill="#72836d"/>
+    <rect x="766" y="480" width="14" height="62" fill="#72836d"/>
+  </g>
+
+  <!-- Porte et marches -->
+  <rect x="574" y="454" width="58" height="108" fill="#6b4f3a"/>
+  <path d="M603 454v108" stroke="#5a4030" stroke-width="2" opacity="0.6"/>
+  <circle cx="620" cy="510" r="3" fill="#c8b08f"/>
+  <rect x="560" y="562" width="88" height="12" fill="#b9a687"/>
+  <rect x="548" y="574" width="112" height="13" fill="#c7b596"/>
+
+  <!-- Chemin -->
+  <path d="M574 587h62l214 163H392Z" fill="url(#path)"/>
+  <path d="M574 587h62l214 163H392Z" fill="none" stroke="#c9bda3" stroke-width="2" opacity="0.7"/>
+  <path d="M604 600c-8 42-36 76-76 108M626 600c10 48 46 84 90 118" fill="none" stroke="#d4c6ad" stroke-width="2" opacity="0.8"/>
+
+  <!-- Barrière -->
+  <g>
+    <path d="M66 470v92M118 466v96M170 470v92M222 474v88" stroke="#8a6a4f" stroke-width="9" stroke-linecap="round"/>
+    <path d="M50 502h188M50 534h188" stroke="#a08468" stroke-width="6" stroke-linecap="round"/>
+    <path d="M64 470l-6-22M118 466l-2-24M170 470l6-22M222 474l8-20" stroke="#8a6a4f" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Buissons et fleurs -->
+  <g fill="#7f9278">
+    <ellipse cx="300" cy="552" rx="66" ry="28"/>
+    <ellipse cx="340" cy="560" rx="44" ry="22"/>
+    <ellipse cx="900" cy="556" rx="70" ry="26"/>
+    <ellipse cx="860" cy="566" rx="42" ry="20"/>
+  </g>
+  <g fill="#d8b7a0">
+    <circle cx="280" cy="590" r="4"/>
+    <circle cx="302" cy="600" r="3.5"/>
+    <circle cx="324" cy="592" r="4"/>
+    <circle cx="880" cy="598" r="4"/>
+    <circle cx="902" cy="608" r="3.5"/>
+    <circle cx="924" cy="596" r="4"/>
+  </g>
+  <g fill="#7a5c43" opacity="0.24">
+    <path d="M252 630c14-10 28-10 42 0M796 646c14-10 28-10 42 0M1056 626c12-8 24-8 36 0"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#sun-glow)"/>
+  <rect width="1200" height="750" fill="url(#vignette)"/>
+</svg>

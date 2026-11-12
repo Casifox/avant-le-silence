@@ -1,0 +1,697 @@
+{
+  "version": 1,
+  "documents": [
+    {
+      "id": "doc-photo-maison",
+      "chapter": "chapitre-1",
+      "title": "La maison d'Izieu",
+      "type": "photographie",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "La date exacte de la prise de vue n'est pas établie dans les sources consultées.",
+      "creator": null,
+      "recipient": null,
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "reference": "Référence de l'image à préciser",
+      "description": "Une photographie de la Maison d'Izieu est conservée. Elle montre le bâtiment qui a accueilli la colonie. Le jeu ne reproduit pas l'image dans cette version.",
+      "historicalContext": "La maison se trouve à Izieu, dans l'Ain. Elle accueille la colonie à partir de mai 1943.",
+      "establishes": "L'existence du bâtiment et son usage comme lieu d'accueil. La photographie ne permet pas, à elle seule, de connaître la vie quotidienne de la colonie.",
+      "sourceIds": [
+        "izieu-documents-images",
+        "izieu-archives"
+      ],
+      "relatedPeople": [
+        "sabine-zlatin",
+        "miron-zlatin"
+      ],
+      "relatedEvents": [
+        "ouverture"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune image d'archive n'est reproduite dans cette version. Toute reproduction nécessite une autorisation.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : photographie de la Maison d'Izieu, non reproduite.",
+      "notebookSummary": "Une photographie du bâtiment qui a accueilli la colonie, à Izieu.",
+      "questions": [
+        "Quelle est la date exacte de cette photographie ?",
+        "Quel usage du bâtiment l'image permet-elle de documenter ?"
+      ],
+      "tags": [
+        "lieu",
+        "photographie",
+        "architecture"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-photo-quotidien",
+      "chapter": "chapitre-1",
+      "title": "La vie quotidienne en photographies",
+      "type": "photographie",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "Les dates des photographies conservées ne sont pas toutes établies.",
+      "creator": null,
+      "recipient": null,
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "reference": "Références des images à préciser",
+      "description": "Des photographies liées à la colonie sont conservées. Elles documentent des moments de la vie quotidienne. Leur contenu précis et leur date ne sont pas reproduits dans cette version.",
+      "historicalContext": "Les photographies font partie des traces qui permettent d'évoquer la vie de la colonie.",
+      "establishes": "L'existence d'une vie quotidienne et de traces photographiques. Une photographie ne permet pas de généraliser l'expérience de toutes les personnes.",
+      "sourceIds": [
+        "izieu-documents-images",
+        "izieu-archives"
+      ],
+      "relatedPeople": [
+        "enfants-arretes",
+        "sabine-zlatin",
+        "miron-zlatin"
+      ],
+      "relatedEvents": [
+        "ouverture"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune image d'archive n'est reproduite dans cette version. Toute reproduction nécessite une autorisation.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : photographies de la vie quotidienne, non reproduites.",
+      "notebookSummary": "Des photographies de la colonie attestent l'existence d'une vie quotidienne, sans résumer l'expérience de chacun.",
+      "questions": [
+        "Quelles scènes les photographies conservées montrent-elles exactement ?",
+        "Qui les a prises, et dans quel contexte ?"
+      ],
+      "tags": [
+        "vie-quotidienne",
+        "photographie"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-portrait-sabine",
+      "chapter": "chapitre-1",
+      "title": "Portrait de Sabine Zlatin",
+      "type": "photographie",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "La date du portrait n'est pas établie dans les sources consultées.",
+      "creator": null,
+      "recipient": null,
+      "institution": null,
+      "reference": "Référence du portrait à préciser",
+      "description": "Des photographies de Sabine Zlatin sont conservées. Le jeu n'en reproduit aucune. Le portrait n'est pas nécessaire pour comprendre son rôle, mais il rappelle qu'elle était une personne réelle.",
+      "historicalContext": "Sabine Zlatin est à l'origine de la colonie d'Izieu, qu'elle dirige avec Miron Zlatin à partir de mai 1943.",
+      "establishes": "L'existence de portraits et le rôle documenté de Sabine Zlatin dans la colonie et le travail de mémoire.",
+      "sourceIds": [
+        "izieu-creation",
+        "izieu-documents-images",
+        "bnf-enfants-izieu"
+      ],
+      "relatedPeople": [
+        "sabine-zlatin"
+      ],
+      "relatedEvents": [
+        "ouverture",
+        "bnf-1993"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucun portrait n'est reproduit. Une autorisation serait nécessaire.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : portrait de Sabine Zlatin, non reproduit.",
+      "notebookSummary": "Sabine Zlatin, fondatrice et directrice de la colonie, puis actrice du travail de mémoire.",
+      "questions": [
+        "Quelle est la date de ce portrait ?",
+        "Dans quel contexte a-t-il été pris ?"
+      ],
+      "tags": [
+        "portrait",
+        "personne",
+        "photographie"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-portrait-miron",
+      "chapter": "chapitre-1",
+      "title": "Portrait de Miron Zlatin",
+      "type": "photographie",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "La date du portrait n'est pas établie dans les sources consultées.",
+      "creator": null,
+      "recipient": null,
+      "institution": null,
+      "reference": "Référence du portrait à préciser",
+      "description": "Des photographies de Miron Zlatin sont conservées. Le jeu n'en reproduit aucune.",
+      "historicalContext": "Miron Zlatin dirige la colonie avec Sabine Zlatin. Il est arrêté le 6 avril 1944 et fusillé à Reval au cours de l'été 1944.",
+      "establishes": "L'existence de portraits et le rôle documenté de Miron Zlatin dans la colonie.",
+      "sourceIds": [
+        "izieu-creation",
+        "izieu-rafle",
+        "izieu-documents-images"
+      ],
+      "relatedPeople": [
+        "miron-zlatin"
+      ],
+      "relatedEvents": [
+        "ouverture",
+        "rafle",
+        "reval"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucun portrait n'est reproduit. Une autorisation serait nécessaire.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : portrait de Miron Zlatin, non reproduit.",
+      "notebookSummary": "Miron Zlatin, directeur de la colonie, arrêté le 6 avril 1944 et fusillé à Reval.",
+      "questions": [
+        "Quelle est la date de ce portrait ?",
+        "Quel rôle Miron Zlatin tenait-il exactement dans l'organisation quotidienne ?"
+      ],
+      "tags": [
+        "portrait",
+        "personne",
+        "photographie"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-portrait-lea",
+      "chapter": "chapitre-1",
+      "title": "Portrait de L?a Feldblum",
+      "type": "photographie",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "La date du portrait n'est pas établie dans les sources consultées.",
+      "creator": null,
+      "recipient": null,
+      "institution": null,
+      "reference": "Référence du portrait à préciser",
+      "description": "Des photographies de Léa Feldblum sont conservées. Le jeu n'en reproduit aucune. Son témoignage est une source essentielle, mais il ne doit pas être transformé en reconstitution.",
+      "historicalContext": "Léa Feldblum est monitrice à la colonie. Arrêtée le 6 avril 1944, elle est la seule personne du groupe à survivre.",
+      "establishes": "L'existence de portraits et le rôle documenté de Léa Feldblum dans la colonie et la transmission de son histoire.",
+      "sourceIds": [
+        "izieu-rafle",
+        "izieu-deportation",
+        "izieu-documents-images"
+      ],
+      "relatedPeople": [
+        "lea-feldblum"
+      ],
+      "relatedEvents": [
+        "rafle",
+        "proces-1987"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucun portrait n'est reproduit. Une autorisation serait nécessaire.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : portrait de Léa Feldblum, non reproduit.",
+      "notebookSummary": "Léa Feldblum, monitrice de la colonie, seule rescapée du groupe et témoin au procès de 1987.",
+      "questions": [
+        "Quelle est la date de ce portrait ?",
+        "Quelles sont les conditions de consultation et de citation de son témoignage ?"
+      ],
+      "tags": [
+        "portrait",
+        "personne",
+        "photographie",
+        "temoignage"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-lettres",
+      "chapter": "chapitre-2",
+      "title": "Les lettres conservées",
+      "type": "lettre",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "Les dates, auteurs et destinataires varient selon les documents.",
+      "creator": null,
+      "recipient": null,
+      "institution": "Bibliothèque nationale de France / Musée-mémorial de la Maison d'Izieu",
+      "reference": "Fonds d'archives — référence à préciser",
+      "description": "Des lettres et correspondances liées à la colonie ont été conservées. Leur contenu n'est pas reproduit dans cette version. Chaque lettre doit être étudiée avec sa date, son auteur, son destinataire et sa provenance.",
+      "historicalContext": "Après la rafle, Sabine Zlatin rassemble des lettres, des dessins et des documents. En 1993, une partie de ses archives est confiée à la Bibliothèque nationale de France.",
+      "establishes": "L'existence de correspondances et l'importance de leur contexte. Une lettre ne résume pas une vie.",
+      "sourceIds": [
+        "bnf-enfants-izieu",
+        "izieu-archives",
+        "izieu-documents-images"
+      ],
+      "relatedPeople": [
+        "sabine-zlatin",
+        "enfants-arretes"
+      ],
+      "relatedEvents": [
+        "bnf-1993"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune lettre n'est reproduite dans cette version. Toute reproduction nécessite une autorisation et une vérification des droits.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : lettres conservées, non reproduites.",
+      "notebookSummary": "Des lettres et correspondances conservées, à lire avec leur date, leur auteur, leur destinataire et leur provenance.",
+      "questions": [
+        "Quelles lettres sont conservées, et où ?",
+        "Quels droits s'appliquent à leur reproduction ?"
+      ],
+      "tags": [
+        "lettre",
+        "archives",
+        "correspondance"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-dessins",
+      "chapter": "chapitre-2",
+      "title": "Les dessins des enfants",
+      "type": "dessin",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "Les dates et les auteurs des dessins conservés doivent être vérifiés individuellement.",
+      "creator": null,
+      "recipient": null,
+      "institution": "Bibliothèque nationale de France / Musée-mémorial de la Maison d'Izieu",
+      "reference": "Fonds d'archives — référence à préciser",
+      "description": "Des dessins réalisés par des enfants de la colonie ont été conservés. Le jeu ne les reproduit pas et ne prétend pas en révéler le sens.",
+      "historicalContext": "Les dessins font partie des traces qui permettent de parler de la vie de la colonie. Leur conservation dépend de gestes et d'institutions.",
+      "establishes": "Une activité créative et la conservation de traces. Un dessin ne permet pas de conclure à lui seul aux pensées ou aux émotions de son auteur.",
+      "sourceIds": [
+        "bnf-enfants-izieu",
+        "izieu-archives",
+        "izieu-documents-images"
+      ],
+      "relatedPeople": [
+        "enfants-arretes",
+        "sabine-zlatin"
+      ],
+      "relatedEvents": [
+        "bnf-1993"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucun dessin n'est reproduit dans cette version. Toute reproduction nécessite une autorisation et une vérification des droits.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : dessins d'enfants, non reproduits.",
+      "notebookSummary": "Des dessins d'enfants conservés, traces d'une activité, sans interprétation abusive de leurs intentions.",
+      "questions": [
+        "Quels dessins sont conservés, et dans quels fonds ?",
+        "Quelles conditions de reproduction s'appliquent ?"
+      ],
+      "tags": [
+        "dessin",
+        "enfance",
+        "archives"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-administratif",
+      "chapter": "chapitre-2",
+      "title": "Listes et dossiers administratifs",
+      "type": "document-administratif",
+      "date": null,
+      "displayDate": null,
+      "dateNote": "Les dates varient selon les pièces.",
+      "creator": null,
+      "recipient": null,
+      "institution": "Institutions de conservation à préciser",
+      "reference": "Références à préciser",
+      "description": "Les archives administratives liées à la colonie permettent d'établir des noms, des dates et des décisions. Le jeu ne reproduit pas ces pièces.",
+      "historicalContext": "Une colonie doit organiser l'accueil, les repas, la scolarité, les transports et la correspondance. Ces documents témoignent de cette organisation.",
+      "establishes": "Des faits administratifs. Ils ne disent pas tout de la vie des personnes.",
+      "sourceIds": [
+        "izieu-archives",
+        "bnf-enfants-izieu"
+      ],
+      "relatedPeople": [
+        "sabine-zlatin",
+        "miron-zlatin"
+      ],
+      "relatedEvents": [
+        "ouverture",
+        "bnf-1993"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucun document administratif n'est reproduit dans cette version.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : listes et dossiers administratifs, non reproduits.",
+      "notebookSummary": "Des archives administratives qui établissent des noms, des dates et des décisions, sans résumer les vies.",
+      "questions": [
+        "Quelles pièces administratives sont conservées ?",
+        "Quelles informations manquent encore ?"
+      ],
+      "tags": [
+        "administration",
+        "archives",
+        "dates"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-plaque-1946",
+      "chapter": "chapitre-4",
+      "title": "La plaque commémorative de 1946",
+      "type": "document-commemoratif",
+      "date": "1946-04-07",
+      "displayDate": "7 avril 1946",
+      "dateNote": null,
+      "creator": null,
+      "recipient": null,
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "reference": "Référence de la plaque à préciser",
+      "description": "Le 7 avril 1946, une première grande cérémonie commémorative a lieu. Les noms des enfants et des adultes arrêtés sont inscrits sur une plaque.",
+      "historicalContext": "Après la guerre, des cérémonies et des monuments donnent une forme publique au souvenir.",
+      "establishes": "La date de la commémoration et l'inscription des noms. La plaque ne remplace pas les archives.",
+      "sourceIds": [
+        "izieu-memoire"
+      ],
+      "relatedPeople": [
+        "enfants-arretes",
+        "adultes-arretes"
+      ],
+      "relatedEvents": [
+        "commemoration-1946"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune photographie de la plaque n'est reproduite dans cette version.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : plaque commémorative de 1946, non reproduite.",
+      "notebookSummary": "La commémoration du 7 avril 1946 et l'inscription des noms sur une plaque.",
+      "questions": [
+        "Où se trouve la plaque aujourd'hui ?",
+        "Quelles sources documentent la cérémonie de 1946 ?"
+      ],
+      "tags": [
+        "memoire",
+        "commemoration",
+        "plaque"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-temoignage-lea",
+      "chapter": "chapitre-3",
+      "title": "Léa Feldblum, témoin au procès Barbie",
+      "type": "temoignage",
+      "date": "1987",
+      "displayDate": "1987",
+      "dateNote": null,
+      "creator": "Léa Feldblum",
+      "recipient": null,
+      "institution": "Procès de Klaus Barbie, Lyon",
+      "reference": "Référence du témoignage à préciser",
+      "description": "Léa Feldblum, seule rescapée du groupe, a témoigné au procès de Klaus Barbie à Lyon en 1987. Aucune parole n'est reproduite dans cette version sans vérification et autorisation.",
+      "historicalContext": "Le procès de Klaus Barbie se tient à Lyon en 1987. Des témoins y racontent les faits et les persécutions.",
+      "establishes": "L'existence du témoignage et son rôle dans la mémoire publique. Le jeu ne fabrique aucune citation.",
+      "sourceIds": [
+        "proces-barbie-1987",
+        "izieu-memoire"
+      ],
+      "relatedPeople": [
+        "lea-feldblum",
+        "klaus-barbie"
+      ],
+      "relatedEvents": [
+        "proces-1987"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune retranscription ni citation n'est reproduite dans cette version. Les paroles doivent être vérifiées et citées avec leur contexte.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : témoignage de Léa Feldblum, non reproduit.",
+      "notebookSummary": "Le témoignage de Léa Feldblum au procès de Klaus Barbie, en 1987, présenté sans citation inventée.",
+      "questions": [
+        "Où consulter la retranscription officielle du témoignage ?",
+        "Quelles conditions s'appliquent à sa citation ?"
+      ],
+      "tags": [
+        "temoignage",
+        "justice",
+        "memoire"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-proces-barbie",
+      "chapter": "chapitre-4",
+      "title": "Le procès de Klaus Barbie",
+      "type": "document-judiciaire",
+      "date": "1987",
+      "displayDate": "1987",
+      "dateNote": null,
+      "creator": null,
+      "recipient": null,
+      "institution": "Cour d'assises du Rhône, Lyon",
+      "reference": "Référence judiciaire à préciser",
+      "description": "Klaus Barbie est jugé à Lyon en 1987 et condamné pour crimes contre l'humanité. Le procès rend publics des faits et des témoignages.",
+      "historicalContext": "Le procès intervient plus de quarante ans après les faits. Il constitue un moment important de la mémoire publique.",
+      "establishes": "La condamnation et l'existence du procès. Le détail des débats doit être consulté dans les sources judiciaires.",
+      "sourceIds": [
+        "proces-barbie-1987",
+        "izieu-memoire"
+      ],
+      "relatedPeople": [
+        "klaus-barbie",
+        "lea-feldblum"
+      ],
+      "relatedEvents": [
+        "proces-1987"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune pièce judiciaire n'est reproduite dans cette version.",
+      "rightsStatus": "not_applicable",
+      "alt": "Emplacement documentaire : procès de Klaus Barbie, non reproduit.",
+      "notebookSummary": "Le procès de Klaus Barbie à Lyon en 1987 et sa condamnation pour crimes contre l'humanité.",
+      "questions": [
+        "Quelles sont les références exactes des actes du procès ?",
+        "Comment les témoignages ont-ils été recueillis et conservés ?"
+      ],
+      "tags": [
+        "justice",
+        "proces",
+        "memoire"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-bnf-1993",
+      "chapter": "chapitre-2",
+      "title": "Le dépôt des archives à la BnF",
+      "type": "document-administratif",
+      "date": "1993",
+      "displayDate": "1993",
+      "dateNote": null,
+      "creator": "Sabine Zlatin",
+      "recipient": "Bibliothèque nationale de France",
+      "institution": "Bibliothèque nationale de France",
+      "reference": "Fonds d'archives — référence à préciser",
+      "description": "En 1993, Sabine Zlatin confie une partie de ses archives à la Bibliothèque nationale de France.",
+      "historicalContext": "Ce dépôt permet la conservation et la consultation de documents liés à la colonie.",
+      "establishes": "La date du dépôt et l'existence d'un fonds d'archives. La composition exacte du fonds doit être consultée auprès de la BnF.",
+      "sourceIds": [
+        "bnf-enfants-izieu",
+        "izieu-archives"
+      ],
+      "relatedPeople": [
+        "sabine-zlatin"
+      ],
+      "relatedEvents": [
+        "bnf-1993"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune pièce d'archive n'est reproduite dans cette version.",
+      "rightsStatus": "not_applicable",
+      "alt": "Emplacement documentaire : dépôt d'archives à la BnF, non reproduit.",
+      "notebookSummary": "Le dépôt, en 1993, d'une partie des archives de Sabine Zlatin à la Bibliothèque nationale de France.",
+      "questions": [
+        "Comment le fonds est-il décrit et consultable ?",
+        "Quelles pièces y sont conservées ?"
+      ],
+      "tags": [
+        "archives",
+        "bnf",
+        "conservation"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-memorial-1994",
+      "chapter": "chapitre-4",
+      "title": "L'inauguration du mémorial",
+      "type": "document-commemoratif",
+      "date": "1994-04-24",
+      "displayDate": "24 avril 1994",
+      "dateNote": null,
+      "creator": null,
+      "recipient": null,
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "reference": "Référence à préciser",
+      "description": "Le mémorial de la Maison d'Izieu est inauguré le 24 avril 1994.",
+      "historicalContext": "Le mémorial donne un lieu durable à la mémoire de la colonie et des personnes arrêtées.",
+      "establishes": "La date de l'inauguration et l'existence du lieu de mémoire.",
+      "sourceIds": [
+        "izieu-memoire",
+        "izieu-creation"
+      ],
+      "relatedPeople": [],
+      "relatedEvents": [
+        "memorial-1994"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune photographie du mémorial n'est reproduite dans cette version.",
+      "rightsStatus": "permission_required",
+      "alt": "Emplacement documentaire : inauguration du mémorial, non reproduite.",
+      "notebookSummary": "L'inauguration du mémorial de la Maison d'Izieu, le 24 avril 1994.",
+      "questions": [
+        "Quelles formes de transmission le mémorial propose-t-il aujourd'hui ?",
+        "Comment s'articule-t-il avec les archives ?"
+      ],
+      "tags": [
+        "memoire",
+        "memorial",
+        "transmission"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-convoi-71",
+      "chapter": "chapitre-3",
+      "title": "Le convoi 71",
+      "type": "document-administratif",
+      "date": "1944-04-13",
+      "displayDate": "13 avril 1944",
+      "dateNote": null,
+      "creator": null,
+      "recipient": null,
+      "institution": "Sources archivistiques à préciser",
+      "reference": "Référence du convoi à préciser",
+      "description": "Le convoi 71 quitte Drancy le 13 avril 1944. Les sources documentent ce convoi dans les déportations organisées depuis Drancy.",
+      "historicalContext": "Les personnes arrêtées à Izieu passent par Montluc puis Drancy avant les déportations.",
+      "establishes": "Une date et une étape du parcours. Le convoi ne résume pas les histoires individuelles.",
+      "sourceIds": [
+        "izieu-deportation"
+      ],
+      "relatedPeople": [
+        "enfants-arretes",
+        "adultes-arretes"
+      ],
+      "relatedEvents": [
+        "convoi-71"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune liste de convoi n'est reproduite dans cette version.",
+      "rightsStatus": "not_applicable",
+      "alt": "Emplacement documentaire : convoi 71, non reproduit.",
+      "notebookSummary": "Le convoi 71, parti de Drancy le 13 avril 1944, une étape documentée du parcours de déportation.",
+      "questions": [
+        "Quelles personnes du groupe figurent dans ce convoi ?",
+        "Où consulter les listes de déportation ?"
+      ],
+      "tags": [
+        "deportation",
+        "convoi",
+        "drancy"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-convoi-73",
+      "chapter": "chapitre-3",
+      "title": "Le convoi 73 vers l'Estonie",
+      "type": "document-administratif",
+      "date": "1944-05-15",
+      "displayDate": "15 mai 1944",
+      "dateNote": "La date exacte des exécutions à Reval reste à préciser ; les sources situent les faits au cours de l'été 1944.",
+      "creator": null,
+      "recipient": null,
+      "institution": "Sources archivistiques à préciser",
+      "reference": "Référence du convoi à préciser",
+      "description": "Le convoi 73 quitte Drancy le 15 mai 1944 en direction de l'Estonie. Miron Zlatin, Théo Reis et Arnold Hirsch sont déportés vers Reval, où ils sont fusillés au cours de l'été 1944.",
+      "historicalContext": "Tous les membres du groupe ne suivent pas le même parcours. Le convoi 73 illustre l'une des destinations distinctes.",
+      "establishes": "L'existence d'un parcours vers l'Estonie et la distinction des destinées.",
+      "sourceIds": [
+        "izieu-deportation"
+      ],
+      "relatedPeople": [
+        "miron-zlatin",
+        "theo-reis",
+        "arnold-hirsch"
+      ],
+      "relatedEvents": [
+        "convoi-73",
+        "reval"
+      ],
+      "asset": null,
+      "assetKind": "not_reproduced",
+      "assetNote": "Aucune liste de convoi n'est reproduite dans cette version.",
+      "rightsStatus": "not_applicable",
+      "alt": "Emplacement documentaire : convoi 73 et parcours vers Reval, non reproduits.",
+      "notebookSummary": "Le convoi 73, parti de Drancy le 15 mai 1944 vers l'Estonie, et le parcours de Miron Zlatin, Théo Reis et Arnold Hirsch.",
+      "questions": [
+        "Quelles sources documentent précisément ce convoi ?",
+        "Où et quand les exécutions ont-elles eu lieu exactement ?"
+      ],
+      "tags": [
+        "deportation",
+        "convoi",
+        "reval",
+        "estonie"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "doc-liste-arrestes",
+      "chapter": "chapitre-3",
+      "title": "44 enfants, 7 adultes",
+      "type": "document-administratif",
+      "date": "1944-04-06",
+      "displayDate": "6 avril 1944",
+      "dateNote": null,
+      "creator": null,
+      "recipient": null,
+      "institution": "Dossier de médiation — sources : Mémorial de la Maison d'Izieu",
+      "reference": "Dossier de synthèse",
+      "description": "Les sources établissent que 44 enfants et 7 adultes sont arrêtés le 6 avril 1944. Le jeu ne reproduit pas la liste nominative complète dans cette version ; elle est consultable auprès du Mémorial de la Maison d'Izieu.",
+      "historicalContext": "Le chiffre de 44 enfants désigne les personnes arrêtées ce jour-là. Il ne doit pas être confondu avec le nombre total d'enfants accueillis pendant l'existence de la colonie.",
+      "establishes": "Le nombre de personnes arrêtées et la distinction entre les deux chiffres. La liste nominative est une source distincte.",
+      "sourceIds": [
+        "izieu-rafle",
+        "izieu-deportation"
+      ],
+      "relatedPeople": [
+        "enfants-arretes",
+        "adultes-arretes"
+      ],
+      "relatedEvents": [
+        "rafle"
+      ],
+      "asset": null,
+      "assetKind": "editorial",
+      "assetNote": "Fiche de médiation originale. Aucun document historique n'est imité.",
+      "rightsStatus": "not_applicable",
+      "alt": "Fiche de médiation : 44 enfants et 7 adultes arrêtés le 6 avril 1944.",
+      "notebookSummary": "44 enfants et 7 adultes sont arrêtés le 6 avril 1944 ; ce nombre ne doit pas être confondu avec les plus de cent enfants accueillis au total.",
+      "questions": [
+        "Où consulter la liste nominative complète ?",
+        "Comment les sources établissent-elles ce décompte ?"
+      ],
+      "tags": [
+        "rafle",
+        "chiffres",
+        "personnes"
+      ],
+      "status": "verified"
+    }
+  ]
+}

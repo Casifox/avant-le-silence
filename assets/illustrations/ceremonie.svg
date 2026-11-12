@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="ceremonie-title ceremonie-desc">
+  <title id="ceremonie-title">La cérémonie du souvenir</title>
+  <desc id="ceremonie-desc">Illustration originale : une stèle de pierre sans inscription, des fleurs déposées à son pied, des arbres et une lumière douce. Aucun nom n'est inventé.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dde3e2"/>
+      <stop offset="0.6" stop-color="#ece8dd"/>
+      <stop offset="1" stop-color="#f2e8d6"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3bfad"/>
+      <stop offset="1" stop-color="#9caa93"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdc6aa"/>
+      <stop offset="1" stop-color="#b4aa8c"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfc6b5"/>
+      <stop offset="1" stop-color="#aea390"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#fff6e3" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff6e3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <circle cx="610" cy="170" r="150" fill="url(#light)"/>
+  <path d="M0 386c170-40 310-20 470-26 170-6 300-34 460-20 100 10 190 4 270 16v120H0Z" fill="url(#hill)"/>
+  <path d="M0 470c190-24 330-4 500-12 180-8 340-24 500-10 80 8 150 4 200 10v72H0Z" fill="#a8b69f"/>
+  <rect y="510" width="1200" height="240" fill="url(#ground)"/>
+  <path d="M0 600c210-18 370 8 570-4 200-12 400-18 630 8v146H0Z" fill="#b9ae8f"/>
+
+  <!-- Arbres -->
+  <g>
+    <path d="M146 610c-8-76-6-150 2-222h26c8 76 8 148 2 222Z" fill="#7a5c43"/>
+    <circle cx="160" cy="340" r="98" fill="#7f9278"/>
+    <circle cx="86" cy="388" r="62" fill="#8fa187"/>
+    <circle cx="234" cy="386" r="68" fill="#72866c"/>
+  </g>
+  <g>
+    <path d="M1030 620c-6-64-4-130 2-190h22c8 62 8 128 2 190Z" fill="#7a5c43"/>
+    <circle cx="1042" cy="410" r="72" fill="#84977d"/>
+    <circle cx="990" cy="442" r="46" fill="#93a58a"/>
+    <circle cx="1098" cy="440" r="50" fill="#778b71"/>
+  </g>
+
+  <!-- Stèle -->
+  <ellipse cx="606" cy="636" rx="190" ry="24" fill="#7a6d56" opacity="0.18"/>
+  <path d="M504 632V402c0-56 44-100 100-100s100 44 100 100v230Z" fill="url(#stone)"/>
+  <path d="M520 632V406c0-46 36-84 84-84s84 38 84 84v226" fill="none" stroke="#9a8e79" stroke-width="3" opacity="0.6"/>
+  <path d="M548 448h114M548 470h80" stroke="#9a8e79" stroke-width="3" opacity="0.45"/>
+  <path d="M560 512h90" stroke="#9a8e79" stroke-width="2" opacity="0.35"/>
+  <rect x="470" y="632" width="270" height="18" rx="3" fill="#a89b85"/>
+  <rect x="486" y="650" width="238" height="14" rx="3" fill="#b8ab94"/>
+
+  <!-- Fleurs -->
+  <g>
+    <path d="M532 648c-6-38 4-66 24-84M580 652c-4-34 4-60 22-78M644 650c2-32 12-56 28-70M692 646c4-28 14-48 30-60" fill="none" stroke="#6f806b" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="556" cy="566" r="11" fill="#c9a48e"/>
+    <circle cx="602" cy="574" r="10" fill="#d8b7a0"/>
+    <circle cx="672" cy="580" r="10" fill="#c9a48e"/>
+    <circle cx="722" cy="586" r="9" fill="#d8b7a0"/>
+    <circle cx="540" cy="590" r="8" fill="#b47c68"/>
+    <circle cx="616" cy="592" r="8" fill="#b47c68"/>
+    <circle cx="690" cy="600" r="7" fill="#b47c68"/>
+  </g>
+  <g fill="#7f9278">
+    <ellipse cx="470" cy="658" rx="48" ry="16"/>
+    <ellipse cx="736" cy="660" rx="54" ry="18"/>
+  </g>
+
+  <!-- Allée -->
+  <path d="M560 664c-8 36-30 64-72 86h246c-30-24-46-52-48-86Z" fill="#d9ccb2" opacity="0.7"/>
+
+  <rect width="1200" height="750" fill="url(#light)" opacity="0.35"/>
+</svg>

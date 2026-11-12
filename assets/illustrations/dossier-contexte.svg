@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="contexte-title contexte-desc">
+  <title id="contexte-title">Le dossier de contexte</title>
+  <desc id="contexte-desc">Illustration originale : un bureau sobre avec un dossier fermé, un calendrier abstrait, une carte schématique et un tampon. Aucun document historique n'est reproduit.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ded6c9"/>
+      <stop offset="1" stop-color="#cfc3b1"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8c6c51"/>
+      <stop offset="1" stop-color="#6d523d"/>
+    </linearGradient>
+    <linearGradient id="folder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9b493"/>
+      <stop offset="1" stop-color="#b39a78"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e8d8"/>
+      <stop offset="1" stop-color="#e5d8c4"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9bd" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ffe9bd" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#wall)"/>
+  <path d="M0 500h1200v250H0Z" fill="#c9b99f" opacity="0.5"/>
+  <rect y="556" width="1200" height="194" fill="#b59b78"/>
+  <path d="M0 556h1200" stroke="#8f7658" stroke-width="3" opacity="0.5"/>
+
+  <!-- Fenêtre à gauche -->
+  <rect x="66" y="100" width="216" height="256" rx="3" fill="#5e4a36"/>
+  <rect x="78" y="112" width="192" height="232" fill="#c9d3cd"/>
+  <path d="M174 112v232M78 228h192" stroke="#5e4a36" stroke-width="7"/>
+  <path d="M78 294c34-14 64-10 94 6 28 14 60 12 98-4v48H78Z" fill="#84917d" opacity="0.7"/>
+  <rect x="56" y="94" width="236" height="9" fill="#4d3c2c"/>
+  <rect x="56" y="358" width="236" height="11" fill="#4d3c2c"/>
+
+  <!-- Bureau -->
+  <ellipse cx="620" cy="646" rx="430" ry="28" fill="#3f3024" opacity="0.16"/>
+  <rect x="240" y="500" width="760" height="48" rx="6" fill="url(#desk)"/>
+  <rect x="260" y="548" width="720" height="112" fill="#7b5d44"/>
+  <rect x="282" y="566" width="300" height="72" rx="3" fill="#6b4f39"/>
+  <rect x="630" y="566" width="328" height="72" rx="3" fill="#6b4f39"/>
+  <path d="M268 660v64M972 660v64" stroke="#5e4432" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- Dossier fermé -->
+  <g>
+    <path d="M344 432l238-8 8 62-242 10Z" fill="url(#folder)"/>
+    <path d="M362 420l210-6 6 20-212 8Z" fill="#d6c3a4"/>
+    <path d="M400 450l150-4" stroke="#8a6a4f" stroke-width="2.5"/>
+    <path d="M404 464l98-2" stroke="#a08468" stroke-width="2"/>
+    <rect x="544" y="428" width="34" height="10" rx="2" fill="#405a6b"/>
+  </g>
+
+  <!-- Calendrier abstrait -->
+  <g>
+    <rect x="650" y="356" width="210" height="132" rx="4" fill="url(#paper)"/>
+    <rect x="650" y="356" width="210" height="30" rx="4" fill="#8a6a4f"/>
+    <path d="M650 386h210" stroke="#7a5c43" stroke-width="2"/>
+    <g stroke="#b9a687" stroke-width="1.5" opacity="0.8">
+      <path d="M678 404h16M710 404h16M742 404h16M774 404h16M806 404h16"/>
+      <path d="M678 426h16M710 426h16M742 426h16M774 426h16M806 426h16"/>
+      <path d="M678 448h16M710 448h16M742 448h16M774 448h16M806 448h16"/>
+    </g>
+    <rect x="736" y="444" width="18" height="18" fill="none" stroke="#8a6528" stroke-width="2"/>
+    <path d="M666 372h34M826 372h18" stroke="#e8d8c1" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- Carte schématique -->
+  <g>
+    <path d="M330 548l160-18 112 26-12 86-164 14Z" fill="#d9d0bc"/>
+    <path d="M354 580c34-14 64-10 92 4 28 14 60 10 92-4M346 610c40-8 76-4 108 8 30 12 62 10 96-2" fill="none" stroke="#a99b7e" stroke-width="2"/>
+    <circle cx="452" cy="604" r="5" fill="#8a6528"/>
+    <circle cx="536" cy="592" r="4" fill="#405a6b"/>
+    <circle cx="486" cy="628" r="3.5" fill="#6f806b"/>
+    <path d="M452 604c28-8 60-8 84-12" stroke="#8a6528" stroke-width="1.5" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Tampon -->
+  <g>
+    <rect x="882" y="430" width="62" height="34" rx="4" fill="#4f4a43"/>
+    <rect x="890" y="464" width="46" height="16" rx="2" fill="#3d3933"/>
+    <path d="M902 430v-22c0-10 22-10 22 0v22" fill="none" stroke="#3d3933" stroke-width="6"/>
+    <path d="M900 480h28" stroke="#b47c68" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- Lampe -->
+  <g>
+    <path d="M1008 496v-82c0-12 8-20 20-20h10" fill="none" stroke="#4d3c2c" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1018 394c8-30 46-30 56 0Z" fill="#c2a982"/>
+    <ellipse cx="1046" cy="434" rx="84" ry="54" fill="url(#lamp)"/>
+  </g>
+
+  <!-- Chaise -->
+  <g>
+    <rect x="830" y="292" width="140" height="116" rx="8" fill="#6d543e"/>
+    <rect x="842" y="304" width="116" height="76" rx="5" fill="#7f6247"/>
+    <rect x="836" y="408" width="128" height="17" rx="4" fill="#5e4735"/>
+    <path d="M848 425v80M952 425v80" stroke="#5e4735" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#lamp)" opacity="0.2"/>
+</svg>

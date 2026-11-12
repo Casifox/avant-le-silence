@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>AVANT LE SILENCE</title>
+  <rect width="64" height="64" rx="12" fill="#f4efe5"/>
+  <circle cx="47" cy="17" r="6" fill="#d9c4a5"/>
+  <path d="M10 30 32 12l22 18" fill="none" stroke="#272522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16 27v24h32V27" fill="none" stroke="#272522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 51V37h10v14" fill="none" stroke="#7a5c43" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 54h48" fill="none" stroke="#272522" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

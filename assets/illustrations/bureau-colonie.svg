@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="bureau-title bureau-desc">
+  <title id="bureau-title">Le bureau de la colonie</title>
+  <desc id="bureau-desc">Illustration originale : un bureau de travail avec un registre, une lampe, un téléphone et une fenêtre ouverte sur la campagne. Aucun portrait inventé.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eee5d6"/>
+      <stop offset="1" stop-color="#e2d5c1"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c7ad8b"/>
+      <stop offset="1" stop-color="#b39673"/>
+    </linearGradient>
+    <linearGradient id="window-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6ece6"/>
+      <stop offset="1" stop-color="#cfdac9"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b7655"/>
+      <stop offset="1" stop-color="#7f5d42"/>
+    </linearGradient>
+    <radialGradient id="lamp-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9bd" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9bd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2d6" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#fff2d6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#wall)"/>
+  <rect y="580" width="1200" height="170" fill="url(#floor)"/>
+  <path d="M0 580h1200" stroke="#a98f70" stroke-width="3" opacity="0.45"/>
+  <g stroke="#a98f70" stroke-width="2" opacity="0.24">
+    <path d="M0 620h1200M0 668h1200M0 716h1200"/>
+    <path d="M180 580v170M420 580v170M660 580v170M900 580v170"/>
+  </g>
+  <rect y="560" width="1200" height="36" fill="#d8c8b1" opacity="0.9"/>
+
+  <!-- Fenêtre -->
+  <rect x="818" y="96" width="246" height="276" rx="4" fill="#6d543e"/>
+  <rect x="830" y="108" width="222" height="252" fill="url(#window-glass)"/>
+  <path d="M941 108v252M830 234h222" stroke="#6d543e" stroke-width="8"/>
+  <path d="M830 300c50-22 90-18 128 6 34 22 60 20 94 2v52H830Z" fill="#9bab8f" opacity="0.8"/>
+  <path d="M830 330c42-16 78-12 112 8 36 20 68 16 110-2v24H830Z" fill="#829678" opacity="0.8"/>
+  <path d="M838 126h34v92h-34zM1010 126h34v92h-34z" fill="#f4ecdd" opacity="0.28"/>
+  <rect x="800" y="90" width="282" height="10" fill="#5e4735"/>
+  <rect x="800" y="364" width="282" height="14" fill="#5e4735"/>
+
+  <!-- Rideaux -->
+  <path d="M766 78h58c-10 88-6 198 4 312h-62Z" fill="#f0e6d4"/>
+  <path d="M1058 78h58v312h-62c10-114 14-224 4-312Z" fill="#f0e6d4"/>
+  <path d="M782 84c-4 96 0 206 8 298M1086 84c4 96 0 206-8 298" fill="none" stroke="#d9c9b2" stroke-width="3"/>
+
+  <path d="M818 390 560 750h520L1080 390Z" fill="url(#beam)"/>
+
+  <!-- Étagère -->
+  <g>
+    <rect x="66" y="170" width="228" height="14" fill="#7a5c43"/>
+    <rect x="66" y="304" width="228" height="14" fill="#7a5c43"/>
+    <rect x="72" y="194" width="18" height="110" fill="#6d543e"/>
+    <rect x="270" y="194" width="18" height="110" fill="#6d543e"/>
+    <rect x="98" y="200" width="16" height="104" fill="#8a6a4f"/>
+    <rect x="118" y="214" width="13" height="90" fill="#6f806b"/>
+    <rect x="135" y="192" width="18" height="112" fill="#9d8064"/>
+    <rect x="157" y="222" width="12" height="82" fill="#405a6b"/>
+    <rect x="173" y="204" width="20" height="100" fill="#7a5c43"/>
+    <path d="M205 304c0-42 4-72 18-100 14 28 18 58 18 100Z" fill="#8a6a4f"/>
+    <path d="M96 184h146" stroke="#5e4735" stroke-width="3" opacity="0.5"/>
+  </g>
+
+  <!-- Manteaux -->
+  <g>
+    <path d="M1060 282h40M1078 282v18" stroke="#6d543e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1048 300c-18 30-22 66-16 114h62c6-48 2-84-16-114-8-8-22-8-30 0Z" fill="#6f7d68"/>
+    <path d="M1060 306v96M1078 306v96" stroke="#5d6a58" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- Bureau -->
+  <rect x="288" y="430" width="590" height="42" rx="4" fill="url(#desk)"/>
+  <rect x="304" y="472" width="558" height="124" fill="#8d6b4d"/>
+  <rect x="320" y="490" width="220" height="88" rx="3" fill="#7b5b40"/>
+  <rect x="556" y="490" width="286" height="88" rx="3" fill="#7b5b40"/>
+  <circle cx="430" cy="534" r="4" fill="#c8b08f"/>
+  <circle cx="620" cy="534" r="4" fill="#c8b08f"/>
+  <rect x="306" y="596" width="24" height="86" fill="#6f533d"/>
+  <rect x="838" y="596" width="24" height="86" fill="#6f533d"/>
+
+  <!-- Chaise -->
+  <rect x="392" y="332" width="178" height="116" rx="10" fill="#7d5d43"/>
+  <rect x="406" y="346" width="150" height="72" rx="6" fill="#8d6b4d"/>
+  <rect x="408" y="448" width="146" height="22" rx="5" fill="#6d5039"/>
+  <path d="M416 470v84M546 470v84" stroke="#6d5039" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Objets sur le bureau -->
+  <g>
+    <path d="M360 412h150v22H360Z" fill="#f4ecdd"/>
+    <path d="M360 412c18-16 132-16 150 0" fill="#fbf5e9"/>
+    <path d="M382 420h96M382 426h72" stroke="#b9a98e" stroke-width="2"/>
+    <path d="M532 408h116v24H532Z" fill="#efe3ce"/>
+    <path d="M548 416h82M548 422h64" stroke="#c0ad91" stroke-width="2"/>
+    <rect x="688" y="386" width="36" height="46" rx="4" fill="#405a6b"/>
+    <rect x="696" y="378" width="20" height="10" rx="2" fill="#2f4654"/>
+    <path d="M706 388v38" stroke="#dbe4e9" stroke-width="2" opacity="0.5"/>
+    <path d="M756 432v-46h18v46" fill="#6d543e"/>
+    <path d="M744 386c0-28 8-44 21-52 13 8 21 24 21 52Z" fill="#cbb18a"/>
+    <ellipse cx="765" cy="386" rx="54" ry="30" fill="url(#lamp-glow)"/>
+    <g>
+      <rect x="600" y="398" width="72" height="30" rx="8" fill="#3f3a33"/>
+      <path d="M612 398c4-18 44-18 48 0" fill="none" stroke="#3f3a33" stroke-width="7"/>
+      <circle cx="620" cy="413" r="9" fill="#6b6258"/>
+      <circle cx="652" cy="413" r="9" fill="#6b6258"/>
+    </g>
+    <rect x="472" y="400" width="16" height="28" rx="3" fill="#405a6b"/>
+    <path d="M474 400c0-8 12-8 12 0" fill="none" stroke="#405a6b" stroke-width="3"/>
+  </g>
+
+  <!-- Chaise vide à droite -->
+  <g opacity="0.9">
+    <rect x="906" y="430" width="120" height="86" rx="8" fill="#8a6a4f"/>
+    <rect x="918" y="442" width="96" height="54" rx="4" fill="#9d8064"/>
+    <rect x="912" y="516" width="108" height="16" rx="4" fill="#745741"/>
+    <path d="M922 532v78M1010 532v78" stroke="#745741" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#lamp-glow)" opacity="0.28"/>
+</svg>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr" data-text-size="normal" data-contrast="normal" data-reduced-motion="false">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AVANT LE SILENCE — Une maison. Des vies. Une mémoire.</title>
+  <meta name="description" content="AVANT LE SILENCE est une expérience narrative documentaire consacrée à la Maison d'Izieu et aux enfants juifs qui y trouvèrent refuge en 1943–1944.">
+  <meta name="author" content="AVANT LE SILENCE">
+  <meta name="theme-color" content="#f4efe5">
+  <meta name="color-scheme" content="light">
+  <meta property="og:title" content="AVANT LE SILENCE">
+  <meta property="og:description" content="Une maison. Des vies. Une mémoire. Une expérience narrative documentaire sur la Maison d'Izieu.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./assets/illustrations/logo.svg">
+  <link rel="icon" href="./assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/global.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/typography.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/layout.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/interface.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/documents.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/chapters.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/responsive.css?v=0.8.0">
+  <link rel="stylesheet" href="./css/accessibility.css?v=0.8.0">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <div id="app" class="app" aria-busy="true">
+    <div class="boot-screen" id="boot-screen">
+      <div class="boot-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M10 29 32 11l22 18"/>
+          <path d="M16 26v25h32V26"/>
+          <path d="M27 51V37h10v14"/>
+          <path d="M8 56h48"/>
+        </svg>
+      </div>
+      <p class="boot-title">AVANT LE SILENCE</p>
+      <p class="boot-text" role="status">Chargement des archives…</p>
+      <div class="boot-line" aria-hidden="true"><span></span></div>
+    </div>
+  </div>
+
+  <div id="modal-root" class="modal-root"></div>
+  <div id="toast-root" class="toast-root" aria-live="polite" aria-atomic="false"></div>
+  <div id="live-region" class="sr-only" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript">
+      <h1>AVANT LE SILENCE</h1>
+      <p>Ce jeu nécessite JavaScript pour fonctionner. Activez JavaScript dans votre navigateur, puis rechargez la page.</p>
+    </div>
+  </noscript>
+
+  <script type="module" src="./js/main.js?v=0.8.0"></script>
+</body>
+</html>

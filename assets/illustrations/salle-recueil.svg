@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="recueil-title recueil-desc">
+  <title id="recueil-title">La salle de recueillement</title>
+  <desc id="recueil-desc">Illustration originale : une salle sobre avec une grande fenêtre, un banc, une plaque sans inscription et une plante. Aucune scène de violence n'est représentée.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8e2d6"/>
+      <stop offset="1" stop-color="#d9d0c1"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c1aa8a"/>
+      <stop offset="1" stop-color="#a88d6c"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#edf1ea"/>
+      <stop offset="1" stop-color="#d5dfd2"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8e8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff8e8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#wall)"/>
+  <rect y="570" width="1200" height="180" fill="url(#floor)"/>
+  <path d="M0 570h1200" stroke="#9d8262" stroke-width="3" opacity="0.4"/>
+  <rect y="550" width="1200" height="28" fill="#d3c1a8" opacity="0.8"/>
+
+  <!-- Grande fenêtre -->
+  <rect x="430" y="86" width="340" height="430" rx="4" fill="#6d543e"/>
+  <rect x="446" y="102" width="308" height="398" fill="url(#glass)"/>
+  <path d="M600 102v398M446 300h308" stroke="#6d543e" stroke-width="9"/>
+  <path d="M446 390c52-24 98-18 136 6 42 26 90 20 172-6v110H446Z" fill="#9eae92" opacity="0.65"/>
+  <path d="M446 434c48-14 90-10 126 10 40 22 84 18 182-8v64H446Z" fill="#83977b" opacity="0.7"/>
+  <rect x="408" y="78" width="384" height="10" fill="#5e4735"/>
+  <rect x="408" y="508" width="384" height="12" fill="#5e4735"/>
+  <path d="M394 68h46c-6 120-2 268 8 452h-54Z" fill="#f0e6d4"/>
+  <path d="M760 68h46v452h-54c10-184 14-332 8-452Z" fill="#f0e6d4"/>
+
+  <!-- Lumière au sol -->
+  <path d="M446 520 330 750h540L760 520Z" fill="url(#light)"/>
+
+  <!-- Plaque -->
+  <g>
+    <rect x="842" y="286" width="250" height="170" rx="3" fill="#b7ab98"/>
+    <rect x="852" y="296" width="230" height="150" rx="2" fill="#c9bfad"/>
+    <path d="M880 334h174M880 354h130" stroke="#a99b84" stroke-width="3" opacity="0.7"/>
+    <path d="M880 374h150" stroke="#a99b84" stroke-width="2" opacity="0.5"/>
+    <rect x="892" y="408" width="150" height="2" fill="#a99b84" opacity="0.5"/>
+  </g>
+
+  <!-- Banc -->
+  <g>
+    <rect x="484" y="570" width="360" height="24" rx="5" fill="#8a6a4f"/>
+    <rect x="500" y="544" width="328" height="20" rx="4" fill="#9d8064"/>
+    <path d="M518 594v74M810 594v74" stroke="#6d543e" stroke-width="14" stroke-linecap="round"/>
+    <path d="M518 630h292" stroke="#6d543e" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Plante -->
+  <g>
+    <path d="M148 612h72l-10 96h-52Z" fill="#8a6a4f"/>
+    <path d="M184 612c-8-48-2-84 14-108 16 24 20 60 12 108Z" fill="#6f806b"/>
+    <path d="M186 612c-22-36-42-52-66-54 6 30 26 50 58 62Z" fill="#84977d"/>
+    <path d="M182 612c22-32 42-44 64-46-4 28-24 44-54 54Z" fill="#778b71"/>
+  </g>
+
+  <!-- Détails sobres -->
+  <path d="M0 142h1200" stroke="#c9b89f" stroke-width="2" opacity="0.45"/>
+  <path d="M0 160h1200" stroke="#c9b89f" stroke-width="1" opacity="0.3"/>
+  <rect width="1200" height="750" fill="url(#light)" opacity="0.35"/>
+</svg>

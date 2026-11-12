@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="jardin-title jardin-desc">
+  <title id="jardin-title">Le jardin et la maison au loin</title>
+  <desc id="jardin-desc">Illustration originale : un jardin paisible au crépuscule, avec un banc, des arbres, des fleurs et la maison en arrière-plan. Lumière contemplative.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9dfe0"/>
+      <stop offset="0.55" stop-color="#e9e4d8"/>
+      <stop offset="1" stop-color="#f0e5d2"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aebbac"/>
+      <stop offset="1" stop-color="#94a48e"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9c3a8"/>
+      <stop offset="1" stop-color="#b3aa8c"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dcc6"/>
+      <stop offset="1" stop-color="#d4c4a8"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9c4" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe9c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe8c8" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#405a6b" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <circle cx="880" cy="180" r="150" fill="url(#sun)"/>
+  <circle cx="880" cy="180" r="46" fill="#f6e2bf" opacity="0.8"/>
+  <path d="M0 400c160-50 300-28 450-36 160-8 300-42 450-24 110 14 210 8 300 24v116H0Z" fill="url(#hill)"/>
+  <path d="M0 470c160-24 280-6 430-14 170-8 300-34 440-18 120 14 230 6 330 20v60H0Z" fill="#9dad93"/>
+  <rect y="500" width="1200" height="250" fill="url(#ground)"/>
+  <path d="M0 590c200-18 360 8 560-4 200-12 390-18 640 8v156H0Z" fill="#b8ae90"/>
+
+  <!-- Maison au loin -->
+  <g opacity="0.9">
+    <rect x="470" y="366" width="210" height="130" fill="#d8c5a6"/>
+    <path d="M448 370 575 278l128 92Z" fill="#82644b"/>
+    <rect x="510" y="398" width="34" height="44" fill="#6f5b45"/>
+    <rect x="516" y="404" width="22" height="32" fill="#dbe3df"/>
+    <rect x="600" y="398" width="34" height="44" fill="#6f5b45"/>
+    <rect x="606" y="404" width="22" height="32" fill="#dbe3df"/>
+    <rect x="552" y="444" width="44" height="52" fill="#6b4f3a"/>
+    <path d="M470 496h210" stroke="#b7a78c" stroke-width="3"/>
+  </g>
+
+  <!-- Arbres -->
+  <g>
+    <path d="M212 606c-8-70-6-142 2-210h24c8 72 8 144 2 210Z" fill="#7a5c43"/>
+    <circle cx="226" cy="356" r="92" fill="#7f9278"/>
+    <circle cx="160" cy="400" r="58" fill="#8fa187"/>
+    <circle cx="292" cy="398" r="64" fill="#72866c"/>
+  </g>
+  <g>
+    <path d="M1036 620c-8-64-6-130 2-192h22c8 66 8 130 2 192Z" fill="#7a5c43"/>
+    <circle cx="1048" cy="400" r="76" fill="#84977d"/>
+    <circle cx="994" cy="436" r="48" fill="#93a58a"/>
+    <circle cx="1104" cy="434" r="52" fill="#778b71"/>
+  </g>
+
+  <!-- Chemin -->
+  <path d="M556 500c-14 68-54 132-136 220h168c42-82 58-150 54-220Z" fill="url(#path)"/>
+  <path d="M556 500c-4 70-22 138-54 220M600 500c-2 70 6 138 28 220" fill="none" stroke="#c9b99e" stroke-width="2" opacity="0.8"/>
+
+  <!-- Banc -->
+  <g>
+    <rect x="830" y="586" width="236" height="22" rx="5" fill="#8a6a4f"/>
+    <rect x="846" y="560" width="204" height="18" rx="4" fill="#9d8064"/>
+    <path d="M862 608v76M1034 608v76" stroke="#6d543e" stroke-width="12" stroke-linecap="round"/>
+    <path d="M862 644h172" stroke="#6d543e" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Fleurs -->
+  <g>
+    <path d="M330 640c0-24 8-40 20-50M380 650c0-20 6-34 16-44M680 656c0-26 8-44 20-54M730 646c0-20 6-34 16-44" fill="none" stroke="#6f806b" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="350" cy="584" r="8" fill="#d8b7a0"/>
+    <circle cx="396" cy="600" r="7" fill="#c9a48e"/>
+    <circle cx="700" cy="596" r="8" fill="#d8b7a0"/>
+    <circle cx="746" cy="596" r="7" fill="#c9a48e"/>
+    <circle cx="336" cy="602" r="6" fill="#b47c68"/>
+    <circle cx="718" cy="610" r="6" fill="#b47c68"/>
+  </g>
+
+  <!-- Herbes -->
+  <g stroke="#8f9a7e" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+    <path d="M80 690c14-18 26-26 40-30M102 702c10-22 20-32 34-38M310 690c12-16 24-24 38-28M1080 686c12-16 24-24 40-28M1104 700c10-18 20-28 34-32"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#wash)"/>
+</svg>

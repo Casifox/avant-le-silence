@@ -1,0 +1,262 @@
+/* ============================================================
+   Accessibilité : focus, contraste, taille du texte, mouvement
+   ============================================================ */
+
+/* --- Focus visible --- */
+
+:focus-visible {
+  outline: 3px solid var(--slate);
+  outline-offset: 3px;
+}
+
+.btn:focus-visible,
+.chip:focus-visible,
+.activity-option:focus-visible,
+.hotspot:focus-visible,
+.item-button:focus-visible,
+.order-item:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--slate);
+  outline-offset: 3px;
+}
+
+.hotspot:focus-visible {
+  outline-offset: 0;
+}
+
+/* --- Taille du texte --- */
+
+html[data-text-size="large"] {
+  font-size: 18px;
+}
+
+html[data-text-size="xlarge"] {
+  font-size: 20px;
+}
+
+html[data-text-size="large"] .prose,
+html[data-text-size="xlarge"] .prose {
+  max-width: 60ch;
+}
+
+html[data-text-size="large"] .btn,
+html[data-text-size="xlarge"] .btn {
+  font-size: 0.92rem;
+}
+
+/* --- Contraste élevé --- */
+
+html[data-contrast="high"] {
+  --ivory: #fffdf8;
+  --ivory-deep: #f3efe5;
+  --paper: #fffdf8;
+  --paper-light: #ffffff;
+  --paper-deep: #e8e0d1;
+  --ink: #000000;
+  --ink-soft: #161616;
+  --ink-faint: #333333;
+  --brown: #4d2f17;
+  --brown-soft: #5b3e27;
+  --brown-pale: #f1e5d2;
+  --sage: #2f4a2b;
+  --sage-soft: #e2edde;
+  --sage-deep: #1f351c;
+  --slate: #123b52;
+  --slate-soft: #e0edf4;
+  --amber: #5a3b00;
+  --amber-soft: #f6e7c4;
+  --line: rgba(0, 0, 0, 0.34);
+  --line-strong: rgba(0, 0, 0, 0.6);
+  background-image: none;
+}
+
+html[data-contrast="high"] body {
+  background-image: none;
+}
+
+html[data-contrast="high"] .home-visual::after {
+  background: linear-gradient(90deg, transparent 68%, rgba(255, 253, 248, 0.2));
+}
+
+html[data-contrast="high"] .home-visual__caption {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.72);
+  padding: 0.3rem 0.45rem;
+}
+
+html[data-contrast="high"] .site-footer,
+html[data-contrast="high"] .small,
+html[data-contrast="high"] .tiny,
+html[data-contrast="high"] .caption {
+  color: #222;
+}
+
+html[data-contrast="high"] .badge {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+html[data-contrast="high"] .illustration__caption {
+  background: #fff;
+  color: #222;
+}
+
+html[data-contrast="high"] .scene-panel__inner,
+html[data-contrast="high"] .chapter-card,
+html[data-contrast="high"] .notebook-card,
+html[data-contrast="high"] .source-card,
+html[data-contrast="high"] .settings-section,
+html[data-contrast="high"] .doc-frame,
+html[data-contrast="high"] .activity,
+html[data-contrast="high"] .synthesis {
+  background-image: none;
+}
+
+/* --- Réduction des mouvements --- */
+
+html[data-reduced-motion="true"] *,
+html[data-reduced-motion="true"] *::before,
+html[data-reduced-motion="true"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+html[data-reduced-motion="true"] .home-visual__image,
+html[data-reduced-motion="true"] .illustration__image {
+  animation: none;
+}
+
+html[data-reduced-motion="true"] .hotspot::after {
+  animation: none;
+  opacity: 0;
+}
+
+html[data-reduced-motion="true"] .screen {
+  animation: none;
+}
+
+html[data-reduced-motion="true"] .modal,
+html[data-reduced-motion="true"] .modal-backdrop {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .home-visual__image,
+  .illustration__image {
+    animation: none;
+  }
+
+  .hotspot::after {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* --- Mode contraste forcé (Windows) --- */
+
+@media (forced-colors: active) {
+  .btn,
+  .chip,
+  .item-button,
+  .chapter-card,
+  .notebook-card,
+  .source-card,
+  .doc-frame,
+  .modal,
+  .illustration,
+  .activity {
+    border: 1px solid ButtonText;
+  }
+
+  .hotspot__dot {
+    forced-color-adjust: none;
+    color: ButtonText;
+    background: ButtonFace;
+    border-color: ButtonText;
+  }
+
+  .progress__bar {
+    forced-color-adjust: none;
+    background: Highlight;
+  }
+
+  .badge {
+    border: 1px solid ButtonText;
+  }
+
+  .home-visual::after {
+    display: none;
+  }
+}
+
+/* --- Liens externes --- */
+
+.external-indicator {
+  display: inline-block;
+  width: 0.78em;
+  height: 0.78em;
+  margin-left: 0.18em;
+  vertical-align: baseline;
+  color: currentColor;
+  opacity: 0.7;
+}
+
+/* --- Aides visuelles --- */
+
+.visually-emphasized {
+  padding: 0.1em 0.2em;
+  background: rgba(240, 227, 200, 0.75);
+  border-radius: 2px;
+}
+
+/* --- Zone de contenu principal --- */
+
+main:focus {
+  outline: none;
+}
+
+main:focus-visible {
+  outline: 3px solid var(--slate);
+  outline-offset: 4px;
+}
+
+/* --- Impression --- */
+
+@media print {
+  .hud,
+  .page-header,
+  .site-footer,
+  .btn,
+  .toast-root,
+  .modal-root,
+  .home-actions {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+
+  .screen {
+    min-height: 0;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+}

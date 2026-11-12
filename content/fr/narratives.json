@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "home": {
+    "eyebrow": "Expérience narrative documentaire",
+    "title": "AVANT LE SILENCE",
+    "subtitle": "Une maison. Des vies. Une mémoire.",
+    "intro": "Une maison dans l'Ain. Des enfants juifs qui y trouvent refuge entre 1943 et 1944. Des archives, des lettres et des dessins qui permettent de retrouver leurs traces.",
+    "notice": [
+      "Gratuit · Sans compte · Sans collecte de données",
+      "Une expérience d'environ 45 à 60 minutes.",
+      "Sujet : Shoah, persécutions antisémites, rafle et déportation."
+    ],
+    "start": "Commencer le parcours",
+    "continue": "Continuer",
+    "sources": "Explorer les sources",
+    "about": "À propos du projet",
+    "settings": "Paramètres",
+    "visualCaption": "Illustration originale — la maison et son environnement. Reconstitution contemporaine, non photographique."
+  },
+  "warning": {
+    "title": "Avant de commencer",
+    "paragraphs": [
+      "AVANT LE SILENCE aborde la Shoah, la persécution d'enfants juifs, la rafle du 6 avril 1944 et la déportation.",
+      "Le jeu ne montre aucune scène de violence. Il présente des faits documentés, des documents et des textes de médiation.",
+      "Certaines séquences peuvent être éprouvantes. Vous pouvez faire une pause, quitter l'expérience et reprendre plus tard. Votre progression est conservée dans votre navigateur."
+    ],
+    "care": "Prenez le temps dont vous avez besoin. Il n'y a ni chronomètre, ni score, ni obligation d'aller vite.",
+    "accept": "J'ai compris, continuer",
+    "back": "Revenir à l'accueil",
+    "note": "Public conseillé : à partir de 14 ans. Cette indication est éditoriale et doit être confirmée par une validation pédagogique."
+  },
+  "prologue": {
+    "title": "Une mémoire à transmettre",
+    "lead": "Entre mai 1943 et avril 1944, une maison de l'Ain accueille des enfants juifs. Ce jeu raconte ce lieu, les personnes qui y ont vécu et les traces qui ont permis de transmettre leur histoire.",
+    "paragraphs": [
+      "Vous n'incarnez personne. Vous êtes un visiteur qui traverse un parcours documentaire. Vous observez, vous lisez, vous reliez des informations.",
+      "Le jeu distingue trois catégories : les faits historiques vérifiés, les reconstitutions illustratives et les textes de médiation. Les documents d'archives ne sont pas reproduits sans autorisation.",
+      "Le parcours aborde la rafle et la déportation. Un avertissement précède le chapitre qui les raconte. Aucune scène de violence n'est reconstituée."
+    ],
+    "quote": "Il existe des histoires que l'on ne doit pas oublier. Il existe des vies que les archives permettent de retrouver.",
+    "quoteLabel": "Texte de médiation",
+    "facts": [
+      { "label": "Période", "value": "Mai 1943 – avril 1944" },
+      { "label": "Lieu", "value": "Izieu, dans l'Ain" },
+      { "label": "Sujet", "value": "La Maison d'Izieu et ses archives" },
+      { "label": "Durée", "value": "45–60 minutes" }
+    ],
+    "start": "Commencer le parcours",
+    "back": "Revenir à l'accueil"
+  },
+  "chapterWarning": {
+    "title": "Un chapitre difficile",
+    "paragraphs": [
+      "Le chapitre III aborde la rafle du 6 avril 1944, l'emprisonnement, la déportation et les exécutions.",
+      "Les faits sont présentés sans reconstitution de violence. Le rythme ralentit. Vous pouvez mettre le jeu en pause à tout moment.",
+      "Ce chapitre ne contient ni combat, ni fuite, ni chronomètre."
+    ],
+    "accept": "Ouvrir le chapitre",
+    "back": "Retour aux chapitres",
+    "note": "Vous pouvez revenir aux chapitres précédents ou quitter l'expérience sans perdre votre progression."
+  },
+  "conclusion": {
+    "title": "Après",
+    "lead": "Les personnes disparaissent. Les traces qu'elles ont laissées peuvent être conservées.",
+    "paragraphs": [
+      "La mémoire existe parce que des femmes et des hommes choisissent de la transmettre. Sabine Zlatin rassemble des documents. Des institutions les conservent. Des témoins racontent. Des visiteurs apprennent.",
+      "Votre carnet garde la trace de ce que vous avez consulté. Il ne mesure pas votre compréhension et ne vous attribue aucune note.",
+      "Le jeu est une œuvre de médiation. Il ne remplace ni les archives, ni les livres d'histoire, ni le travail du Mémorial de la Maison d'Izieu."
+    ],
+    "quote": "La mémoire existe parce que des femmes et des hommes choisissent de la transmettre.",
+    "quoteLabel": "Conclusion éditoriale originale du jeu",
+    "closing": "Ce que vous avez consulté",
+    "continue": "Terminer le parcours",
+    "sources": "Consulter les sources",
+    "home": "Revenir à l'accueil"
+  },
+  "final": {
+    "title": "AVANT LE SILENCE",
+    "subtitle": "Une maison. Des vies. Une mémoire.",
+    "text": "Vous avez terminé le parcours. Les noms, les dates et les documents que vous avez rencontrés peuvent continuer à circuler.",
+    "note": "Ce jeu est une œuvre de médiation indépendante. Il n'est pas une publication officielle du Mémorial de la Maison d'Izieu ni de la Bibliothèque nationale de France.",
+    "notebook": "Revoir mon carnet",
+    "sources": "Explorer les sources",
+    "home": "Revenir à l'accueil"
+  },
+  "about": {
+    "title": "À propos du projet",
+    "lead": "AVANT LE SILENCE est une expérience narrative documentaire consacrée à la Maison d'Izieu.",
+    "paragraphs": [
+      "Le projet est développé en HTML, CSS et JavaScript natif. Il fonctionne sans backend, sans compte et sans collecte de données. La progression est enregistrée dans le navigateur.",
+      "Les faits historiques sont référencés dans SOURCES.md et dans les fiches du jeu. Les textes de médiation sont distingués des documents. Les illustrations sont originales et ne prétendent pas reproduire des photographies d'époque.",
+      "Les images d'archives ne sont pas intégrées dans cette version. Leur reproduction nécessiterait des autorisations et des crédits précis.",
+      "Ce projet n'est pas une publication officielle du Mémorial de la Maison d'Izieu ni de la Bibliothèque nationale de France. Il ne doit pas être présenté comme approuvé par ces institutions sans accord explicite."
+    ],
+    "categories": [
+      "Fait historique vérifié — information documentée par une source.",
+      "Reconstitution illustrative — illustration contemporaine, non historique.",
+      "Texte de médiation — texte rédigé pour accompagner l'expérience."
+    ],
+    "credits": "Conception, textes de médiation et illustrations originales : projet AVANT LE SILENCE. Sources historiques : voir la page Sources.",
+    "version": "Version 0.8.0 — version candidate."
+  },
+  "sources": {
+    "title": "Sources et crédits",
+    "lead": "Les fiches historiques du jeu renvoient à des sources institutionnelles. Les liens ouvrent les sites officiels dans un nouvel onglet.",
+    "note": "Certaines références restent à préciser avant la version 1.0.0. Elles sont signalées dans les fiches et dans docs/HISTORICAL_REVIEW.md.",
+    "rights": "Les documents et images des institutions ne sont pas reproduits dans cette version. Toute reproduction reste soumise à leurs conditions.",
+    "glossaryLink": "Consulter le glossaire"
+  },
+  "glossary": {
+    "title": "Glossaire",
+    "lead": "Quelques termes utiles pour comprendre le parcours.",
+    "note": "Les définitions sont des textes de médiation. Elles ne remplacent pas les définitions historiques ou juridiques détaillées."
+  },
+  "notebook": {
+    "title": "Carnet de mémoire",
+    "lead": "Les documents, personnes et dates que vous choisissez de conserver.",
+    "emptyTitle": "Votre carnet est vide",
+    "emptyText": "Ouvrez une fiche documentaire ou une fiche personne, puis choisissez « Ajouter au carnet ».",
+    "note": "Le carnet ne mesure pas votre progression morale. Il garde la trace de votre parcours."
+  },
+  "errors": {
+    "contentTitle": "Le contenu n'a pas pu être chargé",
+    "contentText": "Le jeu n'a pas pu lire les fichiers de contenu. Si vous ouvrez le dossier directement depuis votre disque, utilisez un petit serveur local (voir le README). Sur GitHub Pages, rechargez la page.",
+    "retry": "Réessayer",
+    "home": "Revenir à l'accueil",
+    "genericTitle": "Une erreur est survenue",
+    "genericText": "L'expérience n'a pas pu continuer. Votre progression enregistrée n'a pas été supprimée.",
+    "notFoundTitle": "Page introuvable",
+    "notFoundText": "Cette page n'existe pas. Revenez à l'accueil pour reprendre le parcours.",
+    "storage": "La sauvegarde locale n'est pas disponible. Votre progression reste valable pendant cette session, mais elle ne sera pas conservée après la fermeture du navigateur."
+  }
+}

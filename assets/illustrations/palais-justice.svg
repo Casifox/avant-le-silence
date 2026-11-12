@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="justice-title justice-desc">
+  <title id="justice-title">Le palais de justice</title>
+  <desc id="justice-desc">Illustration originale : une façade de palais de justice avec des colonnes et des marches, sans personne et sans inscription. Symbole sobre du procès de 1987.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dce2e3"/>
+      <stop offset="1" stop-color="#ece9df"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d1c2"/>
+      <stop offset="1" stop-color="#c1b7a4"/>
+    </linearGradient>
+    <linearGradient id="stone-dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c3b9a6"/>
+      <stop offset="1" stop-color="#a89c87"/>
+    </linearGradient>
+    <linearGradient id="steps" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfc6b4"/>
+      <stop offset="1" stop-color="#b4a78f"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f574c" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#5f574c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+  <path d="M0 470c210-24 360-4 540-10 210-8 380-22 660 6v284H0Z" fill="#c9c0aa"/>
+  <path d="M0 604c250-18 430 8 650-4 200-12 390-12 550 8v142H0Z" fill="#b5a98f"/>
+
+  <!-- Bâtiment principal -->
+  <rect x="180" y="250" width="840" height="300" fill="url(#stone)"/>
+  <rect x="180" y="250" width="840" height="26" fill="#b3a791"/>
+  <rect x="180" y="524" width="840" height="26" fill="#b3a791"/>
+
+  <!-- Fronton -->
+  <path d="M310 250 600 132l290 118Z" fill="url(#stone-dark)"/>
+  <path d="M310 250 600 132l290 118" fill="none" stroke="#9d917c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M360 238h480" stroke="#9d917c" stroke-width="3" opacity="0.6"/>
+  <circle cx="600" cy="204" r="18" fill="none" stroke="#8e816c" stroke-width="2" opacity="0.6"/>
+  <path d="M590 204h20M600 194v20" stroke="#8e816c" stroke-width="2" opacity="0.5"/>
+
+  <!-- Colonnes -->
+  <g>
+    <rect x="246" y="276" width="44" height="248" fill="#e0d8c9"/>
+    <rect x="236" y="264" width="64" height="16" fill="#c3b8a5"/>
+    <rect x="236" y="516" width="64" height="16" fill="#c3b8a5"/>
+    <path d="M258 292v220M278 292v220" stroke="#c9bfae" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="360" y="276" width="44" height="248" fill="#e0d8c9"/>
+    <rect x="350" y="264" width="64" height="16" fill="#c3b8a5"/>
+    <rect x="350" y="516" width="64" height="16" fill="#c3b8a5"/>
+    <path d="M372 292v220M392 292v220" stroke="#c9bfae" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="474" y="276" width="44" height="248" fill="#e0d8c9"/>
+    <rect x="464" y="264" width="64" height="16" fill="#c3b8a5"/>
+    <rect x="464" y="516" width="64" height="16" fill="#c3b8a5"/>
+    <path d="M486 292v220M506 292v220" stroke="#c9bfae" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="682" y="276" width="44" height="248" fill="#e0d8c9"/>
+    <rect x="672" y="264" width="64" height="16" fill="#c3b8a5"/>
+    <rect x="672" y="516" width="64" height="16" fill="#c3b8a5"/>
+    <path d="M694 292v220M714 292v220" stroke="#c9bfae" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="796" y="276" width="44" height="248" fill="#e0d8c9"/>
+    <rect x="786" y="264" width="64" height="16" fill="#c3b8a5"/>
+    <rect x="786" y="516" width="64" height="16" fill="#c3b8a5"/>
+    <path d="M808 292v220M828 292v220" stroke="#c9bfae" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="910" y="276" width="44" height="248" fill="#e0d8c9"/>
+    <rect x="900" y="264" width="64" height="16" fill="#c3b8a5"/>
+    <rect x="900" y="516" width="64" height="16" fill="#c3b8a5"/>
+    <path d="M922 292v220M942 292v220" stroke="#c9bfae" stroke-width="2"/>
+  </g>
+
+  <!-- Porte -->
+  <rect x="556" y="360" width="88" height="164" fill="#6d5a45"/>
+  <path d="M600 360v164" stroke="#574836" stroke-width="2"/>
+  <circle cx="618" cy="444" r="3" fill="#c8b08f"/>
+  <rect x="540" y="352" width="120" height="12" fill="#b3a791"/>
+
+  <!-- Fenêtres -->
+  <g fill="#8d9a99">
+    <rect x="260" y="322" width="16" height="46" rx="1"/>
+    <rect x="374" y="322" width="16" height="46" rx="1"/>
+    <rect x="488" y="322" width="16" height="46" rx="1"/>
+    <rect x="696" y="322" width="16" height="46" rx="1"/>
+    <rect x="810" y="322" width="16" height="46" rx="1"/>
+    <rect x="924" y="322" width="16" height="46" rx="1"/>
+  </g>
+
+  <!-- Marches -->
+  <path d="M300 550h600v22H300Z" fill="url(#steps)"/>
+  <path d="M276 572h648v22H276Z" fill="#c3b8a4"/>
+  <path d="M248 594h704v22H248Z" fill="#b8ab93"/>
+  <path d="M216 616h768v22H216Z" fill="#ad9f86"/>
+  <path d="M180 638h840v20H180Z" fill="#a19379"/>
+  <path d="M180 658h840v10H180Z" fill="#93856c" opacity="0.6"/>
+  <rect x="300" y="550" width="600" height="22" fill="url(#shadow)" opacity="0.4"/>
+
+  <!-- Détails latéraux -->
+  <path d="M180 250v300M1020 250v300" stroke="#9d917c" stroke-width="3" opacity="0.5"/>
+  <rect x="140" y="230" width="40" height="320" fill="#b3a791" opacity="0.6"/>
+  <rect x="1020" y="230" width="40" height="320" fill="#b3a791" opacity="0.6"/>
+
+  <!-- Ciel -->
+  <path d="M0 0h1200v160H0Z" fill="#fff" opacity="0.08"/>
+</svg>

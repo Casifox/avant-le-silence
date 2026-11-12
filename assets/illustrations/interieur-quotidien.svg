@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="interieur-title interieur-desc">
+  <title id="interieur-title">La salle commune</title>
+  <desc id="interieur-desc">Illustration originale : une salle commune avec une grande table, des bols, des livres, un poêle et une fenêtre. Aucune personne n'est représentée.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eee5d7"/>
+      <stop offset="1" stop-color="#dfd2bf"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c6ab89"/>
+      <stop offset="1" stop-color="#ac8f6b"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a37e5b"/>
+      <stop offset="1" stop-color="#836047"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7eee7"/>
+      <stop offset="1" stop-color="#cbd8c8"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe7b8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#ffe7b8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#wall)"/>
+  <rect y="560" width="1200" height="190" fill="url(#floor)"/>
+  <path d="M0 560h1200" stroke="#9d8262" stroke-width="3" opacity="0.5"/>
+  <g stroke="#9d8262" stroke-width="2" opacity="0.2">
+    <path d="M0 608h1200M0 656h1200M0 704h1200"/>
+    <path d="M200 560v190M440 560v190M680 560v190M920 560v190"/>
+  </g>
+  <rect y="540" width="1200" height="30" fill="#d3c1a8" opacity="0.85"/>
+
+  <!-- Fenêtre -->
+  <rect x="824" y="104" width="238" height="274" rx="3" fill="#6d543e"/>
+  <rect x="836" y="116" width="214" height="250" fill="url(#glass)"/>
+  <path d="M943 116v250M836 241h214" stroke="#6d543e" stroke-width="8"/>
+  <path d="M836 302c44-20 82-16 114 4 32 20 62 18 100 2v58H836Z" fill="#9cac90" opacity="0.8"/>
+  <path d="M836 334c40-12 74-8 106 10 34 18 68 14 108-4v26H836Z" fill="#829678" opacity="0.7"/>
+  <rect x="806" y="96" width="274" height="10" fill="#5e4735"/>
+  <rect x="806" y="376" width="274" height="13" fill="#5e4735"/>
+  <path d="M790 86h42c-6 86-2 194 6 306h-48Z" fill="#f0e6d4"/>
+  <path d="M1056 86h42v312h-48c8-112 12-220 6-306Z" fill="#f0e6d4"/>
+
+  <!-- Poêle -->
+  <g>
+    <rect x="82" y="382" width="196" height="196" rx="8" fill="#4f4a43"/>
+    <rect x="100" y="402" width="160" height="104" rx="4" fill="#5e5850"/>
+    <rect x="118" y="422" width="124" height="64" rx="3" fill="#3d3933"/>
+    <circle cx="180" cy="454" r="8" fill="#b98d54"/>
+    <rect x="100" y="526" width="160" height="16" fill="#3d3933"/>
+    <path d="M140 588v34M222 588v34" stroke="#3d3933" stroke-width="9" stroke-linecap="round"/>
+    <path d="M156 382V250c0-20 14-30 34-30h20" fill="none" stroke="#4f4a43" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="180" cy="454" rx="90" ry="70" fill="url(#warm)"/>
+  </g>
+
+  <!-- Étagère à livres -->
+  <g>
+    <rect x="982" y="268" width="150" height="12" fill="#7a5c43"/>
+    <rect x="986" y="286" width="16" height="100" fill="#6d543e"/>
+    <rect x="1112" y="286" width="16" height="100" fill="#6d543e"/>
+    <rect x="1004" y="290" width="14" height="62" fill="#6f806b"/>
+    <rect x="1022" y="278" width="16" height="74" fill="#9d8064"/>
+    <rect x="1042" y="296" width="12" height="56" fill="#405a6b"/>
+    <rect x="1058" y="286" width="18" height="66" fill="#8a6a4f"/>
+    <path d="M1084 352c0-32 6-52 16-66 10 14 16 34 16 66Z" fill="#7a5c43"/>
+  </g>
+
+  <!-- Table -->
+  <ellipse cx="580" cy="620" rx="340" ry="28" fill="#6f533d" opacity="0.16"/>
+  <rect x="238" y="454" width="700" height="44" rx="6" fill="url(#table)"/>
+  <rect x="254" y="498" width="668" height="94" fill="#916e50"/>
+  <rect x="272" y="514" width="632" height="56" rx="3" fill="#805f45"/>
+  <path d="M286 592v96M908 592v96" stroke="#6f533d" stroke-width="18" stroke-linecap="round"/>
+
+  <!-- Objets sur la table -->
+  <g>
+    <ellipse cx="360" cy="452" rx="38" ry="12" fill="#e8ddc9"/>
+    <path d="M326 444c2-16 66-16 68 0-2 18-66 18-68 0Z" fill="#f4ecdd"/>
+    <ellipse cx="360" cy="442" rx="22" ry="6" fill="#d9c6a8"/>
+    <ellipse cx="468" cy="452" rx="38" ry="12" fill="#e8ddc9"/>
+    <path d="M434 444c2-16 66-16 68 0-2 18-66 18-68 0Z" fill="#f4ecdd"/>
+    <ellipse cx="468" cy="442" rx="22" ry="6" fill="#d9c6a8"/>
+    <ellipse cx="586" cy="452" rx="38" ry="12" fill="#e8ddc9"/>
+    <path d="M552 444c2-16 66-16 68 0-2 18-66 18-68 0Z" fill="#f4ecdd"/>
+    <ellipse cx="586" cy="442" rx="22" ry="6" fill="#d9c6a8"/>
+    <path d="M676 420h42l-6 32h-30Z" fill="#d8c6a8"/>
+    <path d="M682 420c0-12 30-12 30 0" fill="none" stroke="#b9a687" stroke-width="4"/>
+    <path d="M664 436c30-8 64-8 96 0" fill="none" stroke="#b9a687" stroke-width="2"/>
+    <path d="M748 430h94v20h-94Z" fill="#efe3ce"/>
+    <path d="M762 438h66M762 444h48" stroke="#c0ad91" stroke-width="2"/>
+    <path d="M852 424c14-12 28-12 42 0l-4 24h-34Z" fill="#f4ecdd"/>
+    <rect x="882" y="404" width="8" height="46" rx="3" fill="#7a5c43"/>
+  </g>
+
+  <!-- Chaises -->
+  <g>
+    <rect x="252" y="360" width="112" height="86" rx="7" fill="#8a6a4f"/>
+    <rect x="264" y="372" width="88" height="54" rx="4" fill="#9d8064"/>
+    <rect x="258" y="438" width="100" height="16" rx="4" fill="#745741"/>
+    <path d="M268 454v82M350 454v82" stroke="#745741" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="804" y="352" width="112" height="86" rx="7" fill="#8a6a4f"/>
+    <rect x="816" y="364" width="88" height="54" rx="4" fill="#9d8064"/>
+    <rect x="810" y="430" width="100" height="16" rx="4" fill="#745741"/>
+    <path d="M820 446v86M902 446v86" stroke="#745741" stroke-width="9" stroke-linecap="round"/>
+  </g>
+
+  <!-- Manteaux -->
+  <g>
+    <path d="M62 130h160" stroke="#6d543e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M84 136v18M150 136v18M204 136v18" stroke="#6d543e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M74 154c-16 26-18 62-12 96h52c6-34 4-70-12-96-8-8-20-8-28 0Z" fill="#6f7d68"/>
+    <path d="M140 154c-14 30-16 66-10 104h48c6-38 4-74-10-104-8-8-20-8-28 0Z" fill="#8a6a4f"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#warm)" opacity="0.3"/>
+</svg>

@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "createdAt": "2026-11-11T10:00:00.000Z",
+  "updatedAt": "2026-11-11T10:30:00.000Z",
+  "lastRoute": "#/chapitre/chapitre-1/scene/bienvenue",
+  "warningAcknowledged": true,
+  "chapterWarnings": {},
+  "chapters": {
+    "chapitre-1": {
+      "visitedScenes": ["bienvenue"],
+      "completed": false,
+      "completedAt": null
+    },
+    "chapitre-2": {
+      "visitedScenes": [],
+      "completed": false,
+      "completedAt": null
+    },
+    "chapitre-3": {
+      "visitedScenes": [],
+      "completed": false,
+      "completedAt": null
+    },
+    "chapitre-4": {
+      "visitedScenes": [],
+      "completed": false,
+      "completedAt": null
+    }
+  },
+  "documentsRead": ["doc-photo-maison"],
+  "peopleMet": [],
+  "activitiesCompleted": [],
+  "eventsSeen": ["ouverture"],
+  "notebook": {
+    "documents": ["doc-photo-maison"],
+    "people": [],
+    "events": ["ouverture"]
+  },
+  "preferences": {
+    "textSize": "normal",
+    "contrast": "normal",
+    "reducedMotion": false,
+    "music": 0.32,
+    "sfx": 0.5,
+    "muted": false
+  },
+  "conclusionSeen": false
+}

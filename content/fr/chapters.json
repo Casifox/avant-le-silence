@@ -1,0 +1,1160 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": "chapitre-1",
+      "order": 1,
+      "number": "I",
+      "title": "La maison",
+      "period": "Mai 1943 – avril 1944",
+      "subtitle": "Un refuge",
+      "description": "Découvrir la colonie, les personnes qui y vivent et le quotidien des enfants.",
+      "cover": "./assets/illustrations/maison-exterieur.svg",
+      "coverAlt": "Illustration originale : une maison rurale au milieu des arbres et des collines.",
+      "mood": "day",
+      "requiresWarning": false,
+      "intro": [
+        "Entre mai 1943 et avril 1944, une maison située à Izieu, dans l'Ain, accueille des enfants juifs. La colonie est dirigée par Sabine et Miron Zlatin. Dans un contexte de persécutions, elle organise une vie quotidienne : repas, scolarité, jeux, lettres.",
+        "Ce chapitre présente le lieu, les adultes qui l'ont porté et les enfants qui y ont vécu. Il ne raconte pas encore la rafle."
+      ],
+      "scenes": [
+        {
+          "id": "bienvenue",
+          "title": "Bienvenue à Izieu",
+          "kicker": "Espace 1 sur 4",
+          "illustration": "./assets/illustrations/maison-exterieur.svg",
+          "illustrationAlt": "Illustration originale : une maison rurale avec un toit en pente, des arbres, un chemin et des collines.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine, non photographique.",
+          "lead": "Mai 1943. Une maison rurale, des arbres, un chemin. Ici commence une histoire faite de vies d'enfants.",
+          "paragraphs": [
+            "La Maison d'Izieu se trouve dans l'Ain, à l'écart de la ville. Elle est choisie pour accueillir une colonie d'enfants juifs menacés par les persécutions antisémites.",
+            "Le lieu doit offrir un refuge : des repas, un toit, une scolarité et des activités. Les enfants y vivent, grandissent et nouent des relations.",
+            "Cette illustration est une reconstitution contemporaine. Elle évoque le cadre sans prétendre reproduire l'architecture exacte de la maison."
+          ],
+          "hotspots": [
+            {
+              "id": "maison",
+              "x": 56,
+              "y": 56,
+              "label": "La maison",
+              "action": { "type": "document", "id": "doc-photo-maison" }
+            },
+            {
+              "id": "chemin",
+              "x": 74,
+              "y": 80,
+              "label": "Le chemin",
+              "action": {
+                "type": "note",
+                "title": "Un lieu à l'écart",
+                "text": "La colonie est installée dans une maison rurale. Ce cadre participe à la volonté de protéger les enfants et d'organiser une vie collective.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "paysage",
+              "x": 18,
+              "y": 45,
+              "label": "Le paysage",
+              "action": {
+                "type": "note",
+                "title": "Le cadre de vie",
+                "text": "Les arbres, les collines et le chemin font partie du cadre de vie de la colonie. Le jeu les évoque par une illustration originale, sans les présenter comme une photographie.",
+                "category": "Reconstitution illustrative"
+              }
+            },
+            {
+              "id": "ciel",
+              "x": 80,
+              "y": 18,
+              "label": "Mai 1943",
+              "action": {
+                "type": "note",
+                "title": "L'ouverture de la colonie",
+                "text": "La colonie ouvre en mai 1943. Elle fonctionne jusqu'à la rafle du 6 avril 1944.",
+                "category": "Fait historique vérifié"
+              }
+            }
+          ],
+          "readingList": ["doc-photo-maison"],
+          "required": [{ "type": "document", "id": "doc-photo-maison" }],
+          "activity": null
+        },
+        {
+          "id": "refuge",
+          "title": "Un refuge",
+          "kicker": "Espace 2 sur 4",
+          "illustration": "./assets/illustrations/bureau-colonie.svg",
+          "illustrationAlt": "Illustration originale : un bureau avec un registre, une lampe, un téléphone et une fenêtre ouverte sur la campagne.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine, non photographique.",
+          "lead": "Derrière la maison, deux adultes : Sabine et Miron Zlatin. Ils organisent l'accueil et la vie de la colonie.",
+          "paragraphs": [
+            "Sabine Zlatin est à l'origine de la colonie. Avec Miron Zlatin, elle met en place l'accueil des enfants et les démarches nécessaires à la vie de la maison.",
+            "Le couple ne fait pas seulement fonctionner un lieu. Il accompagne des enfants séparés de leurs familles, dans un contexte où chaque décision compte.",
+            "Les fiches de ce jeu distinguent les faits documentés des textes de médiation. Aucune pensée ou parole n'est inventée."
+          ],
+          "hotspots": [
+            {
+              "id": "bureau",
+              "x": 45,
+              "y": 62,
+              "label": "Le registre",
+              "action": { "type": "document", "id": "doc-administratif" }
+            },
+            {
+              "id": "chaise-sabine",
+              "x": 36,
+              "y": 55,
+              "label": "Sabine Zlatin",
+              "action": { "type": "person", "id": "sabine-zlatin" }
+            },
+            {
+              "id": "chaise-miron",
+              "x": 82,
+              "y": 62,
+              "label": "Miron Zlatin",
+              "action": { "type": "person", "id": "miron-zlatin" }
+            },
+            {
+              "id": "fenetre",
+              "x": 78,
+              "y": 28,
+              "label": "La fenêtre",
+              "action": {
+                "type": "note",
+                "title": "Une colonie de vacances",
+                "text": "La maison est organisée comme une colonie de vacances : hébergement, repas, activités et scolarité. Ce cadre structure le quotidien des enfants.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["sabine-zlatin", "miron-zlatin", "doc-administratif"],
+          "required": [
+            { "type": "person", "id": "sabine-zlatin" },
+            { "type": "person", "id": "miron-zlatin" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "enfants",
+          "title": "Les enfants",
+          "kicker": "Espace 3 sur 4",
+          "illustration": "./assets/illustrations/cour-enfants.svg",
+          "illustrationAlt": "Illustration originale : une cour avec une marelle, un ballon, un banc et une corde à linge. Aucune personne n'est représentée.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine, non photographique.",
+          "lead": "Plus d'une centaine d'enfants sont accueillis au fil des mois. Derrière ce nombre, des vies singulières.",
+          "paragraphs": [
+            "Entre mai 1943 et avril 1944, la colonie accueille plus d'une centaine d'enfants. Ce chiffre désigne l'ensemble des enfants reçus pendant cette période, et non le nombre d'enfants présents simultanément.",
+            "Les enfants viennent de familles juives confrontées aux persécutions. Certains sont séparés de leurs parents. La colonie tente de leur offrir un cadre stable.",
+            "Le jeu ne reproduit pas la liste nominative complète dans cette version. Elle est consultable auprès du Mémorial de la Maison d'Izieu. Ne pas afficher un nom ne signifie pas l'oublier : cela évite de fabriquer des informations."
+          ],
+          "hotspots": [
+            {
+              "id": "marelle",
+              "x": 38,
+              "y": 78,
+              "label": "La marelle",
+              "action": { "type": "person", "id": "enfants-arretes" }
+            },
+            {
+              "id": "ballon",
+              "x": 58,
+              "y": 86,
+              "label": "Le ballon",
+              "action": {
+                "type": "note",
+                "title": "Des enfants, pas seulement des victimes",
+                "text": "Les archives conservent des traces de jeux, d'activités et de vie quotidienne. Le jeu commence par cette vie, avant la tragédie.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "banc",
+              "x": 84,
+              "y": 72,
+              "label": "Le banc",
+              "action": { "type": "document", "id": "doc-photo-quotidien" }
+            },
+            {
+              "id": "linge",
+              "x": 58,
+              "y": 28,
+              "label": "Le linge",
+              "action": {
+                "type": "note",
+                "title": "Un quotidien matériel",
+                "text": "Lessive, repas, chauffage, scolarité : la vie de la colonie est aussi faite de tâches concrètes.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["enfants-arretes", "doc-photo-quotidien"],
+          "required": [
+            { "type": "person", "id": "enfants-arretes" },
+            { "type": "document", "id": "doc-photo-quotidien" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "quotidien",
+          "title": "Une vie quotidienne",
+          "kicker": "Espace 4 sur 4",
+          "illustration": "./assets/illustrations/interieur-quotidien.svg",
+          "illustrationAlt": "Illustration originale : une salle commune avec une grande table, des bols, des livres, un poêle et une fenêtre.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine, non photographique.",
+          "lead": "Une table, des assiettes, des cahiers, des lettres. La vie continue, malgré la guerre.",
+          "paragraphs": [
+            "Le quotidien de la colonie s'organise autour de repas, d'activités, de la scolarité et des correspondances. Les adultes tentent de maintenir un cadre de vie stable.",
+            "Les lettres et les documents conservés permettent de retrouver des fragments de cette vie. Ils ne disent pas tout : une lettre montre un moment, une relation, une préoccupation.",
+            "Ce chapitre se termine sur une phrase de médiation, pas sur une citation historique : « Pendant plusieurs mois, cette maison a été un refuge. »"
+          ],
+          "hotspots": [
+            {
+              "id": "table",
+              "x": 50,
+              "y": 66,
+              "label": "La table",
+              "action": { "type": "document", "id": "doc-lettres" }
+            },
+            {
+              "id": "poele",
+              "x": 20,
+              "y": 52,
+              "label": "Le poêle",
+              "action": {
+                "type": "note",
+                "title": "La vie matérielle",
+                "text": "Se chauffer, cuisiner, laver, organiser. La colonie est un lieu de vie collectif qui demande une organisation constante.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "fenetre",
+              "x": 80,
+              "y": 28,
+              "label": "La fenêtre",
+              "action": {
+                "type": "note",
+                "title": "L'inquiétude",
+                "text": "La vie quotidienne se déroule dans un contexte de persécutions. La colonie est un refuge, mais elle n'est pas coupée du monde.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "livres",
+              "x": 88,
+              "y": 42,
+              "label": "Les livres",
+              "action": {
+                "type": "note",
+                "title": "L'école",
+                "text": "La scolarité fait partie de la vie de la colonie. Les documents administratifs et les témoignages permettent d'en retrouver certains aspects.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-lettres", "doc-photo-quotidien"],
+          "required": [{ "type": "document", "id": "doc-lettres" }],
+          "activity": null
+        }
+      ],
+      "completion": {
+        "title": "Chapitre I — La maison",
+        "text": [
+          "Ce chapitre a présenté la maison, les adultes qui l'ont organisée et les enfants qui y ont vécu. La suite du parcours s'intéresse aux traces laissées derrière eux.",
+          "Les documents ne sont pas de simples illustrations. Chacun possède une provenance, un contexte et des limites."
+        ],
+        "quote": "Pendant plusieurs mois, cette maison a été un refuge.",
+        "quoteLabel": "Texte de médiation",
+        "next": "chapitre-2"
+      }
+    },
+    {
+      "id": "chapitre-2",
+      "order": 2,
+      "number": "II",
+      "title": "Les traces",
+      "period": "1943–1944 et conservation ultérieure",
+      "subtitle": "Ce que les documents permettent de savoir",
+      "description": "Apprendre à regarder les photographies, les lettres, les dessins et les archives.",
+      "cover": "./assets/illustrations/galerie-photos.svg",
+      "coverAlt": "Illustration originale : une galerie avec trois cadres abstraits et un banc.",
+      "mood": "day",
+      "requiresWarning": false,
+      "intro": [
+        "Les archives ne conservent pas seulement des dates. Elles gardent des photographies, des lettres, des dessins et des documents administratifs. Chacun de ces objets possède un statut, une provenance et des limites.",
+        "Ce chapitre apprend à regarder ces traces : ce qu'elles montrent, ce qu'elles permettent d'établir, et ce qu'elles ne disent pas."
+      ],
+      "scenes": [
+        {
+          "id": "photographies",
+          "title": "Les photographies",
+          "kicker": "Espace 1 sur 4",
+          "illustration": "./assets/illustrations/galerie-photos.svg",
+          "illustrationAlt": "Illustration originale : une salle d'exposition avec trois cadres aux contenus abstraits, un banc et des cartels.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucune photographie d'archive n'est reproduite.",
+          "lead": "Une photographie montre un instant. Elle ne raconte pas toute une vie.",
+          "paragraphs": [
+            "Des photographies liées à la colonie sont conservées. Elles documentent des moments, des lieux et des personnes. Leur date, leur auteur et leur contexte ne sont pas toujours connus.",
+            "Une image ne parle pas d'elle-même. Il faut la replacer dans une série, dans une époque et dans un usage. Une photographie de groupe ne permet pas de conclure à un bonheur général.",
+            "Le jeu ne reproduit pas les photographies d'archives dans cette version. Les fiches indiquent leur institution de conservation et renvoient aux sources officielles."
+          ],
+          "hotspots": [
+            {
+              "id": "cadre-1",
+              "x": 23,
+              "y": 42,
+              "label": "Cadre 1",
+              "action": { "type": "document", "id": "doc-photo-maison" }
+            },
+            {
+              "id": "cadre-2",
+              "x": 50,
+              "y": 42,
+              "label": "Cadre 2",
+              "action": { "type": "document", "id": "doc-photo-quotidien" }
+            },
+            {
+              "id": "cadre-3",
+              "x": 77,
+              "y": 42,
+              "label": "Cadre 3",
+              "action": { "type": "document", "id": "doc-portrait-sabine" }
+            },
+            {
+              "id": "cartel",
+              "x": 50,
+              "y": 78,
+              "label": "Le cartel",
+              "action": {
+                "type": "note",
+                "title": "Ce que montre une image",
+                "text": "Une photographie est une trace du réel, mais elle est cadrée, choisie et datée. Elle ne dit pas tout de la vie des personnes représentées.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": [
+            "doc-photo-maison",
+            "doc-photo-quotidien",
+            "doc-portrait-sabine",
+            "doc-portrait-miron",
+            "doc-portrait-lea"
+          ],
+          "required": [
+            { "type": "document", "id": "doc-portrait-sabine" },
+            { "type": "document", "id": "doc-portrait-miron" }
+          ],
+          "activity": {
+            "id": "activite-preuves",
+            "type": "evidence",
+            "title": "Atelier — Distinguer les preuves",
+            "intro": "Pour chaque affirmation, indiquez ce que les sources permettent d'établir. Il n'y a pas de score : l'objectif est de comprendre la différence entre un fait, une interprétation et une absence d'information.",
+            "categories": [
+              { "id": "confirme", "label": "Confirmé par une source" },
+              { "id": "interprete", "label": "Interprété à partir d'un document" },
+              { "id": "non-etabli", "label": "Non établi par les sources" }
+            ],
+            "items": [
+              {
+                "id": "preuve-1",
+                "text": "La Maison d'Izieu a accueilli plus d'une centaine d'enfants entre mai 1943 et avril 1944.",
+                "answer": "confirme",
+                "feedback": "Le chiffre est documenté. Il désigne les enfants accueillis pendant toute la durée de la colonie, et non le nombre d'enfants présents en même temps."
+              },
+              {
+                "id": "preuve-2",
+                "text": "Une photographie de groupe permet d'affirmer que tous les enfants étaient heureux à Izieu.",
+                "answer": "interprete",
+                "feedback": "Une photographie montre un instant, un cadrage et un choix. Elle peut suggérer une ambiance, mais elle ne permet pas de généraliser un état émotionnel."
+              },
+              {
+                "id": "preuve-3",
+                "text": "Les sources permettent de connaître les dernières paroles de chaque enfant.",
+                "answer": "non-etabli",
+                "feedback": "Aucune source consultée ne permet de reconstituer les dernières paroles de chaque enfant. Le jeu ne les invente pas."
+              }
+            ],
+            "completion": "Atelier terminé. Vous avez distingué un fait documenté, une interprétation et une information non établie."
+          }
+        },
+        {
+          "id": "lettres",
+          "title": "Les lettres",
+          "kicker": "Espace 2 sur 4",
+          "illustration": "./assets/illustrations/table-lettres.svg",
+          "illustrationAlt": "Illustration originale : un bureau avec des enveloppes, des feuilles abstraites, une loupe et une lampe.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucune lettre réelle n'est reproduite.",
+          "lead": "Une lettre a un auteur, un destinataire, une date, un lieu. Elle est une relation, pas seulement un texte.",
+          "paragraphs": [
+            "Des lettres et correspondances liées à la colonie ont été conservées. Elles peuvent éclairer des relations, des démarches ou des préoccupations quotidiennes.",
+            "Leur contenu doit être lu avec prudence. Une lettre ne représente qu'un moment de la correspondance. Elle ne permet pas, à elle seule, de connaître l'ensemble d'une vie.",
+            "Le jeu ne reproduit pas les lettres dans cette version. Les fiches indiquent ce qui est établi et ce qui reste à vérifier."
+          ],
+          "hotspots": [
+            {
+              "id": "lettre",
+              "x": 42,
+              "y": 56,
+              "label": "La lettre",
+              "action": { "type": "document", "id": "doc-lettres" }
+            },
+            {
+              "id": "enveloppe",
+              "x": 62,
+              "y": 52,
+              "label": "L'enveloppe",
+              "action": {
+                "type": "note",
+                "title": "Auteur, destinataire, date",
+                "text": "Ces trois informations sont essentielles pour comprendre une lettre. Lorsqu'elles manquent, il faut le signaler plutôt que les inventer.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "loupe",
+              "x": 78,
+              "y": 52,
+              "label": "La loupe",
+              "action": {
+                "type": "note",
+                "title": "Lire sans combler les lacunes",
+                "text": "Les documents conservés ne permettent pas toujours de répondre à toutes les questions. Le jeu indique ces limites.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-lettres"],
+          "required": [{ "type": "document", "id": "doc-lettres" }],
+          "activity": null
+        },
+        {
+          "id": "dessins",
+          "title": "Les dessins",
+          "kicker": "Espace 3 sur 4",
+          "illustration": "./assets/illustrations/table-dessins.svg",
+          "illustrationAlt": "Illustration originale : une table avec des feuilles vierges, des crayons de couleur, un portfolio et un cadre vide.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucun dessin d'enfant n'est reproduit.",
+          "lead": "Des dessins d'enfants ont été conservés. Ils témoignent d'une activité, d'un geste, d'un moment.",
+          "paragraphs": [
+            "Des dessins réalisés par des enfants de la colonie font partie des traces conservées. Le jeu ne les reproduit pas et ne prétend pas en révéler le sens.",
+            "Un dessin peut être étudié pour sa date, ses matériaux, son contexte de production. Il ne permet pas de conclure à lui seul aux pensées ou aux émotions de son auteur.",
+            "Cette prudence n'efface pas la présence des enfants. Elle évite de leur prêter des intentions qu'ils n'ont pas exprimées."
+          ],
+          "hotspots": [
+            {
+              "id": "feuille",
+              "x": 40,
+              "y": 55,
+              "label": "La feuille",
+              "action": { "type": "document", "id": "doc-dessins" }
+            },
+            {
+              "id": "crayons",
+              "x": 64,
+              "y": 55,
+              "label": "Les crayons",
+              "action": {
+                "type": "note",
+                "title": "Une activité",
+                "text": "Dessiner, écrire, jouer : ces activités font partie de la vie de la colonie. Les traces qui en restent sont fragmentaires.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "portfolio",
+              "x": 76,
+              "y": 60,
+              "label": "Le portfolio",
+              "action": {
+                "type": "note",
+                "title": "Conserver",
+                "text": "La conservation des dessins dépend de gestes, de lieux et d'institutions. Une trace ne survit pas par hasard.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-dessins"],
+          "required": [{ "type": "document", "id": "doc-dessins" }],
+          "activity": null
+        },
+        {
+          "id": "archives",
+          "title": "Le travail d'archive",
+          "kicker": "Espace 4 sur 4",
+          "illustration": "./assets/illustrations/archive-boitiers.svg",
+          "illustrationAlt": "Illustration originale : une salle d'archives avec des boîtes, des rayonnages, une table de consultation et une lampe.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine.",
+          "lead": "Archiver, ce n'est pas seulement ranger. C'est choisir, décrire, conserver et rendre consultable.",
+          "paragraphs": [
+            "Les archives de la colonie comprennent des documents administratifs, des photographies, des lettres et des dessins. Leur conservation permet de les étudier et de les transmettre.",
+            "En 1993, Sabine Zlatin confie une partie de ses archives à la Bibliothèque nationale de France. Ce dépôt inscrit ces documents dans une institution de conservation.",
+            "Le travail d'archive ne remplace pas les personnes. Il rend leurs traces accessibles, avec des limites et des responsabilités."
+          ],
+          "hotspots": [
+            {
+              "id": "boite",
+              "x": 45,
+              "y": 60,
+              "label": "La boîte",
+              "action": { "type": "document", "id": "doc-bnf-1993" }
+            },
+            {
+              "id": "etagere",
+              "x": 18,
+              "y": 35,
+              "label": "L'étagère",
+              "action": { "type": "document", "id": "doc-administratif" }
+            },
+            {
+              "id": "table",
+              "x": 72,
+              "y": 66,
+              "label": "La table",
+              "action": {
+                "type": "note",
+                "title": "Une chaîne de conservation",
+                "text": "Collecter, trier, décrire, conserver, rendre accessible : ces étapes permettent à un document de traverser le temps.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-administratif", "doc-bnf-1993", "doc-lettres", "doc-dessins"],
+          "required": [
+            { "type": "document", "id": "doc-administratif" },
+            { "type": "document", "id": "doc-bnf-1993" }
+          ],
+          "activity": {
+            "id": "activite-classement",
+            "type": "classification",
+            "title": "Atelier — Classer un document",
+            "intro": "À quelle catégorie appartient chaque description ? En cas d'erreur, l'explication aide à comprendre ce que chaque type de document permet d'établir.",
+            "categories": [
+              { "id": "photographie", "label": "Photographie" },
+              { "id": "lettre", "label": "Lettre" },
+              { "id": "dessin", "label": "Dessin" },
+              { "id": "document-administratif", "label": "Document administratif" }
+            ],
+            "items": [
+              {
+                "id": "classement-1",
+                "text": "Une image prise pendant le séjour, montrant un groupe d'enfants dans la cour.",
+                "answer": "photographie",
+                "feedback": "Une photographie documente un instant et un cadrage. Elle ne dit pas tout de la vie des personnes représentées."
+              },
+              {
+                "id": "classement-2",
+                "text": "Un courrier daté, adressé à une personne nommée.",
+                "answer": "lettre",
+                "feedback": "Une lettre est une relation entre un auteur et un destinataire. Sa date et son contexte sont essentiels."
+              },
+              {
+                "id": "classement-3",
+                "text": "Une feuille couverte de traits et de couleurs, réalisée par un enfant.",
+                "answer": "dessin",
+                "feedback": "Un dessin est une trace d'activité. Il ne faut pas lui faire dire plus que ce qu'il montre."
+              },
+              {
+                "id": "classement-4",
+                "text": "Une liste de noms et de dates établie pour organiser l'accueil.",
+                "answer": "document-administratif",
+                "feedback": "Un document administratif permet d'établir des noms, des dates ou des décisions. Il ne résume pas à lui seul la vie des personnes."
+              }
+            ],
+            "completion": "Atelier terminé. Chaque type de document possède ses apports et ses limites."
+          }
+        }
+      ],
+      "completion": {
+        "title": "Chapitre II — Les traces",
+        "text": [
+          "Ce chapitre a montré que les traces ne parlent pas seules. Leur sens dépend de leur provenance, de leur contexte et de la manière dont on les interroge.",
+          "Les documents ne remplacent pas les personnes. Ils permettent de les retrouver, avec précision et retenue."
+        ],
+        "quote": "Ce sont parfois les petites traces qui permettent de préserver les grandes histoires.",
+        "quoteLabel": "Texte de médiation",
+        "next": "chapitre-3"
+      }
+    },
+    {
+      "id": "chapitre-3",
+      "order": 3,
+      "number": "III",
+      "title": "Le 6 avril 1944",
+      "period": "Avril–juin 1944",
+      "subtitle": "La rafle et les parcours",
+      "description": "Comprendre les faits, les étapes de la déportation et les destins distincts.",
+      "cover": "./assets/illustrations/salle-recueil.svg",
+      "coverAlt": "Illustration originale : une salle sobre avec une grande fenêtre et un banc.",
+      "mood": "solemn",
+      "requiresWarning": true,
+      "intro": [
+        "Le 6 avril 1944, les forces de la Gestapo de Lyon arrêtent les personnes présentes à la Maison d'Izieu. 44 enfants et 7 adultes sont arrêtés.",
+        "Ce chapitre présente les faits, les parcours et les destins. Il ne reconstitue aucune scène de violence et ne cherche pas à transformer la rafle en niveau de jeu."
+      ],
+      "scenes": [
+        {
+          "id": "contexte",
+          "title": "Le contexte",
+          "kicker": "Espace 1 sur 5",
+          "illustration": "./assets/illustrations/dossier-contexte.svg",
+          "illustrationAlt": "Illustration originale : un bureau sobre avec un dossier, un calendrier abstrait, une carte schématique et un tampon.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucun document historique n'est reproduit.",
+          "lead": "Pour comprendre le 6 avril 1944, il faut regarder le contexte des persécutions antisémites.",
+          "paragraphs": [
+            "Pendant l'Occupation, les autorités allemandes et le régime de Vichy multiplient les mesures contre les Juifs. Les familles sont surveillées, arrêtées, internées ou contraintes de fuir.",
+            "Dans ce contexte, des lieux de refuge tentent de protéger des enfants. La Maison d'Izieu est l'un de ces lieux. Elle n'est pas hors du monde : elle reste exposée aux persécutions.",
+            "Klaus Barbie, responsable de la Gestapo de Lyon, ordonne l'opération du 6 avril 1944. Les faits sont documentés par les sources historiques."
+          ],
+          "hotspots": [
+            {
+              "id": "calendrier",
+              "x": 63,
+              "y": 52,
+              "label": "Le calendrier",
+              "action": {
+                "type": "note",
+                "title": "Avril 1944",
+                "text": "La rafle a lieu le jeudi 6 avril 1944. Elle s'inscrit dans une période de durcissement des persécutions.",
+                "category": "Fait historique vérifié"
+              }
+            },
+            {
+              "id": "carte",
+              "x": 38,
+              "y": 78,
+              "label": "La carte",
+              "action": {
+                "type": "note",
+                "title": "Lyon, Montluc, Drancy",
+                "text": "Après leur arrestation, les personnes sont emmenées à la prison Montluc à Lyon, puis transférées vers Drancy.",
+                "category": "Fait historique vérifié"
+              }
+            },
+            {
+              "id": "tampon",
+              "x": 76,
+              "y": 60,
+              "label": "Klaus Barbie",
+              "action": { "type": "person", "id": "klaus-barbie" }
+            }
+          ],
+          "readingList": ["klaus-barbie", "doc-liste-arrestes"],
+          "required": [
+            { "type": "person", "id": "klaus-barbie" },
+            { "type": "document", "id": "doc-liste-arrestes" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "rafle",
+          "title": "La rafle",
+          "kicker": "Espace 2 sur 5",
+          "illustration": "./assets/illustrations/maison-exterieur.svg",
+          "illustrationAlt": "Illustration originale : la maison et son environnement, dans une lumière plus sobre.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucune scène de violence n'est représentée.",
+          "lead": "Le jeudi 6 avril 1944, la Gestapo de Lyon arrête les personnes présentes à la colonie.",
+          "paragraphs": [
+            "44 enfants et 7 adultes sont arrêtés. Sabine Zlatin se trouve alors à Montpellier, où elle cherche des solutions pour disperser les enfants.",
+            "L'opération est ordonnée par Klaus Barbie, responsable de la Gestapo de Lyon. Les personnes arrêtées sont conduites à la prison Montluc.",
+            "Le jeu ne reconstitue pas la scène. Il présente les faits établis, sans image de violence et sans dialogue inventé."
+          ],
+          "hotspots": [
+            {
+              "id": "maison",
+              "x": 56,
+              "y": 56,
+              "label": "La maison",
+              "action": {
+                "type": "note",
+                "title": "Ce jour-là",
+                "text": "La rafle met fin à l'existence de la colonie. Les personnes présentes sont arrêtées.",
+                "category": "Fait historique vérifié"
+              }
+            },
+            {
+              "id": "chemin",
+              "x": 74,
+              "y": 80,
+              "label": "Sabine Zlatin, absente",
+              "action": { "type": "person", "id": "sabine-zlatin" }
+            },
+            {
+              "id": "ciel",
+              "x": 50,
+              "y": 18,
+              "label": "Le ciel",
+              "action": {
+                "type": "note",
+                "title": "Une opération ordonnée",
+                "text": "Klaus Barbie, responsable de la Gestapo de Lyon, ordonne l'arrestation. Le fait est documenté par les sources historiques.",
+                "category": "Fait historique vérifié"
+              }
+            }
+          ],
+          "readingList": ["sabine-zlatin", "doc-liste-arrestes"],
+          "required": [
+            { "type": "person", "id": "sabine-zlatin" },
+            { "type": "document", "id": "doc-liste-arrestes" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "parcours",
+          "title": "Le parcours",
+          "kicker": "Espace 3 sur 5",
+          "illustration": "./assets/illustrations/parcours.svg",
+          "illustrationAlt": "Schéma de médiation original : Izieu, Montluc, Drancy, puis deux branches vers Auschwitz-Birkenau et Reval.",
+          "illustrationCredit": "Schéma de médiation original — non à l'échelle. Les parcours ne sont pas identiques.",
+          "lead": "Izieu, Montluc, Drancy, puis plusieurs convois. Tous les parcours ne se ressemblent pas.",
+          "paragraphs": [
+            "Les 44 enfants et 7 adultes sont d'abord emprisonnés à Montluc, à Lyon, les 6 et 7 avril 1944. Ils sont ensuite transférés vers Drancy, où ils arrivent le 8 avril.",
+            "Les déportations ont lieu par plusieurs convois entre avril et juin 1944. Le convoi 71 quitte Drancy le 13 avril 1944. Le convoi 73 part le 15 mai 1944 vers l'Estonie.",
+            "Les destinations diffèrent : Auschwitz-Birkenau pour la majorité du groupe, Reval pour Miron Zlatin, Théo Reis et Arnold Hirsch."
+          ],
+          "hotspots": [
+            {
+              "id": "montluc",
+              "x": 30,
+              "y": 68,
+              "label": "Montluc",
+              "action": {
+                "type": "note",
+                "title": "Montluc",
+                "text": "La prison de Montluc, à Lyon, est utilisée notamment par la Gestapo pendant l'Occupation. Les personnes arrêtées y sont emprisonnées les 6 et 7 avril 1944.",
+                "category": "Fait historique vérifié"
+              }
+            },
+            {
+              "id": "drancy",
+              "x": 50,
+              "y": 63,
+              "label": "Drancy",
+              "action": {
+                "type": "note",
+                "title": "Drancy",
+                "text": "Le camp de Drancy, près de Paris, est un lieu d'internement et de transit utilisé pour les déportations.",
+                "category": "Fait historique vérifié"
+              }
+            },
+            {
+              "id": "auschwitz",
+              "x": 77,
+              "y": 40,
+              "label": "Auschwitz-Birkenau",
+              "action": { "type": "document", "id": "doc-convoi-71" }
+            },
+            {
+              "id": "reval",
+              "x": 77,
+              "y": 82,
+              "label": "Reval",
+              "action": { "type": "document", "id": "doc-convoi-73" }
+            }
+          ],
+          "readingList": ["doc-convoi-71", "doc-convoi-73"],
+          "required": [
+            { "type": "document", "id": "doc-convoi-71" },
+            { "type": "document", "id": "doc-convoi-73" }
+          ],
+          "activity": {
+            "id": "activite-chronologie",
+            "type": "chronology",
+            "title": "Atelier — Remettre les événements dans l'ordre",
+            "intro": "Cliquez sur les événements dans l'ordre chronologique. Aucun chronomètre : prenez le temps de réfléchir.",
+            "eventIds": [
+              "ouverture",
+              "rafle",
+              "drancy-arrivee",
+              "convoi-71",
+              "convoi-73",
+              "commemoration-1946",
+              "proces-1987",
+              "memorial-1994"
+            ],
+            "completion": "Atelier terminé. Vous avez reconstitué la chronologie du parcours et de sa mémoire."
+          }
+        },
+        {
+          "id": "destins",
+          "title": "Les destins",
+          "kicker": "Espace 4 sur 5",
+          "illustration": "./assets/illustrations/salle-recueil.svg",
+          "illustrationAlt": "Illustration originale : une salle sobre avec un banc, une plaque sans inscription et une lumière douce.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucune scène de violence n'est représentée.",
+          "lead": "51 personnes arrêtées. Des parcours distincts. Des vies interrompues.",
+          "paragraphs": [
+            "42 enfants et 5 adultes sont assassinés à Auschwitz-Birkenau. Miron Zlatin, Théo Reis et Arnold Hirsch sont fusillés à Reval, aujourd'hui Tallinn, en Estonie, au cours de l'été 1944.",
+            "Léa Feldblum, monitrice de la colonie, est la seule rescapée du groupe. Elle témoigne après la guerre, notamment au procès de Klaus Barbie en 1987.",
+            "Présenter ces parcours séparément est essentiel. Toutes les personnes arrêtées n'ont pas connu le même itinéraire ni la même destination."
+          ],
+          "hotspots": [
+            {
+              "id": "lumiere",
+              "x": 50,
+              "y": 28,
+              "label": "Les 51 personnes arrêtées",
+              "action": { "type": "document", "id": "doc-liste-arrestes" }
+            },
+            {
+              "id": "banc",
+              "x": 55,
+              "y": 78,
+              "label": "Le banc",
+              "action": { "type": "person", "id": "lea-feldblum" }
+            },
+            {
+              "id": "plaque",
+              "x": 80,
+              "y": 50,
+              "label": "La plaque",
+              "action": { "type": "person", "id": "miron-zlatin" }
+            }
+          ],
+          "readingList": [
+            "lea-feldblum",
+            "miron-zlatin",
+            "theo-reis",
+            "arnold-hirsch",
+            "adultes-arretes",
+            "doc-liste-arrestes"
+          ],
+          "required": [
+            { "type": "person", "id": "lea-feldblum" },
+            { "type": "person", "id": "miron-zlatin" },
+            { "type": "person", "id": "theo-reis" },
+            { "type": "person", "id": "arnold-hirsch" },
+            { "type": "person", "id": "adultes-arretes" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "temoignage",
+          "title": "Le témoignage",
+          "kicker": "Espace 5 sur 5",
+          "illustration": "./assets/illustrations/salle-recueil.svg",
+          "illustrationAlt": "Illustration originale : une salle de recueillement avec une grande fenêtre et un banc.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucune voix artificielle n'est utilisée.",
+          "lead": "Léa Feldblum a survécu. Elle a témoigné. Sa parole est une source, pas une reconstitution.",
+          "paragraphs": [
+            "Léa Feldblum était monitrice à la Maison d'Izieu. Arrêtée le 6 avril 1944, elle est déportée et survit. Elle est la seule rescapée du groupe.",
+            "Elle témoigne notamment au procès de Klaus Barbie, à Lyon, en 1987. Son témoignage contribue à la connaissance et à la mémoire de ce qui s'est passé.",
+            "Le jeu ne reproduit aucune parole sans vérification et autorisation. Aucune voix synthétique ne fait parler une victime. La fiche renvoie aux sources officielles."
+          ],
+          "hotspots": [
+            {
+              "id": "banc",
+              "x": 55,
+              "y": 78,
+              "label": "Le banc",
+              "action": { "type": "person", "id": "lea-feldblum" }
+            },
+            {
+              "id": "plaque",
+              "x": 80,
+              "y": 50,
+              "label": "La mémoire",
+              "action": { "type": "document", "id": "doc-temoignage-lea" }
+            },
+            {
+              "id": "fenetre",
+              "x": 30,
+              "y": 26,
+              "label": "La fenêtre",
+              "action": {
+                "type": "note",
+                "title": "Une voix, pas une reconstitution",
+                "text": "Un témoignage doit être cité avec sa date, son contexte et sa source. Le jeu ne fabrique ni citation ni voix artificielle.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["lea-feldblum", "doc-temoignage-lea"],
+          "required": [
+            { "type": "person", "id": "lea-feldblum" },
+            { "type": "document", "id": "doc-temoignage-lea" }
+          ],
+          "activity": null
+        }
+      ],
+      "completion": {
+        "title": "Chapitre III — Le 6 avril 1944",
+        "text": [
+          "Ce chapitre s'achève ici. Aucun score, aucune récompense. Les faits sont là, et avec eux les vies qu'ils concernent.",
+          "La suite du parcours présente le travail de mémoire : revenir, rassembler, commémorer, juger, archiver et transmettre."
+        ],
+        "quote": "Après les faits vient le temps de la mémoire.",
+        "quoteLabel": "Texte de médiation",
+        "next": "chapitre-4"
+      }
+    },
+    {
+      "id": "chapitre-4",
+      "order": 4,
+      "number": "IV",
+      "title": "Après",
+      "period": "1945 et décennies suivantes",
+      "subtitle": "Le travail de mémoire",
+      "description": "Comprendre comment les souvenirs ont été conservés, transmis et rendus publics.",
+      "cover": "./assets/illustrations/ceremonie.svg",
+      "coverAlt": "Illustration originale : une stèle de pierre sans inscription, des fleurs et des arbres.",
+      "mood": "memory",
+      "requiresWarning": false,
+      "intro": [
+        "Après la guerre, des personnes reviennent, rassemblent, témoignent et transmettent. La mémoire n'est pas un monument immobile : c'est un travail.",
+        "Ce chapitre présente le retour de Sabine Zlatin, les commémorations, le procès de Klaus Barbie, le dépôt d'archives et l'inauguration du mémorial."
+      ],
+      "scenes": [
+        {
+          "id": "retour",
+          "title": "Le retour",
+          "kicker": "Espace 1 sur 5",
+          "illustration": "./assets/illustrations/jardin-memoire.svg",
+          "illustrationAlt": "Illustration originale : un jardin au crépuscule, avec un banc, des arbres et la maison au loin.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine.",
+          "lead": "Après la rafle, Sabine Zlatin revient à Izieu. Elle rassemble des lettres, des dessins et des documents.",
+          "paragraphs": [
+            "Sabine Zlatin rentre à Izieu après la rafle. Elle récupère notamment des lettres, des dessins et d'autres documents laissés par les enfants.",
+            "Ce geste de collecte est un acte de mémoire. Il permet à des traces de ne pas disparaître et de pouvoir être étudiées plus tard.",
+            "En 1993, une partie de ses archives est confiée à la Bibliothèque nationale de France."
+          ],
+          "hotspots": [
+            {
+              "id": "maison",
+              "x": 50,
+              "y": 52,
+              "label": "La maison",
+              "action": { "type": "person", "id": "sabine-zlatin" }
+            },
+            {
+              "id": "chemin",
+              "x": 46,
+              "y": 82,
+              "label": "Les archives",
+              "action": { "type": "document", "id": "doc-bnf-1993" }
+            },
+            {
+              "id": "arbre",
+              "x": 20,
+              "y": 44,
+              "label": "L'arbre",
+              "action": {
+                "type": "note",
+                "title": "Rassembler les traces",
+                "text": "Collecter des documents après une disparition, c'est aussi tenter de préserver une présence.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["sabine-zlatin", "doc-bnf-1993"],
+          "required": [
+            { "type": "person", "id": "sabine-zlatin" },
+            { "type": "document", "id": "doc-bnf-1993" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "souvenir",
+          "title": "Le souvenir",
+          "kicker": "Espace 2 sur 5",
+          "illustration": "./assets/illustrations/ceremonie.svg",
+          "illustrationAlt": "Illustration originale : une stèle de pierre sans inscription, des fleurs déposées à son pied, des arbres.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucun nom n'est inventé.",
+          "lead": "Le 7 avril 1946, une première grande cérémonie commémorative a lieu. Les noms sont inscrits sur une plaque.",
+          "paragraphs": [
+            "La commémoration du 7 avril 1946 rassemble et inscrit les noms des enfants et des adultes arrêtés. Elle donne une place publique au souvenir.",
+            "Une plaque n'est pas seulement une liste. Elle rend visibles des personnes et affirme que leur histoire compte.",
+            "Le travail de mémoire se poursuit ensuite par des recherches, des publications et des lieux de transmission."
+          ],
+          "hotspots": [
+            {
+              "id": "stele",
+              "x": 50,
+              "y": 55,
+              "label": "La stèle",
+              "action": { "type": "document", "id": "doc-plaque-1946" }
+            },
+            {
+              "id": "fleurs",
+              "x": 35,
+              "y": 74,
+              "label": "Les fleurs",
+              "action": {
+                "type": "note",
+                "title": "Une commémoration",
+                "text": "Les cérémonies créent des moments collectifs où les noms sont lus, entendus et transmis.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "paysage",
+              "x": 78,
+              "y": 30,
+              "label": "Le paysage",
+              "action": {
+                "type": "note",
+                "title": "La mémoire dans l'espace public",
+                "text": "Monuments, plaques et cérémonies donnent une forme publique au souvenir. Ils ne remplacent pas les archives.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-plaque-1946"],
+          "required": [{ "type": "document", "id": "doc-plaque-1946" }],
+          "activity": null
+        },
+        {
+          "id": "justice",
+          "title": "La justice",
+          "kicker": "Espace 3 sur 5",
+          "illustration": "./assets/illustrations/palais-justice.svg",
+          "illustrationAlt": "Illustration originale : une façade de palais de justice avec des colonnes et des marches, sans personne.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Aucune scène de procès n'est reconstituée.",
+          "lead": "En 1987, Klaus Barbie est jugé à Lyon. Le procès est un moment important de la mémoire publique.",
+          "paragraphs": [
+            "Klaus Barbie, responsable de la Gestapo de Lyon, est jugé à Lyon en 1987 et condamné pour crimes contre l'humanité. Le procès rend publics des faits et des témoignages.",
+            "Léa Feldblum témoigne notamment lors de ce procès. Son récit s'inscrit dans une histoire judiciaire et mémorielle plus large.",
+            "Le jeu ne reproduit pas les débats. Il signale leur existence et renvoie aux sources."
+          ],
+          "hotspots": [
+            {
+              "id": "facade",
+              "x": 50,
+              "y": 45,
+              "label": "La façade",
+              "action": { "type": "document", "id": "doc-proces-barbie" }
+            },
+            {
+              "id": "marches",
+              "x": 60,
+              "y": 76,
+              "label": "Les marches",
+              "action": { "type": "document", "id": "doc-temoignage-lea" }
+            },
+            {
+              "id": "fenetre",
+              "x": 28,
+              "y": 35,
+              "label": "Klaus Barbie",
+              "action": { "type": "person", "id": "klaus-barbie" }
+            }
+          ],
+          "readingList": ["doc-proces-barbie", "doc-temoignage-lea", "klaus-barbie"],
+          "required": [
+            { "type": "document", "id": "doc-proces-barbie" },
+            { "type": "document", "id": "doc-temoignage-lea" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "archives-bnf",
+          "title": "Les archives",
+          "kicker": "Espace 4 sur 5",
+          "illustration": "./assets/illustrations/archive-boitiers.svg",
+          "illustrationAlt": "Illustration originale : une salle d'archives avec des boîtes, des rayonnages et une table de consultation.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine.",
+          "lead": "En 1993, Sabine Zlatin confie une partie de ses archives à la Bibliothèque nationale de France.",
+          "paragraphs": [
+            "Le dépôt à la BnF permet de conserver et de rendre consultables des documents liés à la colonie. Il les inscrit dans une institution patrimoniale.",
+            "Les archives ne sont pas neutres : elles sont sélectionnées, classées, décrites. Leur consultation demande de comprendre leur provenance.",
+            "La conservation est une condition de la transmission. Sans archives, certaines histoires ne pourraient plus être racontées."
+          ],
+          "hotspots": [
+            {
+              "id": "boite",
+              "x": 45,
+              "y": 58,
+              "label": "La boîte",
+              "action": { "type": "document", "id": "doc-bnf-1993" }
+            },
+            {
+              "id": "etagere",
+              "x": 18,
+              "y": 35,
+              "label": "L'étagère",
+              "action": { "type": "document", "id": "doc-administratif" }
+            },
+            {
+              "id": "table",
+              "x": 72,
+              "y": 66,
+              "label": "La table",
+              "action": {
+                "type": "note",
+                "title": "Conserver pour transmettre",
+                "text": "Une archive conservée peut être consultée, étudiée, citée et transmise. Sa survie dépend de choix et de moyens.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-bnf-1993", "doc-administratif"],
+          "required": [
+            { "type": "document", "id": "doc-bnf-1993" },
+            { "type": "document", "id": "doc-administratif" }
+          ],
+          "activity": null
+        },
+        {
+          "id": "memorial",
+          "title": "Le mémorial",
+          "kicker": "Espace 5 sur 5",
+          "illustration": "./assets/illustrations/jardin-memoire.svg",
+          "illustrationAlt": "Illustration originale : un jardin au crépuscule, avec un banc, des arbres et la maison au loin.",
+          "illustrationCredit": "Illustration originale — AVANT LE SILENCE. Reconstitution contemporaine.",
+          "lead": "Le 24 avril 1994, le mémorial de la Maison d'Izieu est inauguré.",
+          "paragraphs": [
+            "Le mémorial est inauguré le 24 avril 1994. Il donne un lieu durable à la mémoire de la colonie et des personnes arrêtées.",
+            "Un mémorial n'efface pas l'absence. Il crée un espace pour apprendre, se recueillir et transmettre.",
+            "Le jeu se termine par un texte de médiation. Il ne prétend pas remplacer les sources ni le travail des historiens."
+          ],
+          "hotspots": [
+            {
+              "id": "lieu",
+              "x": 50,
+              "y": 55,
+              "label": "Le lieu",
+              "action": { "type": "document", "id": "doc-memorial-1994" }
+            },
+            {
+              "id": "paysage",
+              "x": 78,
+              "y": 30,
+              "label": "Le paysage",
+              "action": {
+                "type": "note",
+                "title": "Un lieu de transmission",
+                "text": "Le mémorial accueille des visiteurs, des chercheurs et des groupes. La mémoire y devient une pratique.",
+                "category": "Texte de médiation"
+              }
+            },
+            {
+              "id": "chemin",
+              "x": 42,
+              "y": 82,
+              "label": "Le chemin",
+              "action": {
+                "type": "note",
+                "title": "Le rôle des visiteurs",
+                "text": "Visiter, lire, écouter, transmettre : la mémoire se poursuit dans les gestes de celles et ceux qui viennent.",
+                "category": "Texte de médiation"
+              }
+            }
+          ],
+          "readingList": ["doc-memorial-1994"],
+          "required": [{ "type": "document", "id": "doc-memorial-1994" }],
+          "activity": null
+        }
+      ],
+      "completion": {
+        "title": "Chapitre IV — Après",
+        "text": [
+          "Ce chapitre a présenté le travail de mémoire : collecter, commémorer, juger, archiver, transmettre.",
+          "La conclusion revient sur ce que les traces permettent de garder, et sur ce qu'elles ne remplacent pas."
+        ],
+        "quote": "Les traces ne remplacent pas les personnes. Elles permettent de ne pas les réduire au silence.",
+        "quoteLabel": "Texte de médiation",
+        "next": "conclusion"
+      }
+    }
+  ]
+}

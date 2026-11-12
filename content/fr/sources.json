@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "consultedAt": "2026-11-11",
+  "sources": [
+    {
+      "id": "izieu-creation",
+      "title": "Histoire de la Maison d'Izieu — création du musée-mémorial",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/le-musee-memorial/la-creation-du-musee-memorial/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "Le contexte de création de la colonie et du musée-mémorial",
+        "La place de la Maison d'Izieu dans l'histoire de la Shoah"
+      ],
+      "restrictions": "Les contenus du site sont protégés par le droit d'auteur. Aucune reproduction d'image n'est effectuée sans autorisation.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "izieu-rafle",
+      "title": "Le 6 avril 1944",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/histoire/histoire-pourquoi-des-enfants-juifs-a-izieu/le-6-avril-1944/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "La date et le déroulement général de la rafle",
+        "Le nombre de personnes arrêtées",
+        "Le rôle de Klaus Barbie et de la Gestapo de Lyon"
+      ],
+      "restrictions": "Reproduction des documents et images soumise à autorisation.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "izieu-deportation",
+      "title": "La déportation et l'extermination",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/histoire/histoire-pourquoi-des-enfants-juifs-a-izieu/la-deportation-et-lextermination/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "Les étapes du parcours : Montluc, Drancy, convois",
+        "Les destinations distinctes des personnes arrêtées",
+        "Le sort de Miron Zlatin, Théo Reis, Arnold Hirsch et Léa Feldblum"
+      ],
+      "restrictions": "Reproduction des documents et images soumise à autorisation.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "izieu-memoire",
+      "title": "La mémoire et sa construction",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/le-musee-memorial/la-memoire-et-sa-construction/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "La commémoration du 7 avril 1946",
+        "Le procès de Klaus Barbie en 1987",
+        "L'inauguration du mémorial le 24 avril 1994"
+      ],
+      "restrictions": "Reproduction des documents et images soumise à autorisation.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "izieu-archives",
+      "title": "Les archives",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/archives-et-recherches/les-archives/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "La nature des archives liées à la colonie",
+        "Les conditions de consultation et de reproduction",
+        "Le rôle de la conservation documentaire"
+      ],
+      "restrictions": "Toute reproduction est soumise aux conditions de l'institution.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "izieu-documents-images",
+      "title": "Documents et images",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/archives-et-recherches/documents-et-images/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "L'existence de documents et d'images conservés",
+        "Les conditions d'utilisation et de crédit"
+      ],
+      "restrictions": "Les documents et images demeurent soumis au droit d'auteur et aux conditions de l'institution. Aucune reproduction dans cette version.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "bnf-enfants-izieu",
+      "title": "Les enfants d'Izieu",
+      "institution": "Bibliothèque nationale de France",
+      "url": "https://www.bnf.fr/fr/mediatheque/les-enfants-dizieu",
+      "nature": "Ressource documentaire institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "L'existence de documents et d'archives conservés",
+        "Le contexte du fonds d'archives lié à la Maison d'Izieu"
+      ],
+      "restrictions": "Les reproductions sont soumises aux conditions de la BnF.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "izieu-ouvrage",
+      "title": "Ouvrage de référence sur la Maison d'Izieu",
+      "institution": "Musée-mémorial de la Maison d'Izieu",
+      "url": "https://www.memorializieu.eu/nouvel-ouvrage-de-reference/",
+      "nature": "Page institutionnelle",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "L'existence d'une synthèse historique de référence",
+        "Le cadre général de la recherche sur la Maison d'Izieu"
+      ],
+      "restrictions": "Consultation de l'ouvrage selon les conditions de l'éditeur et de l'institution.",
+      "status": "verified",
+      "official": true
+    },
+    {
+      "id": "proces-barbie-1987",
+      "title": "Procès de Klaus Barbie — cour d'assises du Rhône, Lyon, 1987",
+      "institution": "Cour d'assises du Rhône",
+      "url": null,
+      "nature": "Source judiciaire",
+      "consultedAt": "2026-11-11",
+      "establishes": [
+        "La tenue du procès à Lyon en 1987",
+        "La condamnation de Klaus Barbie pour crimes contre l'humanité",
+        "L'existence de témoignages, dont celui de Léa Feldblum"
+      ],
+      "restrictions": "Les actes et comptes rendus judiciaires doivent être consultés dans les institutions compétentes. Référence exacte à compléter avant publication.",
+      "status": "review_required",
+      "official": false,
+      "note": "Référence judiciaire à préciser par une source archivistique ou institutionnelle avant la version 1.0.0."
+    }
+  ]
+}

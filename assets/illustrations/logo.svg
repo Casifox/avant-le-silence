@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">AVANT LE SILENCE</title>
+  <desc id="logo-desc">Emblème original : une maison, un chemin et un soleil, dans une palette ivoire et brun.</desc>
+  <rect width="360" height="360" fill="#f4efe5"/>
+  <circle cx="180" cy="180" r="146" fill="none" stroke="#7a5c43" stroke-width="1.2" opacity="0.5"/>
+  <circle cx="256" cy="110" r="24" fill="#d9c4a5" opacity="0.9"/>
+  <path d="M78 184 180 98l102 86" fill="none" stroke="#272522" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M102 171v94h156v-94" fill="none" stroke="#272522" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M150 265v-58h60v58" fill="none" stroke="#7a5c43" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M126 192h28v30h-28zM206 192h28v30h-28z" fill="none" stroke="#7a5c43" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M78 290h204" stroke="#272522" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M180 290c-8-28-26-44-58-52M180 290c8-24 24-38 52-46" fill="none" stroke="#7a5c43" stroke-width="2.4" stroke-linecap="round" opacity="0.6"/>
+</svg>

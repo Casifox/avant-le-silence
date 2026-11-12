@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="galerie-title galerie-desc">
+  <title id="galerie-title">La galerie documentaire</title>
+  <desc id="galerie-desc">Illustration originale : une salle d'exposition avec trois cadres abstraits, un banc et une cartel. Aucune photographie d'archive n'est reproduite.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e0d0"/>
+      <stop offset="1" stop-color="#ddd0bb"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c5ad8c"/>
+      <stop offset="1" stop-color="#aa8e6c"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9d8064"/>
+      <stop offset="1" stop-color="#7a5c43"/>
+    </linearGradient>
+    <linearGradient id="photo1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7dfd6"/>
+      <stop offset="1" stop-color="#c2cdbf"/>
+    </linearGradient>
+    <linearGradient id="photo2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8dfcf"/>
+      <stop offset="1" stop-color="#d7c9b4"/>
+    </linearGradient>
+    <linearGradient id="photo3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbe2e4"/>
+      <stop offset="1" stop-color="#c4d0d3"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#fff7e8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff7e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#wall)"/>
+  <rect y="586" width="1200" height="164" fill="url(#floor)"/>
+  <path d="M0 586h1200" stroke="#9d8262" stroke-width="3" opacity="0.45"/>
+  <g stroke="#9d8262" stroke-width="2" opacity="0.2">
+    <path d="M0 632h1200M0 680h1200M0 728h1200"/>
+    <path d="M210 586v164M450 586v164M690 586v164M930 586v164"/>
+  </g>
+  <rect y="566" width="1200" height="30" fill="#d3c1a8" opacity="0.7"/>
+  <path d="M0 130h1200" stroke="#c9b89f" stroke-width="2" opacity="0.5"/>
+  <path d="M0 146h1200" stroke="#c9b89f" stroke-width="1" opacity="0.35"/>
+
+  <!-- Cadre 1 : paysage -->
+  <g>
+    <rect x="145" y="164" width="248" height="316" fill="url(#frame)"/>
+    <rect x="160" y="179" width="218" height="286" fill="#f4ecdd"/>
+    <rect x="176" y="195" width="186" height="254" fill="url(#photo1)"/>
+    <path d="M176 360c40-34 78-26 112-4 30 20 52 14 74-2v95H176Z" fill="#8fa187"/>
+    <path d="M176 392c34-20 66-14 98 4 30 16 58 12 88-4v57H176Z" fill="#758a6f"/>
+    <circle cx="318" cy="238" r="17" fill="#e9dcc3"/>
+    <path d="M236 320c0-28 16-48 34-48 14 0 28 20 28 48Z" fill="#b6a483"/>
+    <rect x="254" y="320" width="32" height="38" fill="#a39070"/>
+    <path d="M194 458h150" stroke="#d4c6ad" stroke-width="2" opacity="0.8"/>
+  </g>
+
+  <!-- Cadre 2 : table et papiers -->
+  <g>
+    <rect x="476" y="164" width="248" height="316" fill="url(#frame)"/>
+    <rect x="491" y="179" width="218" height="286" fill="#f4ecdd"/>
+    <rect x="507" y="195" width="186" height="254" fill="url(#photo2)"/>
+    <path d="M526 340h148v54H526Z" fill="#b39472"/>
+    <path d="M526 340h148v10H526Z" fill="#9d8064"/>
+    <path d="M548 300h64v40h-64Z" fill="#f7f1e6"/>
+    <path d="M560 310h40M560 318h32M560 326h36" stroke="#c0ad91" stroke-width="2"/>
+    <path d="M620 314h34v26h-34Z" fill="#efe3ce"/>
+    <path d="M536 420c0-20 24-20 24 0M570 420c0-20 24-20 24 0" fill="none" stroke="#7a5c43" stroke-width="3" opacity="0.4"/>
+    <circle cx="660" cy="236" r="24" fill="#d9c4a5" opacity="0.55"/>
+  </g>
+
+  <!-- Cadre 3 : fenêtre -->
+  <g>
+    <rect x="807" y="164" width="248" height="316" fill="url(#frame)"/>
+    <rect x="822" y="179" width="218" height="286" fill="#f4ecdd"/>
+    <rect x="838" y="195" width="186" height="254" fill="url(#photo3)"/>
+    <rect x="862" y="218" width="138" height="186" fill="#e9efe9"/>
+    <path d="M931 218v186M862 306h138" stroke="#8a6a4f" stroke-width="5"/>
+    <path d="M862 354c28-16 50-12 74 2 22 14 44 12 64-2v50H862Z" fill="#93a58a" opacity="0.8"/>
+    <path d="M862 382c24-10 46-8 66 4 20 12 42 10 72-4v33H862Z" fill="#7b8f74" opacity="0.8"/>
+    <rect x="846" y="206" width="16" height="196" fill="#f0e6d4" opacity="0.6"/>
+  </g>
+
+  <!-- Cartels -->
+  <g>
+    <rect x="236" y="498" width="96" height="20" rx="2" fill="#f4ecdd" opacity="0.7"/>
+    <rect x="562" y="498" width="96" height="20" rx="2" fill="#f4ecdd" opacity="0.7"/>
+    <rect x="898" y="498" width="96" height="20" rx="2" fill="#f4ecdd" opacity="0.7"/>
+    <path d="M246 506h66M572 506h66M908 506h66" stroke="#b9a687" stroke-width="2"/>
+  </g>
+
+  <!-- Banc -->
+  <g>
+    <rect x="448" y="602" width="304" height="22" rx="5" fill="#8a6a4f"/>
+    <rect x="464" y="578" width="272" height="18" rx="4" fill="#9d8064"/>
+    <path d="M480 624v58M720 624v58" stroke="#6d543e" stroke-width="13" stroke-linecap="round"/>
+    <path d="M480 654h240" stroke="#6d543e" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Plante -->
+  <g>
+    <path d="M1084 632h62l-8 82h-46Z" fill="#8a6a4f"/>
+    <path d="M1114 632c-6-38-2-66 12-86 14 22 18 50 10 86Z" fill="#6f806b"/>
+    <path d="M1116 632c-18-30-34-42-54-44 4 24 20 40 48 50Z" fill="#84977d"/>
+    <path d="M1114 632c18-26 34-36 52-38-2 22-18 36-44 44Z" fill="#778b71"/>
+  </g>
+
+  <rect width="1200" height="750" fill="url(#light)"/>
+</svg>

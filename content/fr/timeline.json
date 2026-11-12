@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "ouverture",
+      "date": "1943-05",
+      "displayDate": "Mai 1943",
+      "period": "1943-1944",
+      "title": "Ouverture de la colonie à Izieu",
+      "description": "La colonie ouvre à Izieu, dans l'Ain. Elle accueille des enfants juifs sous la direction de Sabine et Miron Zlatin. Pendant plusieurs mois, la maison est un lieu de vie, de scolarité et de refuge.",
+      "sourceIds": ["izieu-creation", "izieu-rafle"],
+      "documents": ["doc-photo-maison", "doc-administratif"],
+      "people": ["sabine-zlatin", "miron-zlatin", "enfants-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "rafle",
+      "date": "1944-04-06",
+      "displayDate": "6 avril 1944",
+      "period": "1943-1944",
+      "title": "La rafle de la Maison d'Izieu",
+      "description": "Le jeudi 6 avril 1944, les forces de la Gestapo de Lyon arrêtent les personnes présentes à la colonie : 44 enfants et 7 adultes. Sabine Zlatin se trouve alors à Montpellier. L'opération est ordonnée par Klaus Barbie.",
+      "sourceIds": ["izieu-rafle"],
+      "documents": ["doc-liste-arrestes"],
+      "people": ["sabine-zlatin", "klaus-barbie", "enfants-arretes", "adultes-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "montluc",
+      "date": "1944-04-06/1944-04-07",
+      "displayDate": "6–7 avril 1944",
+      "period": "1943-1944",
+      "title": "Emprisonnement à Montluc",
+      "description": "Les personnes arrêtées sont conduites à la prison Montluc, à Lyon. Elles y sont emprisonnées les 6 et 7 avril 1944.",
+      "sourceIds": ["izieu-rafle", "izieu-deportation"],
+      "documents": ["doc-liste-arrestes", "doc-convoi-71"],
+      "people": ["enfants-arretes", "adultes-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "drancy-transfert",
+      "date": "1944-04-07",
+      "displayDate": "7 avril 1944",
+      "period": "1943-1944",
+      "title": "Transfert vers Drancy",
+      "description": "Le groupe est transféré de Montluc vers le camp de Drancy, près de Paris.",
+      "sourceIds": ["izieu-deportation"],
+      "documents": ["doc-convoi-71"],
+      "people": ["enfants-arretes", "adultes-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "drancy-arrivee",
+      "date": "1944-04-08",
+      "displayDate": "8 avril 1944",
+      "period": "1943-1944",
+      "title": "Arrivée à Drancy",
+      "description": "Les personnes arrêtées arrivent au camp de Drancy. Drancy est un lieu d'internement et de transit utilisé pour les déportations.",
+      "sourceIds": ["izieu-deportation"],
+      "documents": ["doc-convoi-71"],
+      "people": ["enfants-arretes", "adultes-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "convoi-71",
+      "date": "1944-04-13",
+      "displayDate": "13 avril 1944",
+      "period": "1943-1944",
+      "title": "Départ du convoi 71",
+      "description": "Le convoi 71 quitte Drancy le 13 avril 1944. Les sources documentent ce convoi dans le parcours des personnes déportées. Une grande partie du groupe est assassinée à Auschwitz-Birkenau.",
+      "sourceIds": ["izieu-deportation"],
+      "documents": ["doc-convoi-71", "doc-liste-arrestes"],
+      "people": ["enfants-arretes", "adultes-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "convoi-73",
+      "date": "1944-05-15",
+      "displayDate": "15 mai 1944",
+      "period": "1943-1944",
+      "title": "Départ du convoi 73 vers l'Estonie",
+      "description": "Le convoi 73 quitte Drancy le 15 mai 1944 en direction de l'Estonie. Miron Zlatin, Théo Reis et Arnold Hirsch sont déportés vers Reval, où ils sont fusillés au cours de l'été 1944.",
+      "sourceIds": ["izieu-deportation"],
+      "documents": ["doc-convoi-73"],
+      "people": ["miron-zlatin", "theo-reis", "arnold-hirsch"],
+      "status": "verified"
+    },
+    {
+      "id": "autres-deportations",
+      "date": "1944-04/1944-06",
+      "displayDate": "Avril–juin 1944",
+      "period": "1943-1944",
+      "title": "D'autres convois",
+      "description": "Les déportations du groupe s'inscrivent dans plusieurs convois organisés entre avril et juin 1944. Les dates et les compositions précises des convois secondaires doivent être vérifiées individuellement dans les sources.",
+      "sourceIds": ["izieu-deportation"],
+      "documents": ["doc-convoi-71", "doc-convoi-73"],
+      "people": ["enfants-arretes", "adultes-arretes"],
+      "status": "review_required",
+      "dateNote": "Dates et compositions à vérifier dans les sources archivistiques."
+    },
+    {
+      "id": "reval",
+      "date": "1944-07",
+      "displayDate": "Été 1944",
+      "period": "1943-1944",
+      "title": "Exécutions à Reval",
+      "description": "Miron Zlatin, Théo Reis et Arnold Hirsch sont fusillés à Reval, aujourd'hui Tallinn, en Estonie, au cours de l'été 1944.",
+      "sourceIds": ["izieu-deportation"],
+      "documents": ["doc-convoi-73"],
+      "people": ["miron-zlatin", "theo-reis", "arnold-hirsch"],
+      "status": "verified",
+      "dateNote": "La date exacte des exécutions n'est pas précisée dans les sources consultées ; les sources situent les faits au cours de l'été 1944."
+    },
+    {
+      "id": "commemoration-1946",
+      "date": "1946-04-07",
+      "displayDate": "7 avril 1946",
+      "period": "apres-guerre",
+      "title": "Première grande commémoration",
+      "description": "Une première grande cérémonie commémorative a lieu le 7 avril 1946. Les noms des enfants et des adultes arrêtés sont inscrits sur une plaque.",
+      "sourceIds": ["izieu-memoire"],
+      "documents": ["doc-plaque-1946"],
+      "people": ["enfants-arretes", "adultes-arretes"],
+      "status": "verified"
+    },
+    {
+      "id": "proces-1987",
+      "date": "1987",
+      "displayDate": "1987",
+      "period": "apres-guerre",
+      "title": "Procès de Klaus Barbie à Lyon",
+      "description": "Klaus Barbie est jugé à Lyon en 1987 et condamné pour crimes contre l'humanité. Léa Feldblum témoigne notamment lors de ce procès. Le procès constitue un moment important de la mémoire publique.",
+      "sourceIds": ["izieu-memoire", "proces-barbie-1987"],
+      "documents": ["doc-proces-barbie", "doc-temoignage-lea"],
+      "people": ["klaus-barbie", "lea-feldblum"],
+      "status": "verified"
+    },
+    {
+      "id": "bnf-1993",
+      "date": "1993",
+      "displayDate": "1993",
+      "period": "apres-guerre",
+      "title": "Dépôt d'archives à la BnF",
+      "description": "Sabine Zlatin confie une partie de ses archives à la Bibliothèque nationale de France. Ce dépôt permet la conservation et la consultation de documents liés à la colonie.",
+      "sourceIds": ["bnf-enfants-izieu", "izieu-archives"],
+      "documents": ["doc-bnf-1993", "doc-lettres", "doc-dessins"],
+      "people": ["sabine-zlatin"],
+      "status": "verified"
+    },
+    {
+      "id": "memorial-1994",
+      "date": "1994-04-24",
+      "displayDate": "24 avril 1994",
+      "period": "apres-guerre",
+      "title": "Inauguration du mémorial",
+      "description": "Le mémorial de la Maison d'Izieu est inauguré le 24 avril 1994. Il donne un lieu durable à la mémoire de la colonie et des personnes arrêtées.",
+      "sourceIds": ["izieu-memoire", "izieu-creation"],
+      "documents": ["doc-memorial-1994"],
+      "people": [],
+      "status": "verified"
+    }
+  ]
+}

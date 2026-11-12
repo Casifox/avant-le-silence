@@ -1,0 +1,93 @@
+AVANT LE SILENCE — licences
+
+Copyright (c) 2026 AVANT LE SILENCE
+
+Le projet utilise une double licence. Les deux parties ci-dessous s'appliquent
+selon la nature du contenu concerné.
+
+================================================================================
+1. CODE — LICENCE MIT
+================================================================================
+
+S'appliquent au code source : fichiers HTML, CSS, JavaScript, scripts Python de
+test et fichiers de configuration du dépôt.
+
+MIT License
+
+Copyright (c) 2026 AVANT LE SILENCE
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+2. CONTENUS ÉDITORIAUX ET ILLUSTRATIONS ORIGINALES
+   LICENCE CC BY-NC-SA 4.0
+================================================================================
+
+S'appliquent aux textes de médiation originaux, aux fiches documentaires
+originales, aux illustrations SVG originales, aux textes de l'interface et à
+l'identité visuelle originale du projet, sauf mention contraire.
+
+Creative Commons Attribution — Pas d'utilisation commerciale — Partage dans
+les mêmes conditions 4.0 International (CC BY-NC-SA 4.0).
+
+Vous êtes autorisé à :
+  - partager — copier et redistribuer le contenu sous quelque support ou
+    format que ce soit ;
+  - adapter — remixer, transformer et créer à partir du contenu.
+
+Selon les conditions suivantes :
+  - attribution — vous devez créditer l'œuvre, intégrer un lien vers la
+    licence et indiquer si des modifications ont été effectuées ;
+  - pas d'utilisation commerciale — vous ne pouvez pas utiliser le contenu à
+    des fins commerciales ;
+  - partage dans les mêmes conditions — si vous remixez, transformez ou
+    créez à partir du contenu, vous devez diffuser vos contributions sous la
+    même licence que l'œuvre originale ;
+  - pas de restrictions supplémentaires — vous ne pouvez pas appliquer des
+    conditions juridiques ou des mesures techniques qui restreindraient
+    légalement les autres à faire ce que la licence permet.
+
+Texte complet de la licence :
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr
+
+Résumé accessible :
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr
+
+================================================================================
+3. DOCUMENTS ET IMAGES D'ARCHIVES
+================================================================================
+
+Aucun document ni image d'archive n'est inclus dans ce dépôt. Les documents
+cités ou liés restent soumis au droit d'auteur et aux conditions de leurs
+auteurs, ayants droit et institutions de conservation. Leur reproduction
+nécessiterait des autorisations spécifiques.
+
+Voir ASSET_RIGHTS.md et COPYRIGHT.md.
+
+================================================================================
+4. MARQUES, NOMS ET INSTITUTIONS
+================================================================================
+
+Le nom « AVANT LE SILENCE » désigne ce projet de médiation indépendant. Il ne
+doit pas être présenté comme une publication officielle du Mémorial de la
+Maison d'Izieu, de la Bibliothèque nationale de France ou de toute autre
+institution.
+
+Les noms et marques des institutions appartiennent à leurs titulaires
+respectifs.

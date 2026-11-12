@@ -1,0 +1,666 @@
+/* ============================================================
+   Scènes, illustrations, points d'intérêt, ateliers
+   ============================================================ */
+
+/* --- Illustration de scène --- */
+
+.illustration {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: var(--ivory-deep);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+.illustration__image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  animation: illustration-in 800ms var(--transition) both;
+}
+
+@keyframes illustration-in {
+  from { opacity: 0; transform: scale(1.012); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.illustration__caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  font-size: 0.66rem;
+  line-height: 1.45;
+  color: var(--ink-faint);
+  background: rgba(247, 241, 230, 0.76);
+  border-top: 1px solid var(--line);
+}
+
+.illustration__caption span:last-child {
+  text-align: right;
+}
+
+/* --- Points d'intérêt --- */
+
+.hotspot {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  color: var(--ink);
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hotspot__dot {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: rgba(247, 241, 230, 0.94);
+  border: 1.5px solid var(--brown);
+  border-radius: 50%;
+  box-shadow: 0 3px 12px rgba(30, 24, 18, 0.2);
+  transition: transform var(--transition), background-color var(--transition);
+}
+
+.hotspot::after {
+  content: "";
+  position: absolute;
+  inset: 9px;
+  border: 1px solid rgba(122, 92, 67, 0.5);
+  border-radius: 50%;
+  animation: hotspot-ring 3.4s ease-out infinite;
+}
+
+.hotspot:hover .hotspot__dot,
+.hotspot:focus-visible .hotspot__dot {
+  transform: scale(1.12);
+  background: var(--paper-light);
+}
+
+.hotspot__label {
+  position: absolute;
+  bottom: calc(100% + 0.3rem);
+  left: 50%;
+  z-index: 3;
+  width: max-content;
+  max-width: 180px;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  color: var(--ivory);
+  background: rgba(39, 37, 34, 0.9);
+  border-radius: 4px;
+  transform: translateX(-50%) translateY(4px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition), transform var(--transition);
+}
+
+.hotspot:hover .hotspot__label,
+.hotspot:focus-visible .hotspot__label {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+@keyframes hotspot-ring {
+  0% { opacity: 0.55; transform: scale(0.9); }
+  70% { opacity: 0; transform: scale(1.55); }
+  100% { opacity: 0; transform: scale(1.55); }
+}
+
+.hotspot__number {
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Légende des points d'intérêt --- */
+
+.hotspot-legend {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hotspot-legend button {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  width: 100%;
+  min-height: 38px;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.75rem;
+  text-align: left;
+  color: var(--ink-soft);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+}
+
+.hotspot-legend button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  border-color: var(--line);
+}
+
+.hotspot-legend__num {
+  display: grid;
+  place-items: center;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--brown);
+  border: 1px solid var(--brown-soft);
+  border-radius: 50%;
+}
+
+.hotspot-legend__label {
+  flex: 1;
+}
+
+.hotspot-legend__type {
+  font-size: 0.62rem;
+  color: var(--ink-faint);
+}
+
+.hotspot-legend__state {
+  display: inline-flex;
+  color: var(--sage-deep);
+}
+
+.hotspot-legend__state svg {
+  width: 14px;
+  height: 14px;
+}
+
+.chapter-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+}
+
+.chapter-card__link:hover {
+  text-decoration: underline;
+}
+
+/* --- Ateliers --- */
+
+.activity {
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.5), transparent 45%),
+    var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.activity__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+.activity__head h2 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+}
+
+.activity__intro {
+  max-width: 75ch;
+  margin: 0 0 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+
+.activity__progress {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.activity__progress .progress {
+  max-width: 260px;
+}
+
+.activity__progress span {
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.activity__question {
+  margin: 0 0 0.9rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.42;
+  color: var(--ink);
+}
+
+.activity-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.activity-option {
+  min-height: 44px;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.44);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition), border-color var(--transition);
+}
+
+.activity-option:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: var(--ink-faint);
+}
+
+.activity-option[data-state="correct"] {
+  color: var(--sage-deep);
+  background: var(--sage-soft);
+  border-color: rgba(82, 96, 79, 0.42);
+}
+
+.activity-option[data-state="incorrect"] {
+  color: #742f2a;
+  background: #f4e3df;
+  border-color: #d7aaa2;
+}
+
+.activity-option[data-state="muted"] {
+  opacity: 0.5;
+}
+
+.activity-feedback {
+  padding: 0.75rem 0.85rem;
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.5);
+  border-left: 2px solid var(--brown-soft);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.activity-feedback strong {
+  color: var(--ink);
+}
+
+.activity-feedback--correct {
+  border-left-color: var(--sage);
+  background: rgba(223, 230, 218, 0.56);
+}
+
+.activity-feedback--incorrect {
+  border-left-color: #b07a70;
+  background: rgba(244, 227, 223, 0.58);
+}
+
+.activity-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.activity__done {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.8rem 0.9rem;
+  background: rgba(223, 230, 218, 0.5);
+  border: 1px solid rgba(82, 96, 79, 0.22);
+  border-radius: var(--radius-sm);
+}
+
+.activity__done p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--sage-deep);
+}
+
+/* --- Atelier chronologie --- */
+
+.order-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.9rem;
+  margin: 1rem 0;
+}
+
+.order-column {
+  min-width: 0;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.36);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.order-column h3 {
+  margin: 0 0 0.55rem;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brown);
+}
+
+.order-list {
+  display: grid;
+  gap: 0.4rem;
+  min-height: 42px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.5rem;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.order-item__index {
+  display: grid;
+  place-items: center;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--brown);
+  background: var(--brown-pale);
+  border-radius: 50%;
+}
+
+.order-item__remove {
+  margin-left: auto;
+  padding: 0.2rem;
+  color: var(--ink-faint);
+  background: none;
+  border: 0;
+}
+
+.order-item__remove:hover {
+  color: var(--ink);
+}
+
+.order-item--correct {
+  border-color: rgba(82, 96, 79, 0.35);
+  background: rgba(223, 230, 218, 0.55);
+}
+
+.order-item--incorrect {
+  border-color: rgba(176, 122, 112, 0.5);
+  background: rgba(244, 227, 223, 0.5);
+}
+
+.order-bank .order-item {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.order-bank .order-item:hover {
+  background: rgba(255, 255, 255, 0.8);
+  border-color: var(--line-strong);
+}
+
+.order-empty {
+  padding: 0.7rem;
+  font-size: 0.74rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--ink-faint);
+  border: 1px dashed var(--line);
+  border-radius: var(--radius-sm);
+}
+
+/* --- Bilan de chapitre --- */
+
+.chapter-review {
+  min-height: calc(100vh - var(--hud-height));
+  display: flex;
+  align-items: center;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+}
+
+.chapter-review__inner {
+  width: min(860px, calc(100% - 3rem));
+  margin-inline: auto;
+}
+
+.chapter-review__mark {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1.2rem;
+  color: var(--sage-deep);
+  background: var(--sage-soft);
+  border: 1px solid rgba(82, 96, 79, 0.24);
+  border-radius: 50%;
+}
+
+.chapter-review__mark svg {
+  width: 28px;
+  height: 28px;
+}
+
+.chapter-review h1 {
+  margin: 0 0 0.7rem;
+  font-size: clamp(2rem, 4.2vw, 3.4rem);
+}
+
+.chapter-review .quote {
+  margin-block: 1.8rem;
+}
+
+.chapter-review__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.6rem;
+}
+
+/* --- Ambiances --- */
+
+.mood-solemn .illustration__image {
+  filter: saturate(0.72) contrast(0.98);
+}
+
+.mood-solemn .hotspot::after {
+  animation: none;
+}
+
+.mood-solemn .illustration {
+  box-shadow: none;
+}
+
+.mood-dusk .illustration__image {
+  filter: saturate(0.82) sepia(0.06);
+}
+
+.mood-memory .illustration__image {
+  filter: saturate(0.86);
+}
+
+/* --- Bandeau de chapitre --- */
+
+.chapter-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.36);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.chapter-banner strong {
+  color: var(--ink);
+}
+
+/* --- Prologue --- */
+
+.prologue {
+  padding-block: clamp(2.4rem, 6vw, 5rem);
+}
+
+.prologue__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.9fr);
+  gap: clamp(1.8rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.prologue__aside {
+  padding: 1.2rem;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.prologue__aside h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.18rem;
+}
+
+.prologue__facts {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.prologue__facts li {
+  display: flex;
+  gap: 0.6rem;
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  border-top: 1px solid var(--line);
+}
+
+.prologue__facts li:first-child {
+  border-top: 0;
+}
+
+.prologue__facts strong {
+  flex: 0 0 auto;
+  color: var(--brown);
+}
+
+/* --- Écran verrouillé --- */
+
+.locked-panel {
+  max-width: 620px;
+  margin: 8vh auto;
+  padding: clamp(1.5rem, 4vw, 2.4rem);
+  text-align: center;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+}
+
+.locked-panel__icon {
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  color: var(--ink-faint);
+  background: rgba(39, 37, 34, 0.06);
+  border-radius: 50%;
+}
+
+.locked-panel h1 {
+  margin: 0 0 0.6rem;
+  font-size: clamp(1.7rem, 3.2vw, 2.4rem);
+}
+
+.locked-panel p {
+  margin: 0 auto 1.2rem;
+  max-width: 46ch;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+/* --- Fil d'ariane --- */
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.breadcrumb li + li::before {
+  content: "/";
+  color: var(--line-strong);
+}
+
+.breadcrumb a {
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}

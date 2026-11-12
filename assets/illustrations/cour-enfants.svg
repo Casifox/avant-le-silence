@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="cour-title cour-desc">
+  <title id="cour-title">La cour de la colonie</title>
+  <desc id="cour-desc">Illustration originale : une cour avec une façade, une corde à linge, une marelle dessinée au sol, un ballon et un banc. Aucune personne n'est représentée.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe6e5"/>
+      <stop offset="1" stop-color="#f0eee5"/>
+    </linearGradient>
+    <linearGradient id="facade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e4d3b8"/>
+      <stop offset="1" stop-color="#d2bda0"/>
+    </linearGradient>
+    <linearGradient id="yard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8d1b8"/>
+      <stop offset="1" stop-color="#c3b99b"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.22" cy="0.18" r="0.8">
+      <stop offset="0" stop-color="#fff6e2" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#fff6e2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="750" fill="url(#sky)"/>
+
+  <!-- Façade -->
+  <rect x="270" y="120" width="660" height="360" fill="url(#facade)"/>
+  <path d="M240 130 600 20l360 110Z" fill="#8a6a4f"/>
+  <path d="M240 130 600 20l360 110" fill="none" stroke="#6f533d" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="472" y="58" width="36" height="70" fill="#8e6d52"/>
+  <rect x="466" y="50" width="48" height="14" fill="#6f533d"/>
+  <g>
+    <rect x="338" y="198" width="92" height="104" fill="#6f5b45"/>
+    <rect x="346" y="206" width="76" height="88" fill="#dbe3df"/>
+    <path d="M384 206v88M346 250h76" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="322" y="202" width="16" height="96" fill="#72836d"/>
+    <rect x="430" y="202" width="16" height="96" fill="#72836d"/>
+  </g>
+  <g>
+    <rect x="556" y="198" width="92" height="104" fill="#6f5b45"/>
+    <rect x="564" y="206" width="76" height="88" fill="#dbe3df"/>
+    <path d="M602 206v88M564 250h76" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="540" y="202" width="16" height="96" fill="#72836d"/>
+    <rect x="648" y="202" width="16" height="96" fill="#72836d"/>
+  </g>
+  <g>
+    <rect x="774" y="198" width="92" height="104" fill="#6f5b45"/>
+    <rect x="782" y="206" width="76" height="88" fill="#dbe3df"/>
+    <path d="M820 206v88M782 250h76" stroke="#b7b2a4" stroke-width="3"/>
+    <rect x="758" y="202" width="16" height="96" fill="#72836d"/>
+    <rect x="866" y="202" width="16" height="96" fill="#72836d"/>
+  </g>
+  <rect x="482" y="354" width="76" height="126" fill="#6b4f3a"/>
+  <path d="M520 354v126" stroke="#5a4030" stroke-width="2" opacity="0.6"/>
+  <circle cx="540" cy="418" r="3" fill="#c8b08f"/>
+  <rect x="640" y="360" width="78" height="120" fill="#6b4f3a"/>
+  <rect x="650" y="370" width="58" height="100" fill="#dbe3df"/>
+
+  <!-- Sol -->
+  <rect y="470" width="1200" height="280" fill="url(#yard)"/>
+  <path d="M0 540c180-16 320 8 520-2 200-10 410-20 680 10v202H0Z" fill="#c9c0a3"/>
+  <path d="M0 620c230-18 400 10 620-4 200-12 380-8 580 8v126H0Z" fill="#bdb294"/>
+
+  <!-- Corde à linge -->
+  <path d="M118 210c180 38 340 30 520 4 180-26 300-16 444 12" fill="none" stroke="#8a6a4f" stroke-width="3"/>
+  <rect x="112" y="168" width="10" height="450" fill="#8a6a4f"/>
+  <rect x="1076" y="196" width="10" height="422" fill="#8a6a4f"/>
+  <g>
+    <path d="M248 230l14 4-4 68-16-2Z" fill="#f4ecdd"/>
+    <path d="M250 240h10" stroke="#d9c9b2" stroke-width="2"/>
+    <path d="M352 248l48-2 2 72-50 4Z" fill="#dfe6da"/>
+    <path d="M438 244l28 2 4 70-30 3Z" fill="#f4ecdd"/>
+    <path d="M534 236l42 4 2 66-44 2Z" fill="#e8d8c1"/>
+    <path d="M650 232l30 4 4 64-34 2Z" fill="#f4ecdd"/>
+    <path d="M744 222l54 6-2 62-52-2Z" fill="#dbe4e9"/>
+    <path d="M866 228l32 6 4 60-36 2Z" fill="#f4ecdd"/>
+    <path d="M954 240l48 8-4 58-46-4Z" fill="#e5d7c3"/>
+  </g>
+  <g stroke="#7a5c43" stroke-width="2">
+    <path d="M254 230v8M378 247v8M444 244v8M552 239v8M662 235v8M768 225v8M880 231v8M974 242v8"/>
+  </g>
+
+  <!-- Marelle -->
+  <g stroke="#f7f1e6" stroke-width="5" fill="none" opacity="0.92">
+    <path d="M470 560h70v56h-70z"/>
+    <path d="M505 560v-52M470 616h70v56h-70zM505 616v56"/>
+    <path d="M470 672h70v48h-70z"/>
+    <path d="M505 672v48"/>
+    <path d="M540 648c38-8 64-2 76 18M540 648c-38-8-64-2-76 18"/>
+  </g>
+  <path d="M496 626h18M496 636h18M480 686h20M530 686h20" stroke="#f7f1e6" stroke-width="4" opacity="0.9"/>
+
+  <!-- Ballon -->
+  <circle cx="690" cy="644" r="36" fill="#b47c68"/>
+  <path d="M690 608c10 20 12 44 0 72M654 644c34-8 68-8 72 0M668 616c18 10 26 36 22 56M712 616c-14 18-18 38-14 58" fill="none" stroke="#e8d8c1" stroke-width="3" opacity="0.8"/>
+  <ellipse cx="690" cy="684" rx="40" ry="8" fill="#7a5c43" opacity="0.16"/>
+
+  <!-- Banc -->
+  <g>
+    <rect x="900" y="540" width="220" height="20" rx="4" fill="#8a6a4f"/>
+    <rect x="910" y="520" width="200" height="16" rx="3" fill="#9d8064"/>
+    <path d="M918 560v92M1102 560v92" stroke="#6d543e" stroke-width="12" stroke-linecap="round"/>
+    <path d="M918 606h184" stroke="#6d543e" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Arbre -->
+  <path d="M116 630c-6-70-4-138 2-206h24c6 74 6 144 2 206Z" fill="#7a5c43"/>
+  <circle cx="130" cy="360" r="82" fill="#84977d"/>
+  <circle cx="72" cy="400" r="52" fill="#93a58a"/>
+  <circle cx="190" cy="398" r="58" fill="#778b71"/>
+
+  <!-- Détails du sol -->
+  <g fill="#a99b7e" opacity="0.4">
+    <circle cx="260" cy="640" r="3"/>
+    <circle cx="300" cy="680" r="2.5"/>
+    <circle cx="820" cy="700" r="3"/>
+    <circle cx="870" cy="660" r="2"/>
+    <circle cx="380" cy="700" r="2.5"/>
+  </g>
+  <rect width="1200" height="750" fill="url(#light)"/>
+</svg>
